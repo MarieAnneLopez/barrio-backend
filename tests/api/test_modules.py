@@ -88,3 +88,8 @@ async def test_ficha_de_localidad_sin_geometria_y_calle_por_verificar() -> None:
 
     assert ficha.status_code == 201 and ficha.json()["geometry"] is None
     assert calle.json()["estado"] is None
+
+
+def test_cada_modulo_ordena_por_su_campo_de_etiqueta() -> None:
+    """El frontend ordena la lista por el campo que nombra cada registro."""
+    assert all(m.label_field in m.sort_fields for m in MODULES)

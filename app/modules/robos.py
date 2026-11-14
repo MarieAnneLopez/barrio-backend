@@ -10,5 +10,5 @@ SPEC = ModuleSpec(
     create_schema=RoboCreate,
     search_fields=("modalidad", "fuente"),
     filter_fields=("modalidad", "franja_horaria", "fecha", "verified"),
-    sort_fields=("id", "fecha", "cantidad"),
+    sort_fields=("id", "fecha", "cantidad", "modalidad"),
 )
