@@ -1,0 +1,96 @@
+"""BaseCrudRepository: CRUD genérico sobre cualquier modelo con columna geom.
+
+Implementa ReadableRepository, WritableRepository y SpatialQueryRepository.
+Cada módulo lo configura con sus campos de búsqueda, filtro y orden (OCP).
+"""
+
+# Anotaciones diferidas: el método `list` tapa al tipo `list` dentro de la clase.
+from __future__ import annotations
+
+import json
+from collections.abc import Mapping, Sequence
+from typing import Any, Generic, TypeVar
+
+from sqlalchemy import Select, func, select
+from sqlalchemy.orm import Session
+
+from app.models.base import SRID, Base
+from app.repositories.filters import apply_filters, apply_search, apply_sort
+from app.repositories.query import MAX_FEATURES, ListQuery, Page, Record
+
+ModelT = TypeVar("ModelT", bound=Base)
+
+
+class BaseCrudRepository(Generic[ModelT]):
+    def __init__(
+        self,
+        session: Session,
+        model: type[ModelT],
+        search_fields: Sequence[str] = (),
+        filter_fields: Sequence[str] = (),
+        sort_fields: Sequence[str] = ("id",),
+    ) -> None:
+        self._session = session
+        self._model = model
+        self._search = [getattr(model, name) for name in search_fields]
+        self._filter_fields = filter_fields
+        self._sort_fields = sort_fields
+
+    def _select(self, query: ListQuery) -> Select[Any]:
+        geometry = func.ST_AsGeoJSON(self._model.geom, 7).label("geometry")  # type: ignore[attr-defined]
+        stmt = select(self._model, geometry)
+        if query.q and self._search:
+            stmt = apply_search(stmt, self._search, query.q)
+        return apply_filters(stmt, self._model, self._filter_fields, query.filters)
+
+    @staticmethod
+    def _record(row: Any) -> Record[ModelT]:
+        entity, geometry = row
+        return Record(entity=entity, geometry=json.loads(geometry) if geometry else None)
+
+    def get(self, item_id: int) -> Record[ModelT] | None:
+        stmt = self._select(ListQuery()).where(self._model.id == item_id)  # type: ignore[attr-defined]
+        row = self._session.execute(stmt).one_or_none()
+        return self._record(row) if row else None
+
+    def list(self, query: ListQuery) -> Page[Record[ModelT]]:
+        stmt = self._select(query)
+        total = self._session.scalar(select(func.count()).select_from(stmt.subquery())) or 0
+        stmt = apply_sort(stmt, self._model, self._sort_fields, query.sort)
+        rows = self._session.execute(stmt.offset((query.page - 1) * query.size).limit(query.size))
+        return Page([self._record(r) for r in rows], total, query.page, query.size)
+
+    def features(self, query: ListQuery) -> list[Record[ModelT]]:
+        stmt = apply_sort(self._select(query), self._model, self._sort_fields, query.sort)
+        return [self._record(r) for r in self._session.execute(stmt.limit(MAX_FEATURES))]
+
+    def create(self, data: Mapping[str, Any], geometry: dict[str, Any]) -> Record[ModelT]:
+        entity = self._model(**data, geom=self._geom(geometry))
+        self._session.add(entity)
+        self._session.commit()
+        return self.get(entity.id)  # type: ignore[attr-defined, return-value]
+
+    def update(
+        self, item_id: int, data: Mapping[str, Any], geometry: dict[str, Any] | None
+    ) -> Record[ModelT] | None:
+        entity = self._session.get(self._model, item_id)
+        if entity is None:
+            return None
+        for name, value in data.items():
+            setattr(entity, name, value)
+        if geometry is not None:
+            entity.geom = self._geom(geometry)  # type: ignore[attr-defined]
+        self._session.commit()
+        return self.get(item_id)
+
+    def delete(self, item_id: int) -> bool:
+        entity = self._session.get(self._model, item_id)
+        if entity is None:
+            return False
+        self._session.delete(entity)
+        self._session.commit()
+        return True
+
+    @staticmethod
+    def _geom(geometry: dict[str, Any]) -> Any:
+        return func.ST_SetSRID(func.ST_GeomFromGeoJSON(json.dumps(geometry)), SRID)
