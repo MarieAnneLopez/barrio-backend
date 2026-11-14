@@ -4,7 +4,7 @@ from typing import Any
 
 from fastapi import FastAPI
 
-from app.api.guards import require_admin
+from app.api.guards import require_admin, require_user
 from app.main import create_app
 
 BASE = "/api/v1/centros-educativos"
@@ -15,6 +15,7 @@ def crud_app(as_admin: bool) -> FastAPI:
     app = create_app()
     if as_admin:
         app.dependency_overrides[require_admin] = lambda: None
+        app.dependency_overrides[require_user] = lambda: None
     return app
 
 

@@ -1,9 +1,10 @@
 """CrudRouterFactory: genera el router REST de un módulo a partir de su ModuleSpec.
 
-Rutas estáticas (/geojson, y en H18 /cercania, /ranking, /stats) antes de
-/{item_id} (D10). Las escrituras dependen de require_admin.
+Rutas estáticas (/geojson aquí; /cercania, /ranking y /stats en module_extras.py,
+que se monta antes) preceden a /{item_id} (D10). Las escrituras dependen de require_admin.
 """
 
+from functools import partial
 from typing import Annotated, Any
 
 from fastapi import APIRouter, Depends, Query, Request, Response, status
@@ -12,6 +13,8 @@ from app.api.deps import SessionDep
 from app.api.guards import require_admin
 from app.modules.spec import ModuleSpec
 from app.repositories.base_geo_repo import BaseCrudRepository
+from app.repositories.photo_repository import SqlPhotoRepository
+from app.repositories.rating_repository import SqlRatingRepository
 from app.repositories.query import MAX_PAGE_SIZE, ListQuery
 from app.schemas.crud import FeatureCollectionOut, PageOut
 from app.services.crud_service import CrudService
@@ -28,7 +31,9 @@ class CrudRouterFactory:
         repository = BaseCrudRepository(
             session, spec.model, spec.search_fields, spec.filter_fields, spec.sort_fields
         )
-        return CrudService(spec.slug, repository, spec.out_schema)
+        cleanups = [partial(r.forget, spec.slug)
+                    for r in (SqlRatingRepository(session), SqlPhotoRepository(session))]
+        return CrudService(spec.slug, repository, spec.out_schema, cleanups)
 
     def build(self) -> APIRouter:
         spec = self.spec

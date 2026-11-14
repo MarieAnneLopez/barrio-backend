@@ -1,5 +1,6 @@
 """CrudService: lógica de aplicación del CRUD, independiente de SQLAlchemy (DIP)."""
 
+from collections.abc import Callable, Sequence
 from typing import Any, Generic, Protocol, TypeVar
 
 from pydantic import BaseModel
@@ -22,10 +23,13 @@ class NotFoundError(AppError):
 
 
 class CrudService(Generic[T]):
-    def __init__(self, slug: str, repository: CrudRepository[T], out_schema: type[BaseModel]):
+    def __init__(self, slug: str, repository: CrudRepository[T], out_schema: type[BaseModel],
+                 on_delete: Sequence[Callable[[int], None]] = ()):
         self._slug = slug
         self._repository = repository
         self._out = out_schema
+        # Limpiezas al borrar (calificaciones y fotos del objeto, H18).
+        self._on_delete = on_delete
 
     def _to_out(self, record: Record[T]) -> BaseModel:
         entity = record.entity
@@ -60,6 +64,8 @@ class CrudService(Generic[T]):
     def delete(self, item_id: int) -> None:
         if not self._repository.delete(item_id):
             raise NotFoundError(self._slug, item_id)
+        for cleanup in self._on_delete:
+            cleanup(item_id)
 
     def feature_collection(self, query: ListQuery) -> dict[str, Any]:
         features = []

@@ -13,6 +13,10 @@ from app.models.base import Base
 from app.schemas.crud import output_schema, partial_schema
 
 
+LABELS = ("nombre", "nombre_via", "nombre_localidad", "codigo", "matricula_inmobiliaria",
+          "modalidad")
+
+
 @dataclass(frozen=True)
 class ModuleSpec:
     slug: str
@@ -23,6 +27,12 @@ class ModuleSpec:
     sort_fields: tuple[str, ...] = ("id", "nombre")
     # False solo para la ficha de la localidad, que abarca toda Kennedy.
     within_tintal: bool = True
+
+    @cached_property
+    def label_field(self) -> str:
+        """Campo que nombra un registro en rankings y mensajes."""
+        fields = self.create_schema.model_fields
+        return next(f for f in LABELS if f in fields)
 
     @cached_property
     def update_schema(self) -> type[BaseModel]:
