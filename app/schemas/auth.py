@@ -42,6 +42,12 @@ class UsuarioOut(BaseModel):
     rol: Literal["admin", "visitante"]
 
 
+class SesionActual(BaseModel):
+    """GET /auth/session: siempre 200; usuario es null si no hay sesión válida."""
+
+    usuario: UsuarioOut | None
+
+
 class SesionOut(BaseModel):
     """El token viaja solo en la cookie httpOnly; aquí va quién inició sesión y cuánto dura."""
 

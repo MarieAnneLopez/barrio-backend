@@ -34,6 +34,7 @@ async def test_login_abre_sesion_con_cookie_httponly(client: AsyncClient, db_ses
     assert "path=/api" in cookie
     me = await client.get(f"{AUTH}/me")
     assert me.json()["email"] == "admin@prueba.co"
+    assert (await client.get(f"{AUTH}/session")).json()["usuario"]["rol"] == "admin"
 
 
 @pytest.mark.parametrize("email, password", [("admin@prueba.co", "otra-clave-999"),
@@ -83,6 +84,7 @@ async def test_logout_borra_la_cookie(client: AsyncClient, db_session: Session) 
 
     assert response.status_code == 204 and 'mm_session=""' in response.headers["set-cookie"]
     assert (await client.get(f"{AUTH}/me")).status_code == 401
+    assert (await client.get(f"{AUTH}/session")).json() == {"usuario": None}
 
 
 async def test_limite_de_intentos_fallidos(client: AsyncClient, db_session: Session) -> None:

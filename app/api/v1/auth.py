@@ -2,7 +2,8 @@
 
 El JWT viaja solo en una cookie httpOnly, SameSite=Strict y con Path=/api: el
 JavaScript del frontend no puede leerlo y el navegador no lo manda desde otros
-sitios. Login y registro tienen límite de intentos por IP.
+sitios. Login y registro tienen límite de intentos por IP. /me exige sesión
+(401); /session responde siempre 200 para que el frontend consulte sin errores.
 """
 
 from functools import lru_cache
@@ -10,12 +11,12 @@ from typing import Annotated
 
 from fastapi import APIRouter, Depends, Request, Response, status
 
-from app.api.guards import SESSION_COOKIE, AuthDep, require_user
+from app.api.guards import SESSION_COOKIE, AuthDep, MaybeUser, require_user
 from app.core.config import get_settings
 from app.core.rate_limit import AttemptLimiter
 from app.core.security import create_access_token
 from app.models.usuario import Usuario
-from app.schemas.auth import LoginIn, RegisterIn, SesionOut, UsuarioOut
+from app.schemas.auth import LoginIn, RegisterIn, SesionActual, SesionOut, UsuarioOut
 from app.services.auth_service import InvalidCredentialsError
 
 router = APIRouter(prefix="/auth", tags=["auth"])
@@ -63,6 +64,12 @@ def register(payload: RegisterIn, request: Request, response: Response, service:
     limiter.check(key)
     limiter.hit(key)
     return _open_session(response, service.register(payload))
+
+
+@router.get("/session", response_model=SesionActual)
+def session(user: MaybeUser) -> SesionActual:
+    """Para el frontend al cargar: sin sesión responde 200 con null, no 401."""
+    return SesionActual(usuario=UsuarioOut.model_validate(user) if user else None)
 
 
 @router.get("/me", response_model=UsuarioOut)
