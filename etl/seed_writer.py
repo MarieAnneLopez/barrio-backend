@@ -19,4 +19,5 @@ def write_geojson(path: Path, data: dict[str, Any], pretty: bool = False) -> Non
     path.parent.mkdir(parents=True, exist_ok=True)
     text = json.dumps(data, ensure_ascii=False, indent=2 if pretty else None,
                       separators=None if pretty else (",", ":"))
-    path.write_text(text + "\n", encoding="utf-8")
+    # newline="\n": mismo archivo en Windows y Linux (Python traduce \n a os.linesep).
+    path.write_text(text + "\n", encoding="utf-8", newline="\n")
