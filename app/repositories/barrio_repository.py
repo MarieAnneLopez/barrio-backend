@@ -20,13 +20,24 @@ class SeedUnavailableError(AppError):
 class GeoJsonBarrioRepository:
     def __init__(self, path: Path) -> None:
         self._path = path
+        self._layers: dict[str, dict[str, Any]] = {}
 
     @cached_property
     def _feature(self) -> dict[str, Any]:
-        try:
-            return json.loads(self._path.read_text(encoding="utf-8"))
-        except FileNotFoundError as exc:
-            raise SeedUnavailableError(self._path) from exc
+        return _read(self._path)
 
     def polygon_feature(self) -> dict[str, Any]:
         return self._feature
+
+    def base_layer(self, name: str) -> dict[str, Any]:
+        # `name` llega validado por la API contra una lista cerrada (sin rutas libres).
+        if name not in self._layers:
+            self._layers[name] = _read(self._path.parent / "base" / f"{name}.geojson")
+        return self._layers[name]
+
+
+def _read(path: Path) -> dict[str, Any]:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError as exc:
+        raise SeedUnavailableError(path) from exc

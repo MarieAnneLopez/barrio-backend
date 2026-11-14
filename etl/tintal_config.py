@@ -46,9 +46,10 @@ def polygon_query() -> str:
     return f"[out:json][timeout:120];relation(id:{_ids()});out geom;"
 
 
-def layer_query(selectors: list[str]) -> str:
+def layer_query(selectors: list[str], out: str = "geom") -> str:
+    """Elementos dentro del área de las UPZ; out="center tags" para módulos de puntos."""
     body = "".join(f"{selector}(area.t);" for selector in selectors)
-    return f"[out:json][timeout:180];relation(id:{_ids()});map_to_area->.t;({body});out geom;"
+    return f"[out:json][timeout:180];relation(id:{_ids()});map_to_area->.t;({body});out {out};"
 
 
 def osm_url(element_type: str, element_id: int) -> str:

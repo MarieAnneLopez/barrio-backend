@@ -1,6 +1,6 @@
 """GET /api/v1/barrio/poligono: límite de El Tintal para el mapa (maxBounds, D5)."""
 
-from typing import Annotated
+from typing import Annotated, Any, Literal
 
 from fastapi import APIRouter, Depends
 
@@ -9,8 +9,17 @@ from app.schemas.barrio import BarrioPolygon
 from app.services.barrio_service import BarrioService
 
 router = APIRouter(prefix="/barrio", tags=["barrio"])
+BaseLayer = Literal["vias", "parques", "edificios", "manzanas"]
 
 
 @router.get("/poligono", response_model=BarrioPolygon)
 def poligono(service: Annotated[BarrioService, Depends(get_barrio_service)]) -> BarrioPolygon:
     return service.polygon()
+
+
+@router.get("/capas/{nombre}")
+def capa_base(
+    nombre: BaseLayer, service: Annotated[BarrioService, Depends(get_barrio_service)]
+) -> dict[str, Any]:
+    """Capa base del mapa local (D5), ya recortada al polígono (OSM, ODbL)."""
+    return service.base_layer(nombre)

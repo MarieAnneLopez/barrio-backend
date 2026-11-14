@@ -27,6 +27,10 @@ class BarrioRepository(Protocol):
         """Feature con geometry, bbox y properties de trazabilidad."""
         ...
 
+    def base_layer(self, name: str) -> dict[str, Any]:
+        """FeatureCollection de una capa base del mapa (vias, parques, edificios, manzanas)."""
+        ...
+
 
 class ReadableRepository(Protocol[T]):
     """Consulta: detalle y lista paginada con búsqueda, filtros y orden."""

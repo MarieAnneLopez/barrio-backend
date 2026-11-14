@@ -31,3 +31,20 @@ async def test_sin_semilla_responde_503_con_formato_de_error(app: FastAPI, tmp_p
 
     assert response.status_code == 503
     assert response.json()["error"]["code"] == "SEED_UNAVAILABLE"
+
+
+async def test_capas_base_son_feature_collections(client: AsyncClient) -> None:
+    response = await client.get("/api/v1/barrio/capas/parques")
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["type"] == "FeatureCollection" and body["features"]
+    assert body["license"].startswith("© OpenStreetMap")
+
+
+async def test_capa_desconocida_o_ruta_libre_da_422(client: AsyncClient) -> None:
+    unknown = await client.get("/api/v1/barrio/capas/usuarios")
+    traversal = await client.get("/api/v1/barrio/capas/..%2F..%2F.env")
+
+    assert unknown.status_code == 422
+    assert traversal.status_code in (404, 422)

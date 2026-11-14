@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "name": "centros-educativos",
+  "license": "© OpenStreetMap contributors, ODbL 1.0",
+  "skipped": [
+    {
+      "osm_id": "way/168301323",
+      "name": "Gimansio Moderno San Francisco",
+      "reason": "carácter público/privado desconocido"
+    },
+    {
+      "osm_id": "way/175528060",
+      "name": "UniAgustiniana",
+      "reason": "carácter público/privado desconocido"
+    },
+    {
+      "osm_id": "way/411099453",
+      "name": "Colegio Agustiniano Tagaste",
+      "reason": "carácter público/privado desconocido"
+    },
+    {
+      "osm_id": "way/962454337",
+      "name": null,
+      "reason": "sin nombre"
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "IED Gabriel Betancourt Mejia Sede A",
+        "tipo": "colegio",
+        "caracter": "publico",
+        "direccion": "Carrera 87A",
+        "telefono": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/168163567",
+        "verified": true,
+        "osm_id": "way/168163567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1566455,
+          4.6448272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "IED Saludcoop Calandaima",
+        "tipo": "colegio",
+        "caracter": "publico",
+        "direccion": null,
+        "telefono": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/183669152",
+        "verified": false,
+        "osm_id": "way/183669152"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1644351,
+          4.6424989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Jardín Infantil El Caracol",
+        "tipo": "jardin",
+        "caracter": "publico",
+        "direccion": null,
+        "telefono": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/319942177",
+        "verified": true,
+        "osm_id": "way/319942177"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1705338,
+          4.6470756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Colegio Codema IED",
+        "tipo": "colegio",
+        "caracter": "publico",
+        "direccion": null,
+        "telefono": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/407502379",
+        "verified": false,
+        "osm_id": "way/407502379"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1653465,
+          4.6483995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "IED Gabriel Betancourt Mejia Sede B",
+        "tipo": "colegio",
+        "caracter": "publico",
+        "direccion": null,
+        "telefono": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/414819235",
+        "verified": false,
+        "osm_id": "way/414819235"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1570375,
+          4.6573522
+        ]
+      }
+    }
+  ]
+}
