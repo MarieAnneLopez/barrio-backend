@@ -21,9 +21,9 @@ class RateableService:
         self._ratings = ratings
         self._items = items
 
-    def rate(self, objeto_id: int, payload: CalificacionIn) -> CalificacionOut:
+    def rate(self, objeto_id: int, payload: CalificacionIn, usuario_id: int | None = None) -> CalificacionOut:
         self._items.get(objeto_id)
-        rating = self._ratings.add(self._slug, objeto_id, payload.model_dump())
+        rating = self._ratings.add(self._slug, objeto_id, {**payload.model_dump(), "usuario_id": usuario_id})
         self._ratings.sync_average(self._model, self._slug, objeto_id)
         return CalificacionOut.model_validate(rating)
 

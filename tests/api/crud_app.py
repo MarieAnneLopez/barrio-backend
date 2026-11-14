@@ -1,5 +1,6 @@
 """App real (el registro ya expone Centros Educativos vía CrudRouterFactory)."""
 
+from types import SimpleNamespace
 from typing import Any
 
 from fastapi import FastAPI
@@ -14,8 +15,10 @@ POINT = {"type": "Point", "coordinates": [-74.1547809, 4.6430253]}
 def crud_app(as_admin: bool) -> FastAPI:
     app = create_app()
     if as_admin:
-        app.dependency_overrides[require_admin] = lambda: None
-        app.dependency_overrides[require_user] = lambda: None
+        # Sin usuario real en la base: las calificaciones quedan con usuario_id nulo.
+        admin = SimpleNamespace(id=None, rol="admin")
+        app.dependency_overrides[require_admin] = lambda: admin
+        app.dependency_overrides[require_user] = lambda: admin
     return app
 
 

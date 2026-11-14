@@ -10,6 +10,7 @@ from fastapi import APIRouter, Depends, Query, Response, status
 
 from app.api.deps import SessionDep
 from app.api.guards import require_admin, require_user
+from app.models.usuario import Usuario
 from app.api.v1.router_factory import CrudRouterFactory
 from app.modules.spec import ModuleSpec
 from app.repositories.geo_insights_repository import SqlGeoInsightsRepository
@@ -72,9 +73,10 @@ class ModuleExtrasFactory:
             return service.summary(item_id, limit)
 
         @router.post("/{item_id}/calificaciones", response_model=CalificacionOut,
-                     status_code=status.HTTP_201_CREATED, dependencies=[Depends(require_user)])
-        def rate(item_id: int, payload: CalificacionIn, service: Ratings) -> Any:
-            return service.rate(item_id, payload)
+                     status_code=status.HTTP_201_CREATED)
+        def rate(item_id: int, payload: CalificacionIn, service: Ratings,
+                 user: Annotated[Usuario, Depends(require_user)]) -> Any:
+            return service.rate(item_id, payload, user.id)
 
         @router.get("/{item_id}/fotos", response_model=list[FotoOut])
         def list_photos(item_id: int, service: Photos) -> Any:

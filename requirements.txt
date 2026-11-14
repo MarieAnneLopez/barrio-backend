@@ -9,3 +9,6 @@ pydantic==2.14.3
 pydantic-settings==2.16.3
 # Cliente HTTP del ETL (Overpass); también lo usan las pruebas.
 httpx==0.28.1
+# Autenticación (H21, D58): JWT HS256 y hash bcrypt (passlib no soporta bcrypt 5).
+PyJWT==2.15.1
+bcrypt==5.0.0

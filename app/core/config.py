@@ -30,6 +30,14 @@ class Settings(BaseSettings):
     cors_origins: list[str] = ["http://localhost:5173"]
     seed_dir: Path = Path(__file__).resolve().parents[2] / "seed"
 
+    # Sesión (H21, D58). Sin JWT_SECRET, fuera de producción se usa una clave
+    # aleatoria por proceso (las sesiones caen al reiniciar); en producción es obligatoria.
+    jwt_secret: SecretStr = SecretStr("")
+    jwt_expire_minutes: int = 60
+    admin_email: str = ""
+    admin_password: SecretStr = SecretStr("")
+    admin_nombre: str = "Administración"
+
     @property
     def database_url(self) -> URL:
         """URL de SQLAlchemy (driver psycopg 3); la clave queda enmascarada al imprimirla."""

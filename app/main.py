@@ -18,13 +18,14 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         redoc_url=None,
         openapi_url="/openapi.json" if settings.docs_enabled else None,
     )
-    # CORS con lista explícita de orígenes; el JWT irá en Authorization, sin cookies.
+    # CORS con lista explícita de orígenes y sin credenciales: el frontend llega por
+    # el proxy de Vite (mismo origen) y la cookie de sesión no cruza orígenes (D58).
     app.add_middleware(
         CORSMiddleware,
         allow_origins=settings.cors_origins,
         allow_credentials=False,
         allow_methods=["GET", "POST", "PATCH", "DELETE"],
-        allow_headers=["Authorization", "Content-Type"],
+        allow_headers=["Content-Type"],
     )
     register_security_headers(app)
     register_exception_handlers(app)

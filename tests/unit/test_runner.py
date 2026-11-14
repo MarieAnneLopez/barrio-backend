@@ -4,7 +4,7 @@ import pytest
 
 from etl.runner import main
 
-ORDER = ["base", "osm", "datos-abiertos", "ejemplos", "carga", "historia"]
+ORDER = ["base", "osm", "datos-abiertos", "ejemplos", "carga", "historia", "admin"]
 
 
 def _fake(log: list[str]) -> dict:

@@ -1,7 +1,7 @@
 """Orquestador del ETL completo de El Tintal (H15).
 
 Uso (desde barrio-backend/, con PostGIS arriba):
-    python -m etl.runner                 # OSM + datos abiertos + ejemplos + carga + historia
+    python -m etl.runner                 # OSM + datos abiertos + ejemplos + carga + historia + admin
     python -m etl.runner --con-base      # además rehace polígono y capas base (H7)
     python -m etl.runner --solo osm,carga
 Cada paso es idempotente: se puede repetir sin duplicar registros.
@@ -14,7 +14,7 @@ from typing import Any
 from sqlalchemy import Engine
 
 from app.core.database import get_engine
-from etl import examples, import_datos_abiertos, import_modules, import_osm, load_historia, load_seed
+from etl import admin, examples, import_datos_abiertos, import_modules, import_osm, load_historia, load_seed
 from etl.datos_abiertos.client import OpenDataClient
 from etl.overpass import OverpassClient
 
@@ -36,6 +36,7 @@ def steps(osm: OverpassClient, data: OpenDataClient) -> dict[str, Step]:
         "ejemplos": _in_tx(examples.run),
         "carga": load_seed.run,
         "historia": load_historia.run,
+        "admin": admin.run,
     }
 
 
@@ -43,7 +44,7 @@ def main(argv: list[str] | None = None, engine: Engine | None = None,
          available: dict[str, Step] | None = None) -> dict[str, Any]:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--con-base", action="store_true")
-    parser.add_argument("--solo", help="pasos separados por coma: base,osm,datos-abiertos,ejemplos,carga,historia")
+    parser.add_argument("--solo", help="pasos separados por coma: base,osm,datos-abiertos,ejemplos,carga,historia,admin")
     args = parser.parse_args(argv)
     available = available or steps(OverpassClient(), OpenDataClient())
     order = list(available) if args.con_base else [s for s in available if s != "base"]
