@@ -4,7 +4,8 @@
   "license": "Secretaría Distrital de Gobierno, CC BY-SA 4.0; Secretaría Distrital de Salud, CC BY 4.0",
   "sources": [
     "https://datosabiertos.bogota.gov.co/dataset/piramide-poblacional-bogota-d-c",
-    "https://datosabiertos.bogota.gov.co/dataset/alcaldia-local-bogota-d-c"
+    "https://datosabiertos.bogota.gov.co/dataset/alcaldia-local-bogota-d-c",
+    "https://bogota.gov.co/mi-ciudad/localidades/kennedy/historia-del-poblamiento-de-kennedy"
   ],
   "skipped": [],
   "features": [
@@ -12,14 +13,14 @@
       "type": "Feature",
       "properties": {
         "nombre_localidad": "Kennedy",
-        "bandera_url": null,
-        "historia": null,
+        "bandera_url": "/assets/flags/bandera_kennedy.svg",
+        "historia": "Se suele ubicar el nacimiento de la localidad en 1961, con la visita de John F. Kennedy y el programa de vivienda de Techo. Tras su asesinato en 1963, los habitantes del barrio de Techo lo llamaron Ciudad Kennedy, y en 1967 el Concejo de Bogotá ratificó el nombre.",
         "poblacion": 1104934,
         "superficie_km2": 38.21,
         "alcaldia_local": "Alcaldía Local de Kennedy, Calle 19 Sur # 69C -17",
         "retos": null,
         "source_type": "datos_abiertos",
-        "source_ref": "https://www.openstreetmap.org/relation/4740229 | https://datosabiertos.bogota.gov.co/dataset/piramide-poblacional-bogota-d-c | https://datosabiertos.bogota.gov.co/dataset/alcaldia-local-bogota-d-c",
+        "source_ref": "https://www.openstreetmap.org/relation/4740229 | https://datosabiertos.bogota.gov.co/dataset/piramide-poblacional-bogota-d-c | https://datosabiertos.bogota.gov.co/dataset/alcaldia-local-bogota-d-c | https://bogota.gov.co/mi-ciudad/localidades/kennedy/historia-del-poblamiento-de-kennedy",
         "verified": true
       },
       "geometry": {
