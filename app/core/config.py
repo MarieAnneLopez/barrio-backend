@@ -1,6 +1,7 @@
 """Configuración tipada desde variables de entorno / .env (pydantic-settings)."""
 
 from functools import lru_cache
+from pathlib import Path
 from typing import Literal
 
 from pydantic import SecretStr
@@ -27,6 +28,7 @@ class Settings(BaseSettings):
     db_connect_timeout_s: int = 3
 
     cors_origins: list[str] = ["http://localhost:5173"]
+    seed_dir: Path = Path(__file__).resolve().parents[2] / "seed"
 
     @property
     def database_url(self) -> URL:
