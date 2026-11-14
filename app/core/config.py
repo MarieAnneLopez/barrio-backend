@@ -38,6 +38,11 @@ class Settings(BaseSettings):
     admin_password: SecretStr = SecretStr("")
     admin_nombre: str = "Administración"
 
+    # Chat (H22, D59): analitico = Local (por defecto), generativo = Nube, moe = Híbrido.
+    chat_model: Literal["analitico", "generativo", "moe"] = "analitico"
+    anthropic_api_key: SecretStr = SecretStr("")
+    chat_llm_model: str = "claude-opus-5-5"
+
     @property
     def database_url(self) -> URL:
         """URL de SQLAlchemy (driver psycopg 3); la clave queda enmascarada al imprimirla."""
