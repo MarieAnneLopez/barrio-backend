@@ -1,4 +1,4 @@
-"""GET /api/v1/historia y su carga: orden, trazabilidad, fuentes y D55."""
+"""GET /api/v1/historia y su carga: orden, trazabilidad, fuentes, D55 y D56."""
 
 import json
 from pathlib import Path
@@ -29,8 +29,9 @@ async def test_linea_de_tiempo_ordenada_con_fuentes(client: AsyncClient, db_sess
     by_year = {h["anio"]: h for h in body["hitos"]}
     assert by_year[1963]["verified"] and by_year[1963]["source_ref"] == OFICIAL_KENNEDY
     assert by_year[1967]["titulo"] == "El Concejo ratifica el nombre"
-    assert "junio de 2001" in by_year[2001]["descripcion"]
-    assert not by_year[1992]["verified"]
+    assert "29 de junio de 2001" in by_year[2001]["descripcion"]
+    assert by_year[1992]["verified"] and "C-541-93" in by_year[1992]["source_ref"]
+    assert not by_year[1959]["verified"]
     assert body["consultado"] == "2026-11-14"
     tipos = [f["tipo"] for f in body["fuentes"]]
     assert tipos[:2] == ["oficial", "oficial"] and tipos[-1] == "comunitaria"
@@ -42,12 +43,24 @@ def test_d55_sin_las_fechas_descartadas() -> None:
     assert all(h["anio"] != 2002 for h in load_historia.read())
 
 
+def test_d56_sin_datos_descartados() -> None:
+    hitos = load_historia.read()
+    text = json.dumps(hitos, ensure_ascii=False)
+    assert "Acuerdo 224" not in text and "1989" not in text
+    assert {h["anio"] for h in hitos}.isdisjoint({1989, 2003})
+    assert all("wikipedia" not in h["source_ref"] for h in hitos if h["verified"])
+
+
 def test_la_carga_es_idempotente(db_session: Session) -> None:
+    db_session.add(HistoriaHito(anio=1989, orden=6, titulo="Hito retirado", descripcion="-",
+                                source_type="seed", source_ref=None, verified=False))
+    db_session.commit()
     first = load_historia.run(get_engine())
     load_historia.run(get_engine())
 
+    db_session.expire_all()
     count = db_session.scalar(select(func.count()).select_from(HistoriaHito))
-    assert count == first["loaded"] and first["verified"] == 6
+    assert count == first["loaded"] and first["verified"] == 7
 
 
 def test_rechaza_hitos_sin_fuente_del_catalogo(tmp_path: Path) -> None:

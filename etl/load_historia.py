@@ -1,15 +1,16 @@
-"""Carga seed/historia.json en historia_hitos, idempotente por (año, título).
+"""Carga seed/historia.json en historia_hitos; reemplaza todos los hitos de la semilla.
 
 Uso (desde barrio-backend/): python -m etl.runner --solo historia
 Cada hito debe citar una fuente del catálogo del mismo archivo (D55); si no,
-se rechaza todo el archivo para no publicar hitos sin trazabilidad.
+se rechaza todo el archivo para no publicar hitos sin trazabilidad. Un hito
+quitado de la semilla (D56) también sale de la base al recargar.
 """
 
 import json
 from pathlib import Path
 from typing import Any
 
-from sqlalchemy import Engine, delete, tuple_
+from sqlalchemy import Engine, delete
 from sqlalchemy.orm import Session
 
 from app.models.historia_hito import HistoriaHito
@@ -31,10 +32,8 @@ def read(path: Path = SEED) -> list[dict[str, Any]]:
 
 def run(engine: Engine, path: Path = SEED) -> dict[str, int]:
     hitos = read(path)
-    keys = [(h["anio"], h["titulo"]) for h in hitos]
     with Session(engine) as session:
-        session.execute(delete(HistoriaHito).where(
-            tuple_(HistoriaHito.anio, HistoriaHito.titulo).in_(keys)))
+        session.execute(delete(HistoriaHito).where(HistoriaHito.source_type == "seed"))
         session.add_all(HistoriaHito(source_type="seed", **h) for h in hitos)
         session.commit()
     return {"loaded": len(hitos), "verified": sum(h["verified"] for h in hitos)}

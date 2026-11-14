@@ -1,4 +1,4 @@
-"""Contrato de GET /api/v1/historia: hitos con su fuente y el catálogo de fuentes (D55)."""
+"""Contrato de GET /api/v1/historia: hitos con su fuente y el catálogo de fuentes (D55, D56)."""
 
 from typing import Literal
 
@@ -23,7 +23,7 @@ class FuenteOut(BaseModel):
     url: str
     titulo: str
     entidad: str
-    tipo: Literal["oficial", "enciclopedia", "comunitaria"]
+    tipo: Literal["oficial", "prensa", "enciclopedia", "comunitaria"]
     nota: str | None
 
 

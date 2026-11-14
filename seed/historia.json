@@ -1,6 +1,6 @@
 {
   "consultado": "2026-11-14",
-  "decision": "D55 en PLAN_MAESTRO.md: fechas de Ciudad Kennedy y de la Biblioteca El Tintal según las fuentes oficiales del Distrito; lo que solo trae Wikipedia queda «por verificar».",
+  "decision": "D55 y D56 en PLAN_MAESTRO.md: fechas y hechos según fuentes oficiales; lo que viene de prensa se marca «Prensa» y lo que solo trae Wikipedia queda «por verificar».",
   "fuentes": [
     {
       "url": "https://bogota.gov.co/mi-ciudad/localidades/kennedy/historia-del-poblamiento-de-kennedy",
@@ -10,6 +10,13 @@
       "nota": null
     },
     {
+      "url": "https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/la-biblioteca-el-tintal-era-una-planta-de-procesamiento-de-basuras",
+      "titulo": "¿Sabías que la Biblioteca El Tintal era una planta de procesamiento de basura?",
+      "entidad": "Portal Bogotá (Alcaldía Mayor de Bogotá), con información de la Red de Bibliotecas Públicas BibloRed (publicado el 11/06/2022)",
+      "tipo": "oficial",
+      "nota": "La dirección indicada sin la «s» final responde 404; esta es la página vigente."
+    },
+    {
       "url": "https://bogota.gov.co/que-hacer/cultura/cumpleanos-de-la-biblioteca-publica-el-tintal-manuel-zapata-olivella",
       "titulo": "Cumpleaños de la Biblioteca Pública El Tintal Manuel Zapata Olivella",
       "entidad": "Portal Bogotá, con información de la Secretaría Distrital de Cultura, Recreación y Deporte (publicado el 21/06/2019)",
@@ -17,92 +24,119 @@
       "nota": null
     },
     {
+      "url": "https://www.corteconstitucional.gov.co/relatoria/1993/C-541-93.htm",
+      "titulo": "Sentencia C-541 de 1993",
+      "entidad": "Corte Constitucional de Colombia, relatoría",
+      "tipo": "oficial",
+      "nota": "«El Acuerdo No. 2 de 1992 creó las Localidades del Distrito de Santa Fé de Bogotá»."
+    },
+    {
+      "url": "https://www.redjurista.com/Compilaciones2018/tablas_GacetasBogota/2021/12/7314/d_alcakennedy_0013_2021.pdf",
+      "titulo": "Decreto Local 13 de 2021 (13 de diciembre), Alcaldía Local de Kennedy",
+      "entidad": "Registro Distrital n.º 7314 (16/12/2021), copia de Redjurista",
+      "tipo": "oficial",
+      "nota": "Artículo 3: la condecoración «Banderas» lleva «los colores de la Bandera de la Alcaldía Local- amarillo, blanco y verde». No dice el significado de los colores ni el acto que adoptó la bandera."
+    },
+    {
+      "url": "https://www.portafolio.co/economia/infraestructura/con-retos-en-su-ampliacion-aeropuerto-el-dorado-cumplio-60-anos-536408",
+      "titulo": "Con retos en su ampliación, aeropuerto El Dorado cumplió 60 años",
+      "entidad": "Portafolio (prensa)",
+      "tipo": "prensa",
+      "nota": "Leída con el buscador: el sitio está fuera de la red permitida del proyecto y no se abrió directamente. Se usa solo el año, sin día exacto."
+    },
+    {
       "url": "https://es.wikipedia.org/w/index.php?title=Kennedy_(Bogot%C3%A1)&oldid=176260200",
       "titulo": "Kennedy (Bogotá)",
       "entidad": "Wikipedia en español, revisión 176260200",
       "tipo": "enciclopedia",
-      "nota": "Sus fechas del cambio de nombre (1963 y 1964) y de la biblioteca (2002) no se usan: se siguen las fuentes oficiales (D55)."
+      "nota": "Sus fechas del cambio de nombre (1963 y 1964), de la biblioteca (2002) y del Portal Américas (2000 y 2004, se contradice) no se usan (D55, D56)."
     },
     {
       "url": "https://es.wikipedia.org/w/index.php?title=Biblioteca_El_Tintal&oldid=175623072",
       "titulo": "Biblioteca El Tintal",
       "entidad": "Wikipedia en español, revisión 175623072",
       "tipo": "enciclopedia",
-      "nota": "Da como apertura el 29 de junio de 2001; la fuente oficial solo confirma el mes, así que se muestra «junio de 2001»."
+      "nota": "Su año 1989 para la planta de basuras no se confirma en otra fuente y no se usa; tampoco el número del acuerdo de 2006 (D56)."
     },
     {
       "url": "https://commons.wikimedia.org/wiki/File:Bandera_de_kennedy_(bogot%C3%A1).png",
       "titulo": "Bandera de Kennedy (Bogotá)",
       "entidad": "Wikimedia Commons (CC0). Cita una página archivada de la Alcaldía Local de Kennedy (2013)",
       "tipo": "comunitaria",
-      "nota": "Coincide con «Flag of Kennedy (bogotá).svg» de Commons. No se encontró el acto que adopta la bandera ni el significado oficial de sus colores: por verificar."
+      "nota": "De aquí sale el dibujo (tres franjas horizontales iguales, en ese orden). Los colores los confirma el Decreto Local 13 de 2021; el significado y el acto de adopción siguen por verificar."
     }
   ],
   "hitos": [
     {
-      "anio": 1948, "orden": 1, "verified": true,
+      "anio": 1948,
+      "orden": 1,
+      "verified": true,
       "titulo": "La Conferencia Panamericana llega por Techo",
       "descripcion": "En abril de 1948 los delegados de la Conferencia Panamericana llegaron por el aeropuerto de Techo, al occidente de Bogotá, muy cerca de lo que después sería Ciudad Kennedy.",
       "source_ref": "https://bogota.gov.co/mi-ciudad/localidades/kennedy/historia-del-poblamiento-de-kennedy"
     },
     {
-      "anio": 1959, "orden": 2, "verified": false,
+      "anio": 1959,
+      "orden": 2,
+      "verified": false,
       "titulo": "Cierra el aeropuerto de Techo",
-      "descripcion": "El aeropuerto de Techo, en el territorio de la actual Kennedy, cerró cuando empezó a funcionar el Aeropuerto Internacional El Dorado.",
-      "source_ref": "https://es.wikipedia.org/w/index.php?title=Kennedy_(Bogot%C3%A1)&oldid=176260200"
+      "descripcion": "En 1959 cerró el aeropuerto de Techo, en el territorio de la actual Kennedy, cuando empezó a funcionar el aeropuerto El Dorado.",
+      "source_ref": "https://www.portafolio.co/economia/infraestructura/con-retos-en-su-ampliacion-aeropuerto-el-dorado-cumplio-60-anos-536408"
     },
     {
-      "anio": 1961, "orden": 3, "verified": true,
+      "anio": 1961,
+      "orden": 3,
+      "verified": true,
       "titulo": "Nace el plan de vivienda de Techo",
       "descripcion": "El presidente John F. Kennedy visitó Bogotá y lanzó con el presidente Alberto Lleras Camargo el programa de vivienda de Techo, con el auspicio de la Alianza para el Progreso. Suele tomarse como el nacimiento de la localidad.",
       "source_ref": "https://bogota.gov.co/mi-ciudad/localidades/kennedy/historia-del-poblamiento-de-kennedy"
     },
     {
-      "anio": 1963, "orden": 4, "verified": true,
+      "anio": 1963,
+      "orden": 4,
+      "verified": true,
       "titulo": "De Techo a Ciudad Kennedy",
       "descripcion": "Tras el asesinato de John F. Kennedy, los propios habitantes del barrio de Techo decidieron llamarlo Ciudad Kennedy en su honor.",
       "source_ref": "https://bogota.gov.co/mi-ciudad/localidades/kennedy/historia-del-poblamiento-de-kennedy"
     },
     {
-      "anio": 1967, "orden": 5, "verified": true,
+      "anio": 1967,
+      "orden": 5,
+      "verified": true,
       "titulo": "El Concejo ratifica el nombre",
       "descripcion": "El Concejo de Bogotá ratificó el cambio de nombre a Ciudad Kennedy. Con ese proyecto empezó la urbanización de la localidad.",
       "source_ref": "https://bogota.gov.co/mi-ciudad/localidades/kennedy/historia-del-poblamiento-de-kennedy"
     },
     {
-      "anio": 1989, "orden": 6, "verified": false,
-      "titulo": "Planta de basuras donde hoy está la biblioteca",
-      "descripcion": "Se creó la planta de tratamiento de basuras de la EDIS; funcionó hasta la liquidación de la empresa en 1993. En ese lugar se construyó después la Biblioteca El Tintal.",
-      "source_ref": "https://es.wikipedia.org/w/index.php?title=Biblioteca_El_Tintal&oldid=175623072"
-    },
-    {
-      "anio": 1992, "orden": 7, "verified": false,
+      "anio": 1992,
+      "orden": 6,
+      "verified": true,
       "titulo": "Kennedy se vuelve localidad",
-      "descripcion": "Kennedy fue elevada a localidad mediante el Acuerdo 2 de 1992 del Concejo de Bogotá.",
-      "source_ref": "https://es.wikipedia.org/w/index.php?title=Kennedy_(Bogot%C3%A1)&oldid=176260200"
+      "descripcion": "El Acuerdo 2 de 1992 del Concejo de Bogotá creó las localidades del Distrito, entre ellas Kennedy.",
+      "source_ref": "https://www.corteconstitucional.gov.co/relatoria/1993/C-541-93.htm"
     },
     {
-      "anio": 1995, "orden": 8, "verified": true,
+      "anio": 1995,
+      "orden": 7,
+      "verified": true,
       "titulo": "Paro de Patio Bonito y el Tintal Central",
       "descripcion": "A finales de 1995, habitantes de Patio Bonito y del Tintal Central bloquearon el acceso a Corabastos para reclamar servicios públicos domiciliarios, un lugar en el plan de desarrollo local y mejores vías de acceso.",
       "source_ref": "https://bogota.gov.co/mi-ciudad/localidades/kennedy/historia-del-poblamiento-de-kennedy"
     },
     {
-      "anio": 2001, "orden": 9, "verified": true,
+      "anio": 2001,
+      "orden": 8,
+      "verified": true,
       "titulo": "Abre la Biblioteca El Tintal",
-      "descripcion": "En junio de 2001 abrió la Biblioteca Pública El Tintal, en la localidad de Kennedy.",
-      "source_ref": "https://bogota.gov.co/que-hacer/cultura/cumpleanos-de-la-biblioteca-publica-el-tintal-manuel-zapata-olivella"
+      "descripcion": "El 29 de junio de 2001 abrió al público la Biblioteca Pública El Tintal, construida sobre las bases de una antigua planta de transferencia de basuras.",
+      "source_ref": "https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/la-biblioteca-el-tintal-era-una-planta-de-procesamiento-de-basuras | https://bogota.gov.co/que-hacer/cultura/cumpleanos-de-la-biblioteca-publica-el-tintal-manuel-zapata-olivella"
     },
     {
-      "anio": 2003, "orden": 10, "verified": false,
-      "titulo": "Empieza el Portal Américas",
-      "descripcion": "Empezó el servicio del Portal Américas de TransMilenio.",
-      "source_ref": "https://es.wikipedia.org/w/index.php?title=Kennedy_(Bogot%C3%A1)&oldid=176260200"
-    },
-    {
-      "anio": 2006, "orden": 11, "verified": false,
+      "anio": 2006,
+      "orden": 9,
+      "verified": false,
       "titulo": "La biblioteca lleva el nombre de Manuel Zapata Olivella",
-      "descripcion": "Según el Acuerdo 224 de 2006 del Concejo de Bogotá, la biblioteca pasó a llamarse Biblioteca Pública El Tintal «Manuel Zapata Olivella».",
+      "descripcion": "En 2006 el Concejo de Bogotá le dio a la biblioteca el nombre de Manuel Zapata Olivella, en homenaje al escritor afrocolombiano.",
       "source_ref": "https://es.wikipedia.org/w/index.php?title=Biblioteca_El_Tintal&oldid=175623072"
     }
   ]
