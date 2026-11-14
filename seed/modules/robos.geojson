@@ -1,0 +1,2651 @@
+{
+  "type": "FeatureCollection",
+  "name": "robos",
+  "license": "Secretaría Distrital de Seguridad, Convivencia y Justicia, CC BY-SA 4.0",
+  "sources": [
+    "https://datosabiertos.bogota.gov.co/dataset/incidentes"
+  ],
+  "skipped": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-01-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-01. Reportes, no denuncias.",
+        "cantidad": 1,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240108UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-01-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-01. Reportes, no denuncias.",
+        "cantidad": 13,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240108UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-01-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-01. Reportes, no denuncias.",
+        "cantidad": 26,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240108UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-01-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-01. Reportes, no denuncias.",
+        "cantidad": 35,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240108UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-02-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-02. Reportes, no denuncias.",
+        "cantidad": 17,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240208UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-02-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-02. Reportes, no denuncias.",
+        "cantidad": 14,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240208UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-02-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-02. Reportes, no denuncias.",
+        "cantidad": 47,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240208UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-02-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-02. Reportes, no denuncias.",
+        "cantidad": 47,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240208UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-03-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-03. Reportes, no denuncias.",
+        "cantidad": 17,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240308UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-03-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-03. Reportes, no denuncias.",
+        "cantidad": 14,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240308UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-03-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-03. Reportes, no denuncias.",
+        "cantidad": 38,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240308UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-03-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-03. Reportes, no denuncias.",
+        "cantidad": 45,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240308UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-04-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-04. Reportes, no denuncias.",
+        "cantidad": 10,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240408UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-04-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-04. Reportes, no denuncias.",
+        "cantidad": 15,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240408UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-04-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-04. Reportes, no denuncias.",
+        "cantidad": 37,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240408UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-04-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-04. Reportes, no denuncias.",
+        "cantidad": 24,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240408UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-05-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-05. Reportes, no denuncias.",
+        "cantidad": 12,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240508UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-05-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-05. Reportes, no denuncias.",
+        "cantidad": 15,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240508UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-05-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-05. Reportes, no denuncias.",
+        "cantidad": 54,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240508UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-05-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-05. Reportes, no denuncias.",
+        "cantidad": 51,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240508UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-06-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-06. Reportes, no denuncias.",
+        "cantidad": 10,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240608UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-06-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-06. Reportes, no denuncias.",
+        "cantidad": 22,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240608UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-06-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-06. Reportes, no denuncias.",
+        "cantidad": 24,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240608UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-06-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-06. Reportes, no denuncias.",
+        "cantidad": 26,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240608UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-07-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-07. Reportes, no denuncias.",
+        "cantidad": 10,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240708UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-07-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-07. Reportes, no denuncias.",
+        "cantidad": 16,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240708UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-07-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-07. Reportes, no denuncias.",
+        "cantidad": 43,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240708UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-07-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-07. Reportes, no denuncias.",
+        "cantidad": 38,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240708UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-08-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-08. Reportes, no denuncias.",
+        "cantidad": 9,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240808UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-08-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-08. Reportes, no denuncias.",
+        "cantidad": 13,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240808UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-08-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-08. Reportes, no denuncias.",
+        "cantidad": 40,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240808UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-08-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-08. Reportes, no denuncias.",
+        "cantidad": 57,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240808UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-09-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-09. Reportes, no denuncias.",
+        "cantidad": 11,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240908UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-09-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-09. Reportes, no denuncias.",
+        "cantidad": 23,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240908UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-09-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-09. Reportes, no denuncias.",
+        "cantidad": 42,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240908UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-09-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-09. Reportes, no denuncias.",
+        "cantidad": 45,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20240908UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-10-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-10. Reportes, no denuncias.",
+        "cantidad": 8,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20241008UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-10-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-10. Reportes, no denuncias.",
+        "cantidad": 19,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20241008UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-10-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-10. Reportes, no denuncias.",
+        "cantidad": 28,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20241008UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-10-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-10. Reportes, no denuncias.",
+        "cantidad": 49,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20241008UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-11-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-11. Reportes, no denuncias.",
+        "cantidad": 15,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20241108UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-11-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-11. Reportes, no denuncias.",
+        "cantidad": 8,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20241108UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-11-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-11. Reportes, no denuncias.",
+        "cantidad": 34,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20241108UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-11-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-11. Reportes, no denuncias.",
+        "cantidad": 46,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20241108UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-12-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-12. Reportes, no denuncias.",
+        "cantidad": 9,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20241208UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-12-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2024-12. Reportes, no denuncias.",
+        "cantidad": 11,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20241208UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-12-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-12. Reportes, no denuncias.",
+        "cantidad": 36,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20241208UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2024-12-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2024-12. Reportes, no denuncias.",
+        "cantidad": 41,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20241208UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-01-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-01. Reportes, no denuncias.",
+        "cantidad": 4,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250108UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-01-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-01. Reportes, no denuncias.",
+        "cantidad": 18,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250108UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-01-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-01. Reportes, no denuncias.",
+        "cantidad": 39,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250108UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-01-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-01. Reportes, no denuncias.",
+        "cantidad": 26,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250108UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-02-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-02. Reportes, no denuncias.",
+        "cantidad": 8,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250208UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-02-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-02. Reportes, no denuncias.",
+        "cantidad": 16,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250208UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-02-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-02. Reportes, no denuncias.",
+        "cantidad": 44,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250208UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-02-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-02. Reportes, no denuncias.",
+        "cantidad": 43,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250208UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-03-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-03. Reportes, no denuncias.",
+        "cantidad": 9,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250308UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-03-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-03. Reportes, no denuncias.",
+        "cantidad": 25,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250308UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-03-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-03. Reportes, no denuncias.",
+        "cantidad": 38,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250308UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-03-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-03. Reportes, no denuncias.",
+        "cantidad": 58,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250308UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-04-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-04. Reportes, no denuncias.",
+        "cantidad": 13,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250408UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-04-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-04. Reportes, no denuncias.",
+        "cantidad": 19,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250408UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-04-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-04. Reportes, no denuncias.",
+        "cantidad": 40,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250408UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-04-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-04. Reportes, no denuncias.",
+        "cantidad": 44,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250408UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-05-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-05. Reportes, no denuncias.",
+        "cantidad": 18,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250508UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-05-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-05. Reportes, no denuncias.",
+        "cantidad": 17,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250508UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-05-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-05. Reportes, no denuncias.",
+        "cantidad": 44,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250508UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-05-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-05. Reportes, no denuncias.",
+        "cantidad": 44,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250508UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-06-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-06. Reportes, no denuncias.",
+        "cantidad": 6,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250608UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-06-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-06. Reportes, no denuncias.",
+        "cantidad": 14,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250608UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-06-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-06. Reportes, no denuncias.",
+        "cantidad": 42,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250608UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-06-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-06. Reportes, no denuncias.",
+        "cantidad": 31,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250608UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-07-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-07. Reportes, no denuncias.",
+        "cantidad": 8,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250708UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-07-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-07. Reportes, no denuncias.",
+        "cantidad": 13,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250708UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-07-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-07. Reportes, no denuncias.",
+        "cantidad": 33,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250708UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-07-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-07. Reportes, no denuncias.",
+        "cantidad": 34,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250708UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-08-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-08. Reportes, no denuncias.",
+        "cantidad": 12,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250808UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-08-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-08. Reportes, no denuncias.",
+        "cantidad": 13,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250808UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-08-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-08. Reportes, no denuncias.",
+        "cantidad": 48,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250808UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-08-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-08. Reportes, no denuncias.",
+        "cantidad": 54,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250808UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-09-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-09. Reportes, no denuncias.",
+        "cantidad": 14,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250908UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-09-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-09. Reportes, no denuncias.",
+        "cantidad": 29,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250908UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-09-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-09. Reportes, no denuncias.",
+        "cantidad": 43,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250908UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-09-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-09. Reportes, no denuncias.",
+        "cantidad": 50,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20250908UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-10-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-10. Reportes, no denuncias.",
+        "cantidad": 10,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20251008UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-10-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-10. Reportes, no denuncias.",
+        "cantidad": 27,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20251008UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-10-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-10. Reportes, no denuncias.",
+        "cantidad": 28,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20251008UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-10-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-10. Reportes, no denuncias.",
+        "cantidad": 49,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20251008UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-11-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-11. Reportes, no denuncias.",
+        "cantidad": 11,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20251108UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-11-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-11. Reportes, no denuncias.",
+        "cantidad": 19,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20251108UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-11-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-11. Reportes, no denuncias.",
+        "cantidad": 41,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20251108UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-11-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-11. Reportes, no denuncias.",
+        "cantidad": 49,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20251108UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-12-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-12. Reportes, no denuncias.",
+        "cantidad": 12,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20251208UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-12-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2025-12. Reportes, no denuncias.",
+        "cantidad": 23,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20251208UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-12-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-12. Reportes, no denuncias.",
+        "cantidad": 26,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20251208UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2025-12-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2025-12. Reportes, no denuncias.",
+        "cantidad": 54,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20251208UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-01-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-01. Reportes, no denuncias.",
+        "cantidad": 10,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260108UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-01-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-01. Reportes, no denuncias.",
+        "cantidad": 19,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260108UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-01-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-01. Reportes, no denuncias.",
+        "cantidad": 35,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260108UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-01-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-01. Reportes, no denuncias.",
+        "cantidad": 52,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260108UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-02-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-02. Reportes, no denuncias.",
+        "cantidad": 17,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260208UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-02-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-02. Reportes, no denuncias.",
+        "cantidad": 11,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260208UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-02-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-02. Reportes, no denuncias.",
+        "cantidad": 34,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260208UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-02-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-02. Reportes, no denuncias.",
+        "cantidad": 36,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260208UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-03-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-03. Reportes, no denuncias.",
+        "cantidad": 13,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260308UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-03-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-03. Reportes, no denuncias.",
+        "cantidad": 12,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260308UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-03-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-03. Reportes, no denuncias.",
+        "cantidad": 46,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260308UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-03-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-03. Reportes, no denuncias.",
+        "cantidad": 50,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260308UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-04-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-04. Reportes, no denuncias.",
+        "cantidad": 18,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260408UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-04-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-04. Reportes, no denuncias.",
+        "cantidad": 12,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260408UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-04-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-04. Reportes, no denuncias.",
+        "cantidad": 46,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260408UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-04-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-04. Reportes, no denuncias.",
+        "cantidad": 44,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260408UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-05-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-05. Reportes, no denuncias.",
+        "cantidad": 13,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260508UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-05-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-05. Reportes, no denuncias.",
+        "cantidad": 11,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260508UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-05-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-05. Reportes, no denuncias.",
+        "cantidad": 45,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260508UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-05-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-05. Reportes, no denuncias.",
+        "cantidad": 47,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260508UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-06-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-06. Reportes, no denuncias.",
+        "cantidad": 10,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260608UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-06-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-06. Reportes, no denuncias.",
+        "cantidad": 20,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260608UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-06-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-06. Reportes, no denuncias.",
+        "cantidad": 49,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260608UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-06-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-06. Reportes, no denuncias.",
+        "cantidad": 42,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260608UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-07-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-07. Reportes, no denuncias.",
+        "cantidad": 10,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260708UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-07-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-07. Reportes, no denuncias.",
+        "cantidad": 23,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260708UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-07-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-07. Reportes, no denuncias.",
+        "cantidad": 38,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260708UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-07-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-07. Reportes, no denuncias.",
+        "cantidad": 41,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260708UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-08-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-08. Reportes, no denuncias.",
+        "cantidad": 14,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260808UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-08-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-08. Reportes, no denuncias.",
+        "cantidad": 14,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260808UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-08-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-08. Reportes, no denuncias.",
+        "cantidad": 59,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260808UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-08-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-08. Reportes, no denuncias.",
+        "cantidad": 46,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260808UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-09-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-09. Reportes, no denuncias.",
+        "cantidad": 28,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260908UPZ78904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-09-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 78 Tintal Norte, 2026-09. Reportes, no denuncias.",
+        "cantidad": 22,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260908UPZ78905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1528944,
+          4.6566802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-09-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto efectuado",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-09. Reportes, no denuncias.",
+        "cantidad": 50,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260908UPZ79904",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fecha": "2026-09-01",
+        "franja_horaria": null,
+        "modalidad": "Hurto en proceso",
+        "fuente": "Línea 123 (NUSE), SDSCJ: llamadas tipificadas, UPZ 79 Calandaima, 2026-09. Reportes, no denuncias.",
+        "cantidad": 43,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/incidentes#20260908UPZ79905",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1604527,
+          4.648461
+        ]
+      }
+    }
+  ]
+}

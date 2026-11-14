@@ -1,0 +1,624 @@
+{
+  "type": "FeatureCollection",
+  "name": "estaciones-transporte",
+  "license": "© OpenStreetMap contributors, ODbL 1.0",
+  "skipped": [
+    {
+      "osm_id": "node/2439962071",
+      "name": null,
+      "reason": "paradero sin nombre propio"
+    },
+    {
+      "osm_id": "node/2439962075",
+      "name": null,
+      "reason": "paradero sin nombre propio"
+    },
+    {
+      "osm_id": "node/2439962084",
+      "name": null,
+      "reason": "paradero sin nombre propio"
+    },
+    {
+      "osm_id": "node/3390551697",
+      "name": null,
+      "reason": "paradero sin nombre propio"
+    },
+    {
+      "osm_id": "node/7606644787",
+      "name": "SITP",
+      "reason": "paradero sin nombre propio"
+    },
+    {
+      "osm_id": "node/7606668172",
+      "name": "SITP",
+      "reason": "paradero sin nombre propio"
+    },
+    {
+      "osm_id": "node/7606668173",
+      "name": "SITP",
+      "reason": "paradero sin nombre propio"
+    },
+    {
+      "osm_id": "node/7606668174",
+      "name": "SITP",
+      "reason": "paradero sin nombre propio"
+    },
+    {
+      "osm_id": "node/7606668175",
+      "name": "SITP",
+      "reason": "paradero sin nombre propio"
+    },
+    {
+      "osm_id": "node/7606668176",
+      "name": "SITP",
+      "reason": "paradero sin nombre propio"
+    },
+    {
+      "osm_id": "node/7606668177",
+      "name": "SITP",
+      "reason": "paradero sin nombre propio"
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Universidad Agustiniana",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13705604063",
+        "verified": true,
+        "osm_id": "node/13705604063"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1469152,
+          4.6553628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Reserva de San Agustín",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943229355",
+        "verified": true,
+        "osm_id": "node/13943229355"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1505866,
+          4.6532558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Castilla Reservado",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943229356",
+        "verified": true,
+        "osm_id": "node/13943229356"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1507947,
+          4.6533547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Nueva Castilla Etapa II",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943229359",
+        "verified": true,
+        "osm_id": "node/13943229359"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1507913,
+          4.6522047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Nueva Castilla II Etapa",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943229360",
+        "verified": true,
+        "osm_id": "node/13943229360"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1503299,
+          4.6518622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Nuevo Castilla 7",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943229367",
+        "verified": true,
+        "osm_id": "node/13943229367"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.153748,
+          4.6510201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Nueva Castilla II",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943229368",
+        "verified": true,
+        "osm_id": "node/13943229368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1543505,
+          4.6508457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Canal Castilla",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943229371",
+        "verified": true,
+        "osm_id": "node/13943229371"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1560749,
+          4.6493159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "C. R. San Loranzo de Castilla",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943229380",
+        "verified": true,
+        "osm_id": "node/13943229380"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1558421,
+          4.6481951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "C. R. San Pedro de Castilla",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943229381",
+        "verified": true,
+        "osm_id": "node/13943229381"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1557954,
+          4.6483105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Prados de Castilla 2",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943229395",
+        "verified": true,
+        "osm_id": "node/13943229395"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1584325,
+          4.6473664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Canal Américas",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943235603",
+        "verified": true,
+        "osm_id": "node/13943235603"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1601935,
+          4.64557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Tintala",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943235604",
+        "verified": true,
+        "osm_id": "node/13943235604"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1603317,
+          4.6458083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Primavera",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943235606",
+        "verified": true,
+        "osm_id": "node/13943235606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1628296,
+          4.6434532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "IED Salucoop Sur",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943235607",
+        "verified": true,
+        "osm_id": "node/13943235607"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1635581,
+          4.6428129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "IED Inst. Tec. Rodrigo de Triana",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943235609",
+        "verified": true,
+        "osm_id": "node/13943235609"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1648395,
+          4.6416573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Br. Calandaima",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/13943235611",
+        "verified": true,
+        "osm_id": "node/13943235611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1666626,
+          4.6401809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "C. C. Tintal Plaza",
+        "tipo": "sitp",
+        "lineas": "8-5",
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/14178098987",
+        "verified": true,
+        "osm_id": "node/14178098987"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1567441,
+          4.6431484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Br. Tintalá",
+        "tipo": "sitp",
+        "lineas": "8-5",
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/14178098989",
+        "verified": true,
+        "osm_id": "node/14178098989"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1552587,
+          4.6463258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "AV. Cali - Hayuelos 5",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/2372217268",
+        "verified": true,
+        "osm_id": "node/2372217268"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1385906,
+          4.6569736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Prados de Castilla",
+        "tipo": "sitp",
+        "lineas": "8-5",
+        "direccion": "Cra 92 - Clle 6D",
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/2397986449",
+        "verified": true,
+        "osm_id": "node/2397986449"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.159016,
+          4.6515458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "El Tintal Urbano",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/2439962080",
+        "verified": true,
+        "osm_id": "node/2439962080"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1463191,
+          4.6500586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "La Magdalena",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/2501848286",
+        "verified": true,
+        "osm_id": "node/2501848286"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.15939,
+          4.6530688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Tintalá I",
+        "tipo": "sitp",
+        "lineas": "8-5",
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/2501848287",
+        "verified": true,
+        "osm_id": "node/2501848287"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1574176,
+          4.645168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "El Porvenir",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/2501848322",
+        "verified": true,
+        "osm_id": "node/2501848322"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1567258,
+          4.6561718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Santa Fé del Tintal",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/2501848323",
+        "verified": true,
+        "osm_id": "node/2501848323"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.157691,
+          4.6502796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Conj. Res. Santafé del Tintal",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/2501848325",
+        "verified": true,
+        "osm_id": "node/2501848325"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1571761,
+          4.6492224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Biblioteca El Tintal",
+        "tipo": "sitp",
+        "lineas": null,
+        "direccion": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/2501848327",
+        "verified": true,
+        "osm_id": "node/2501848327"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1541826,
+          4.6443105
+        ]
+      }
+    }
+  ]
+}

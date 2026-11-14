@@ -29,3 +29,6 @@ Thumbs.db
 desktop.ini
 .vscode/
 .idea/
+
+# Caché de descargas del ETL (archivos de toda la ciudad, D4)
+etl/.cache/

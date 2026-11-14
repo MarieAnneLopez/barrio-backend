@@ -1,0 +1,1514 @@
+{
+  "type": "FeatureCollection",
+  "name": "escenarios-deportivos",
+  "license": "© OpenStreetMap contributors, ODbL 1.0",
+  "skipped": [
+    {
+      "osm_id": "way/1016234361",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/1016234362",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/1016234370",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/1016234371",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/1197842265",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/1197842281",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/1353573377",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/1353573378",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/1353573379",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/1374189201",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/1374189202",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/1445782568",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/319875686",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/319875767",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/319890402",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/319942440",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/319942502",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/538616469",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/538616470",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/625599200",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/625599201",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/642985943",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/653304770",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/749035483",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/749035484",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/749035485",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    },
+    {
+      "osm_id": "way/962454335",
+      "name": null,
+      "reason": "sin nombre ni deporte"
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de fútbol",
+        "deportes": "fútbol",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": "restringido",
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/1088488796",
+        "verified": false,
+        "osm_id": "way/1088488796"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1395415,
+              4.6569376
+            ],
+            [
+              -74.1394316,
+              4.6570164
+            ],
+            [
+              -74.1392855,
+              4.6568141
+            ],
+            [
+              -74.1393955,
+              4.6567353
+            ],
+            [
+              -74.1395415,
+              4.6569376
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de fútbol",
+        "deportes": "fútbol",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": "restringido",
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/1088488797",
+        "verified": false,
+        "osm_id": "way/1088488797"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1396703,
+              4.656844
+            ],
+            [
+              -74.1395576,
+              4.6569269
+            ],
+            [
+              -74.1394114,
+              4.6567294
+            ],
+            [
+              -74.139524,
+              4.6566465
+            ],
+            [
+              -74.1396703,
+              4.656844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de fútbol",
+        "deportes": "fútbol",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": "restringido",
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/1088488798",
+        "verified": false,
+        "osm_id": "way/1088488798"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1397977,
+              4.6567518
+            ],
+            [
+              -74.1396864,
+              4.6568333
+            ],
+            [
+              -74.1395362,
+              4.6566296
+            ],
+            [
+              -74.1396475,
+              4.6565481
+            ],
+            [
+              -74.1397977,
+              4.6567518
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de tenis",
+        "deportes": "tenis",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/1149182630",
+        "verified": false,
+        "osm_id": "way/1149182630"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1561601,
+              4.6488
+            ],
+            [
+              -74.1560764,
+              4.6485078
+            ],
+            [
+              -74.1559304,
+              4.6485493
+            ],
+            [
+              -74.1560141,
+              4.6488416
+            ],
+            [
+              -74.1561601,
+              4.6488
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de patinaje",
+        "deportes": "patinaje",
+        "superficie": "asfalto",
+        "iluminacion": true,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/1149187166",
+        "verified": false,
+        "osm_id": "way/1149187166"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1612364,
+              4.6525558
+            ],
+            [
+              -74.1610697,
+              4.652662
+            ],
+            [
+              -74.1612581,
+              4.6529557
+            ],
+            [
+              -74.1614249,
+              4.6528494
+            ],
+            [
+              -74.1612364,
+              4.6525558
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Pista de atletismo",
+        "deportes": "atletismo",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/1197842282",
+        "verified": false,
+        "osm_id": "way/1197842282"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1473901,
+              4.6550983
+            ],
+            [
+              -74.1473906,
+              4.6552128
+            ],
+            [
+              -74.1469243,
+              4.6552147
+            ],
+            [
+              -74.1469238,
+              4.6551001
+            ],
+            [
+              -74.1473901,
+              4.6550983
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/1445782565",
+        "verified": false,
+        "osm_id": "way/1445782565"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1586897,
+              4.6551864
+            ],
+            [
+              -74.1587084,
+              4.6549106
+            ],
+            [
+              -74.158548,
+              4.6548998
+            ],
+            [
+              -74.1585294,
+              4.6551756
+            ],
+            [
+              -74.1586897,
+              4.6551864
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de fútbol",
+        "deportes": "fútbol",
+        "superficie": "asfalto",
+        "iluminacion": true,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/319944282",
+        "verified": false,
+        "osm_id": "way/319944282"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1627203,
+              4.6501064
+            ],
+            [
+              -74.1625797,
+              4.6500892
+            ],
+            [
+              -74.1626098,
+              4.6498457
+            ],
+            [
+              -74.1627504,
+              4.649863
+            ],
+            [
+              -74.1627203,
+              4.6501064
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de fútbol",
+        "deportes": "fútbol",
+        "superficie": "césped sintético",
+        "iluminacion": true,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/538616467",
+        "verified": false,
+        "osm_id": "way/538616467"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1585854,
+              4.6490073
+            ],
+            [
+              -74.1584215,
+              4.648991
+            ],
+            [
+              -74.1584472,
+              4.6487332
+            ],
+            [
+              -74.1586111,
+              4.6487495
+            ],
+            [
+              -74.1585854,
+              4.6490073
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de fútbol",
+        "deportes": "fútbol",
+        "superficie": "césped sintético",
+        "iluminacion": true,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/538616468",
+        "verified": false,
+        "osm_id": "way/538616468"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1581042,
+              4.6485497
+            ],
+            [
+              -74.1581505,
+              4.6482815
+            ],
+            [
+              -74.1579901,
+              4.6482539
+            ],
+            [
+              -74.1579437,
+              4.6485222
+            ],
+            [
+              -74.1581042,
+              4.6485497
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": "pavimento",
+        "iluminacion": true,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/543160767",
+        "verified": false,
+        "osm_id": "way/543160767"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.15464,
+              4.6531488
+            ],
+            [
+              -74.1546047,
+              4.6528978
+            ],
+            [
+              -74.1544613,
+              4.6529179
+            ],
+            [
+              -74.1544966,
+              4.6531688
+            ],
+            [
+              -74.15464,
+              4.6531488
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": "pavimento",
+        "iluminacion": true,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/543160768",
+        "verified": false,
+        "osm_id": "way/543160768"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.155139,
+              4.6539552
+            ],
+            [
+              -74.15514,
+              4.6536995
+            ],
+            [
+              -74.15498,
+              4.6536989
+            ],
+            [
+              -74.154979,
+              4.6539546
+            ],
+            [
+              -74.155139,
+              4.6539552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": "pavimento",
+        "iluminacion": true,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/543160769",
+        "verified": false,
+        "osm_id": "way/543160769"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1555943,
+              4.6545671
+            ],
+            [
+              -74.1554545,
+              4.654561
+            ],
+            [
+              -74.1554649,
+              4.6543228
+            ],
+            [
+              -74.1556047,
+              4.6543288
+            ],
+            [
+              -74.1555943,
+              4.6545671
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/551339054",
+        "verified": false,
+        "osm_id": "way/551339054"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1619574,
+              4.6499748
+            ],
+            [
+              -74.1618816,
+              4.6498684
+            ],
+            [
+              -74.1618007,
+              4.6499255
+            ],
+            [
+              -74.1616788,
+              4.6500117
+            ],
+            [
+              -74.1617546,
+              4.6501182
+            ],
+            [
+              -74.1619574,
+              4.6499748
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de fútbol",
+        "deportes": "fútbol",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625599217",
+        "verified": false,
+        "osm_id": "way/625599217"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1577323,
+              4.6513056
+            ],
+            [
+              -74.1577149,
+              4.6510859
+            ],
+            [
+              -74.1575652,
+              4.6510982
+            ],
+            [
+              -74.1575933,
+              4.6513125
+            ],
+            [
+              -74.1577323,
+              4.6513056
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/642968775",
+        "verified": false,
+        "osm_id": "way/642968775"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1692745,
+              4.6447888
+            ],
+            [
+              -74.1691858,
+              4.6446783
+            ],
+            [
+              -74.1689498,
+              4.6448665
+            ],
+            [
+              -74.1690384,
+              4.6449769
+            ],
+            [
+              -74.1692745,
+              4.6447888
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/642968779",
+        "verified": false,
+        "osm_id": "way/642968779"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1674977,
+              4.6462267
+            ],
+            [
+              -74.1674185,
+              4.6461247
+            ],
+            [
+              -74.1676042,
+              4.6459816
+            ],
+            [
+              -74.1676834,
+              4.6460836
+            ],
+            [
+              -74.1674977,
+              4.6462267
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/642985913",
+        "verified": false,
+        "osm_id": "way/642985913"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.168173,
+              4.6432875
+            ],
+            [
+              -74.1680846,
+              4.6431781
+            ],
+            [
+              -74.1682872,
+              4.6430155
+            ],
+            [
+              -74.1683755,
+              4.6431249
+            ],
+            [
+              -74.168173,
+              4.6432875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": "fine_gravel",
+        "iluminacion": true,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/642985983",
+        "verified": false,
+        "osm_id": "way/642985983"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1604506,
+              4.6519862
+            ],
+            [
+              -74.1603114,
+              4.6519196
+            ],
+            [
+              -74.1604289,
+              4.6516757
+            ],
+            [
+              -74.1605681,
+              4.6517423
+            ],
+            [
+              -74.1604506,
+              4.6519862
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/642986035",
+        "verified": false,
+        "osm_id": "way/642986035"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1577898,
+              4.6438545
+            ],
+            [
+              -74.157685,
+              4.6437427
+            ],
+            [
+              -74.1578595,
+              4.6435802
+            ],
+            [
+              -74.1579644,
+              4.643692
+            ],
+            [
+              -74.1577898,
+              4.6438545
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/653311620",
+        "verified": false,
+        "osm_id": "way/653311620"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1672995,
+              4.6463803
+            ],
+            [
+              -74.1672188,
+              4.6462757
+            ],
+            [
+              -74.1674031,
+              4.6461344
+            ],
+            [
+              -74.1674838,
+              4.646239
+            ],
+            [
+              -74.1672995,
+              4.6463803
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/674136093",
+        "verified": false,
+        "osm_id": "way/674136093"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1556968,
+              4.6480365
+            ],
+            [
+              -74.1556915,
+              4.6478146
+            ],
+            [
+              -74.1555788,
+              4.6478173
+            ],
+            [
+              -74.1555895,
+              4.6480365
+            ],
+            [
+              -74.1556968,
+              4.6480365
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/674136095",
+        "verified": false,
+        "osm_id": "way/674136095"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1542835,
+              4.646751
+            ],
+            [
+              -74.1543937,
+              4.6465152
+            ],
+            [
+              -74.1542387,
+              4.6464432
+            ],
+            [
+              -74.1541285,
+              4.6466791
+            ],
+            [
+              -74.1542835,
+              4.646751
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de tenis",
+        "deportes": "tenis",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/749035481",
+        "verified": false,
+        "osm_id": "way/749035481"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1517284,
+              4.6500042
+            ],
+            [
+              -74.1517217,
+              4.6496807
+            ],
+            [
+              -74.1518771,
+              4.6496775
+            ],
+            [
+              -74.1518837,
+              4.650001
+            ],
+            [
+              -74.1517284,
+              4.6500042
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de tenis",
+        "deportes": "tenis",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/749035482",
+        "verified": false,
+        "osm_id": "way/749035482"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1518979,
+              4.6498839
+            ],
+            [
+              -74.1518945,
+              4.6495251
+            ],
+            [
+              -74.1520512,
+              4.6495237
+            ],
+            [
+              -74.1520545,
+              4.6498825
+            ],
+            [
+              -74.1518979,
+              4.6498839
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Pista de ciclismo",
+        "deportes": "ciclismo",
+        "superficie": "asfalto",
+        "iluminacion": true,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/962454334",
+        "verified": false,
+        "osm_id": "way/962454334"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1612478,
+              4.6521053
+            ],
+            [
+              -74.1611887,
+              4.6520695
+            ],
+            [
+              -74.1611203,
+              4.6520522
+            ],
+            [
+              -74.1610577,
+              4.6520582
+            ],
+            [
+              -74.1609975,
+              4.6520876
+            ],
+            [
+              -74.1607468,
+              4.6523321
+            ],
+            [
+              -74.1607283,
+              4.6523681
+            ],
+            [
+              -74.1607167,
+              4.6524087
+            ],
+            [
+              -74.1607118,
+              4.6524505
+            ],
+            [
+              -74.1607186,
+              4.6524923
+            ],
+            [
+              -74.1612711,
+              4.6533572
+            ],
+            [
+              -74.1613167,
+              4.653397
+            ],
+            [
+              -74.1613716,
+              4.6534205
+            ],
+            [
+              -74.1614324,
+              4.653423
+            ],
+            [
+              -74.1614908,
+              4.653407
+            ],
+            [
+              -74.1617865,
+              4.6532443
+            ],
+            [
+              -74.1618366,
+              4.6531905
+            ],
+            [
+              -74.1618563,
+              4.6531296
+            ],
+            [
+              -74.1618586,
+              4.6530583
+            ],
+            [
+              -74.1618328,
+              4.652987
+            ],
+            [
+              -74.1612478,
+              4.6521053
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Fundación REDEC",
+        "deportes": "fútbol",
+        "superficie": "césped sintético",
+        "iluminacion": true,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/962454338",
+        "verified": true,
+        "osm_id": "way/962454338"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1632809,
+              4.6496765
+            ],
+            [
+              -74.1627498,
+              4.64896
+            ],
+            [
+              -74.1624441,
+              4.6491899
+            ],
+            [
+              -74.1629483,
+              4.6498957
+            ],
+            [
+              -74.1632809,
+              4.6496765
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/962454344",
+        "verified": false,
+        "osm_id": "way/962454344"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1585059,
+              4.6551704
+            ],
+            [
+              -74.1585246,
+              4.6548946
+            ],
+            [
+              -74.1583642,
+              4.6548838
+            ],
+            [
+              -74.1583456,
+              4.6551596
+            ],
+            [
+              -74.1585059,
+              4.6551704
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/962454348",
+        "verified": false,
+        "osm_id": "way/962454348"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1444677,
+              4.6528445
+            ],
+            [
+              -74.1444571,
+              4.6526251
+            ],
+            [
+              -74.1443447,
+              4.6526305
+            ],
+            [
+              -74.1443553,
+              4.6528499
+            ],
+            [
+              -74.1444677,
+              4.6528445
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/962454349",
+        "verified": false,
+        "osm_id": "way/962454349"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1442983,
+              4.652725
+            ],
+            [
+              -74.1442671,
+              4.652471
+            ],
+            [
+              -74.1441493,
+              4.6524853
+            ],
+            [
+              -74.1441805,
+              4.6527394
+            ],
+            [
+              -74.1442983,
+              4.652725
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cancha de baloncesto",
+        "deportes": "baloncesto",
+        "superficie": null,
+        "iluminacion": null,
+        "horario": null,
+        "acceso": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/962454350",
+        "verified": false,
+        "osm_id": "way/962454350"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.144432,
+              4.6525699
+            ],
+            [
+              -74.1444228,
+              4.6523368
+            ],
+            [
+              -74.144316,
+              4.652341
+            ],
+            [
+              -74.1443252,
+              4.6525741
+            ],
+            [
+              -74.144432,
+              4.6525699
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

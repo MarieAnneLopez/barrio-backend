@@ -8,8 +8,10 @@ verificado; "IED" (Institución Educativa Distrital) se infiere público pero
 import re
 from typing import Any
 
-from etl.tintal_config import osm_url
+from etl.modules.common import Mapped, address, name_of, phone, tags_of, trace
 
+SLUG = "centros-educativos"
+GEOMETRY = "point"
 SELECTORS = ['nwr["amenity"~"^(school|kindergarten|college|university)$"]']
 OPERATOR_TYPE = {"public": "publico", "government": "publico", "private": "privado"}
 IED = re.compile(r"\bI\.?\s?E\.?\s?D\.?\b", re.IGNORECASE)
@@ -32,26 +34,19 @@ def _caracter(tags: dict[str, str], name: str) -> tuple[str | None, bool]:
     return None, False
 
 
-def map_school(element: dict[str, Any]) -> tuple[dict[str, Any] | None, str | None]:
-    """Feature GeoJSON listo para la semilla, o (None, motivo de la omisión)."""
-    tags = element.get("tags") or {}
-    name = (tags.get("name") or "").strip()
+def map_element(element: dict[str, Any]) -> Mapped:
+    tags = tags_of(element)
+    name = name_of(tags)
     if not name:
         return None, "sin nombre"
     caracter, verified = _caracter(tags, name)
     if caracter is None:
         return None, "carácter público/privado desconocido"
-    center = element.get("center") or {"lat": element.get("lat"), "lon": element.get("lon")}
-    street = " ".join(p for p in (tags.get("addr:street"), tags.get("addr:housenumber")) if p)
-    properties = {
+    return {
         "nombre": name,
         "tipo": _tipo(tags.get("amenity", ""), name),
         "caracter": caracter,
-        "direccion": street or None,
-        "telefono": tags.get("phone") or tags.get("contact:phone"),
-        "source_type": "osm",
-        "source_ref": osm_url(element["type"], element["id"]),
-        "verified": verified,
-    }
-    geometry = {"type": "Point", "coordinates": [center["lon"], center["lat"]]}
-    return {"type": "Feature", "properties": properties, "geometry": geometry}, None
+        "direccion": address(tags),
+        "telefono": phone(tags),
+        **trace(element, verified),
+    }, None

@@ -1,0 +1,114 @@
+{
+  "type": "FeatureCollection",
+  "name": "sitios-comida",
+  "license": "© OpenStreetMap contributors, ODbL 1.0",
+  "skipped": [
+    {
+      "osm_id": "node/3264384253",
+      "name": null,
+      "reason": "sin nombre"
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Panadería Natys",
+        "especialidad": "Café",
+        "direccion": null,
+        "horario": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/1940810948",
+        "verified": true,
+        "osm_id": "node/1940810948"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1657269,
+          4.6448735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Panadería",
+        "especialidad": "Café",
+        "direccion": null,
+        "horario": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/3097364524",
+        "verified": true,
+        "osm_id": "node/3097364524"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1640535,
+          4.6461646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Donde Maria",
+        "especialidad": "Restaurante",
+        "direccion": null,
+        "horario": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/4128362085",
+        "verified": true,
+        "osm_id": "node/4128362085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1470149,
+          4.6495391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Restaurante y Bar Los Amigos",
+        "especialidad": "Restaurante",
+        "direccion": null,
+        "horario": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/4128369947",
+        "verified": true,
+        "osm_id": "node/4128369947"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.146796,
+          4.6496691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Mc Donalds",
+        "especialidad": "Comida rápida",
+        "direccion": null,
+        "horario": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/484155719",
+        "verified": true,
+        "osm_id": "way/484155719"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1561364,
+          4.6432677
+        ]
+      }
+    }
+  ]
+}

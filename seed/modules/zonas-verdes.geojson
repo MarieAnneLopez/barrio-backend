@@ -1,0 +1,3285 @@
+{
+  "type": "FeatureCollection",
+  "name": "zonas-verdes",
+  "license": "© OpenStreetMap contributors, ODbL 1.0",
+  "skipped": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/relation/14577696",
+        "verified": false,
+        "area_m2": 30128.8,
+        "osm_id": "relation/14577696"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.151372,
+              4.6484638
+            ],
+            [
+              -74.1506093,
+              4.6476348
+            ],
+            [
+              -74.1497794,
+              4.6468235
+            ],
+            [
+              -74.1506182,
+              4.6460404
+            ],
+            [
+              -74.1520728,
+              4.6476842
+            ],
+            [
+              -74.1520374,
+              4.6478253
+            ],
+            [
+              -74.151372,
+              4.6484638
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/1149180144",
+        "verified": false,
+        "area_m2": 2910.2,
+        "osm_id": "way/1149180144"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1703302,
+              4.6517245
+            ],
+            [
+              -74.1700915,
+              4.6517306
+            ],
+            [
+              -74.1701279,
+              4.6522537
+            ],
+            [
+              -74.1708059,
+              4.6522067
+            ],
+            [
+              -74.1703302,
+              4.6517245
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/168163501",
+        "verified": false,
+        "area_m2": 7513.3,
+        "osm_id": "way/168163501"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1581183,
+              4.64799
+            ],
+            [
+              -74.1588408,
+              4.6488639
+            ],
+            [
+              -74.1584392,
+              4.6492247
+            ],
+            [
+              -74.1577098,
+              4.6483287
+            ],
+            [
+              -74.1581183,
+              4.64799
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/168300813",
+        "verified": false,
+        "area_m2": 9674.9,
+        "osm_id": "way/168300813"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1595247,
+              4.6497054
+            ],
+            [
+              -74.1593526,
+              4.6498
+            ],
+            [
+              -74.1592403,
+              4.6498593
+            ],
+            [
+              -74.1586863,
+              4.6501297
+            ],
+            [
+              -74.1586397,
+              4.6501525
+            ],
+            [
+              -74.1582593,
+              4.6495269
+            ],
+            [
+              -74.1583027,
+              4.6494912
+            ],
+            [
+              -74.1587211,
+              4.649147
+            ],
+            [
+              -74.1588282,
+              4.6490658
+            ],
+            [
+              -74.1589616,
+              4.6489648
+            ],
+            [
+              -74.1595247,
+              4.6497054
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/168301322",
+        "verified": false,
+        "area_m2": 3850.2,
+        "osm_id": "way/168301322"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1603549,
+              4.6508695
+            ],
+            [
+              -74.1605317,
+              4.6512457
+            ],
+            [
+              -74.1598821,
+              4.651576
+            ],
+            [
+              -74.1596862,
+              4.6511817
+            ],
+            [
+              -74.1603549,
+              4.6508695
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/168301324",
+        "verified": false,
+        "area_m2": 5982.9,
+        "osm_id": "way/168301324"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.160068,
+              4.6508443
+            ],
+            [
+              -74.1596711,
+              4.6510418
+            ],
+            [
+              -74.1591785,
+              4.6500585
+            ],
+            [
+              -74.1595755,
+              4.649861
+            ],
+            [
+              -74.15996,
+              4.6506286
+            ],
+            [
+              -74.160068,
+              4.6508443
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/168309676",
+        "verified": false,
+        "area_m2": 4539.0,
+        "osm_id": "way/168309676"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1608326,
+              4.6518622
+            ],
+            [
+              -74.1602037,
+              4.6521918
+            ],
+            [
+              -74.1599594,
+              4.6517255
+            ],
+            [
+              -74.1606222,
+              4.65141
+            ],
+            [
+              -74.1608326,
+              4.6518622
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque Nueva Castilla",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/168309686",
+        "verified": true,
+        "area_m2": 12070.2,
+        "osm_id": "way/168309686"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1523183,
+              4.6497861
+            ],
+            [
+              -74.151715,
+              4.6502851
+            ],
+            [
+              -74.1510491,
+              4.6508282
+            ],
+            [
+              -74.1506714,
+              4.650294
+            ],
+            [
+              -74.1513161,
+              4.6498371
+            ],
+            [
+              -74.1520018,
+              4.649337
+            ],
+            [
+              -74.1523183,
+              4.6497861
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/168309703",
+        "verified": false,
+        "area_m2": 7689.7,
+        "osm_id": "way/168309703"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.157181,
+              4.6501756
+            ],
+            [
+              -74.1569397,
+              4.6503817
+            ],
+            [
+              -74.1573455,
+              4.651004
+            ],
+            [
+              -74.1575674,
+              4.651344
+            ],
+            [
+              -74.157754,
+              4.6516301
+            ],
+            [
+              -74.1581297,
+              4.6522467
+            ],
+            [
+              -74.1583237,
+              4.6520471
+            ],
+            [
+              -74.1581472,
+              4.651758
+            ],
+            [
+              -74.1577275,
+              4.6510707
+            ],
+            [
+              -74.157457,
+              4.6506276
+            ],
+            [
+              -74.157181,
+              4.6501756
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/168309707",
+        "verified": false,
+        "area_m2": 13355.5,
+        "osm_id": "way/168309707"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.155891,
+              4.6480566
+            ],
+            [
+              -74.1557176,
+              4.6482081
+            ],
+            [
+              -74.1557007,
+              4.6482229
+            ],
+            [
+              -74.1555802,
+              4.6480573
+            ],
+            [
+              -74.1555248,
+              4.6479811
+            ],
+            [
+              -74.1551372,
+              4.6474484
+            ],
+            [
+              -74.1548593,
+              4.6470665
+            ],
+            [
+              -74.1547305,
+              4.6469998
+            ],
+            [
+              -74.1537598,
+              4.6465593
+            ],
+            [
+              -74.1538257,
+              4.6465235
+            ],
+            [
+              -74.1542913,
+              4.6462708
+            ],
+            [
+              -74.1545953,
+              4.6459993
+            ],
+            [
+              -74.1547121,
+              4.6462029
+            ],
+            [
+              -74.1551524,
+              4.6468802
+            ],
+            [
+              -74.1551796,
+              4.6469042
+            ],
+            [
+              -74.1552003,
+              4.6469339
+            ],
+            [
+              -74.1552133,
+              4.6469676
+            ],
+            [
+              -74.155891,
+              4.6480566
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/168310653",
+        "verified": false,
+        "area_m2": 3789.1,
+        "osm_id": "way/168310653"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1562729,
+              4.6513839
+            ],
+            [
+              -74.1555364,
+              4.6518708
+            ],
+            [
+              -74.1552346,
+              4.6514115
+            ],
+            [
+              -74.1562117,
+              4.651258
+            ],
+            [
+              -74.1562729,
+              4.6513839
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque Primavera",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/305158643",
+        "verified": true,
+        "area_m2": 14667.4,
+        "osm_id": "way/305158643"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1647741,
+              4.647035
+            ],
+            [
+              -74.1643879,
+              4.6465212
+            ],
+            [
+              -74.1640678,
+              4.6468646
+            ],
+            [
+              -74.163695,
+              4.6464575
+            ],
+            [
+              -74.1640492,
+              4.6461001
+            ],
+            [
+              -74.1636389,
+              4.6455734
+            ],
+            [
+              -74.1630166,
+              4.6461591
+            ],
+            [
+              -74.1636897,
+              4.6468773
+            ],
+            [
+              -74.164266,
+              4.6475689
+            ],
+            [
+              -74.1647741,
+              4.647035
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/319611482",
+        "verified": false,
+        "area_m2": 8692.8,
+        "osm_id": "way/319611482"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1461131,
+              4.6528065
+            ],
+            [
+              -74.1461992,
+              4.6527602
+            ],
+            [
+              -74.1470694,
+              4.6518344
+            ],
+            [
+              -74.1471381,
+              4.6517589
+            ],
+            [
+              -74.1471737,
+              4.651669
+            ],
+            [
+              -74.1471732,
+              4.6515864
+            ],
+            [
+              -74.1471509,
+              4.6515039
+            ],
+            [
+              -74.1465209,
+              4.6508787
+            ],
+            [
+              -74.1464723,
+              4.6509292
+            ],
+            [
+              -74.1469482,
+              4.6514214
+            ],
+            [
+              -74.1457676,
+              4.6526432
+            ],
+            [
+              -74.1458951,
+              4.652762
+            ],
+            [
+              -74.1459605,
+              4.6527988
+            ],
+            [
+              -74.146026,
+              4.652814
+            ],
+            [
+              -74.1461131,
+              4.6528065
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque Tierra Buena",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/319875609",
+        "verified": true,
+        "area_m2": 11678.0,
+        "osm_id": "way/319875609"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1732872,
+              4.6523692
+            ],
+            [
+              -74.1729391,
+              4.6519117
+            ],
+            [
+              -74.1726896,
+              4.6516229
+            ],
+            [
+              -74.1724599,
+              4.6513822
+            ],
+            [
+              -74.1729073,
+              4.650987
+            ],
+            [
+              -74.1729473,
+              4.6509725
+            ],
+            [
+              -74.1729874,
+              4.6509789
+            ],
+            [
+              -74.173025,
+              4.6509912
+            ],
+            [
+              -74.1730604,
+              4.6510267
+            ],
+            [
+              -74.1736514,
+              4.6518111
+            ],
+            [
+              -74.1736764,
+              4.6518402
+            ],
+            [
+              -74.1737062,
+              4.651861
+            ],
+            [
+              -74.1737527,
+              4.6518624
+            ],
+            [
+              -74.1737908,
+              4.651855
+            ],
+            [
+              -74.1738329,
+              4.651833
+            ],
+            [
+              -74.1740431,
+              4.652101
+            ],
+            [
+              -74.1732872,
+              4.6523692
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque Condominios de Tierra Buena",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/319890307",
+        "verified": true,
+        "area_m2": 8510.0,
+        "osm_id": "way/319890307"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1716375,
+              4.6496429
+            ],
+            [
+              -74.1717837,
+              4.6495306
+            ],
+            [
+              -74.1710865,
+              4.6486092
+            ],
+            [
+              -74.1703567,
+              4.6476278
+            ],
+            [
+              -74.170095,
+              4.6478481
+            ],
+            [
+              -74.1700815,
+              4.64787
+            ],
+            [
+              -74.1700762,
+              4.6478935
+            ],
+            [
+              -74.1700782,
+              4.6479144
+            ],
+            [
+              -74.1700867,
+              4.6479353
+            ],
+            [
+              -74.1716375,
+              4.6496429
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/319944281",
+        "verified": false,
+        "area_m2": 13143.3,
+        "osm_id": "way/319944281"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1625704,
+              4.65025
+            ],
+            [
+              -74.1620399,
+              4.6494491
+            ],
+            [
+              -74.1627525,
+              4.6488884
+            ],
+            [
+              -74.1635754,
+              4.6497701
+            ],
+            [
+              -74.1632153,
+              4.6499353
+            ],
+            [
+              -74.1625704,
+              4.65025
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/371839133",
+        "verified": false,
+        "area_m2": 4120.3,
+        "osm_id": "way/371839133"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.169965,
+              4.6443124
+            ],
+            [
+              -74.1688959,
+              4.6451679
+            ],
+            [
+              -74.168742,
+              4.6449768
+            ],
+            [
+              -74.1698112,
+              4.6441215
+            ],
+            [
+              -74.169965,
+              4.6443124
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/411098180",
+        "verified": false,
+        "area_m2": 6208.6,
+        "osm_id": "way/411098180"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1486045,
+              4.6509003
+            ],
+            [
+              -74.1482918,
+              4.6506176
+            ],
+            [
+              -74.1474513,
+              4.6514732
+            ],
+            [
+              -74.1476005,
+              4.6516349
+            ],
+            [
+              -74.1476333,
+              4.6516622
+            ],
+            [
+              -74.1476721,
+              4.6516834
+            ],
+            [
+              -74.1477109,
+              4.6516924
+            ],
+            [
+              -74.1477498,
+              4.6516954
+            ],
+            [
+              -74.1477959,
+              4.6516852
+            ],
+            [
+              -74.1478339,
+              4.6516709
+            ],
+            [
+              -74.1478668,
+              4.6516515
+            ],
+            [
+              -74.1478976,
+              4.6516261
+            ],
+            [
+              -74.1486045,
+              4.6509003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/411099311",
+        "verified": false,
+        "area_m2": 6920.3,
+        "osm_id": "way/411099311"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1498232,
+              4.6520302
+            ],
+            [
+              -74.1495038,
+              4.6517247
+            ],
+            [
+              -74.1492804,
+              4.6519568
+            ],
+            [
+              -74.1486295,
+              4.6526328
+            ],
+            [
+              -74.1489506,
+              4.652949
+            ],
+            [
+              -74.1498232,
+              4.6520302
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Pista de Patinaje Ciudad Tintal",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/498450725",
+        "verified": true,
+        "area_m2": 18192.7,
+        "osm_id": "way/498450725"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1620265,
+              4.653193
+            ],
+            [
+              -74.161217,
+              4.6536649
+            ],
+            [
+              -74.1604582,
+              4.6524422
+            ],
+            [
+              -74.1606848,
+              4.6521844
+            ],
+            [
+              -74.1609318,
+              4.6519519
+            ],
+            [
+              -74.1611747,
+              4.6517869
+            ],
+            [
+              -74.1616006,
+              4.6524899
+            ],
+            [
+              -74.1620265,
+              4.653193
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/49885986",
+        "verified": false,
+        "area_m2": 6400.1,
+        "osm_id": "way/49885986"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1579643,
+              4.6476299
+            ],
+            [
+              -74.1572654,
+              4.6467574
+            ],
+            [
+              -74.1569002,
+              4.6470481
+            ],
+            [
+              -74.1570837,
+              4.647277
+            ],
+            [
+              -74.1575993,
+              4.6479204
+            ],
+            [
+              -74.1579643,
+              4.6476299
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/50343152",
+        "verified": false,
+        "area_m2": 19897.9,
+        "osm_id": "way/50343152"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.159135,
+              4.6551969
+            ],
+            [
+              -74.1584144,
+              4.6556364
+            ],
+            [
+              -74.1579818,
+              4.6559068
+            ],
+            [
+              -74.1570555,
+              4.6564121
+            ],
+            [
+              -74.1568595,
+              4.6561579
+            ],
+            [
+              -74.1585831,
+              4.6543724
+            ],
+            [
+              -74.159135,
+              4.6551969
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/51337760",
+        "verified": false,
+        "area_m2": 4406.7,
+        "osm_id": "way/51337760"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1574252,
+              4.6464576
+            ],
+            [
+              -74.1572378,
+              4.6462595
+            ],
+            [
+              -74.1568155,
+              4.6465334
+            ],
+            [
+              -74.1563448,
+              4.6468387
+            ],
+            [
+              -74.1565482,
+              4.6471676
+            ],
+            [
+              -74.1574252,
+              4.6464576
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque Ciudad Tintal II",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/529285265",
+        "verified": true,
+        "area_m2": 6425.4,
+        "osm_id": "way/529285265"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1637178,
+              4.6513772
+            ],
+            [
+              -74.163287,
+              4.6506906
+            ],
+            [
+              -74.1629897,
+              4.6508683
+            ],
+            [
+              -74.1633586,
+              4.6514625
+            ],
+            [
+              -74.163774,
+              4.6521375
+            ],
+            [
+              -74.164079,
+              4.651951
+            ],
+            [
+              -74.1639922,
+              4.6518101
+            ],
+            [
+              -74.1639008,
+              4.6516644
+            ],
+            [
+              -74.1638063,
+              4.651516
+            ],
+            [
+              -74.1637178,
+              4.6513772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/529305278",
+        "verified": false,
+        "area_m2": 14426.6,
+        "osm_id": "way/529305278"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1646114,
+              4.6536623
+            ],
+            [
+              -74.1638592,
+              4.6523742
+            ],
+            [
+              -74.1647408,
+              4.6518173
+            ],
+            [
+              -74.1647942,
+              4.6518221
+            ],
+            [
+              -74.164832,
+              4.651805
+            ],
+            [
+              -74.1648741,
+              4.6517623
+            ],
+            [
+              -74.1648776,
+              4.6517211
+            ],
+            [
+              -74.1648776,
+              4.6516837
+            ],
+            [
+              -74.1648642,
+              4.6516569
+            ],
+            [
+              -74.1649769,
+              4.6515847
+            ],
+            [
+              -74.165035,
+              4.6521891
+            ],
+            [
+              -74.164886,
+              4.6528517
+            ],
+            [
+              -74.1646114,
+              4.6536623
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/543168186",
+        "verified": false,
+        "area_m2": 3152.9,
+        "osm_id": "way/543168186"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1526161,
+              4.6506843
+            ],
+            [
+              -74.1525836,
+              4.6507353
+            ],
+            [
+              -74.1525353,
+              4.6507757
+            ],
+            [
+              -74.1529886,
+              4.6514098
+            ],
+            [
+              -74.153418,
+              4.6511121
+            ],
+            [
+              -74.1526161,
+              4.6506843
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625569894",
+        "verified": false,
+        "area_m2": 10583.7,
+        "osm_id": "way/625569894"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1491771,
+              4.6505601
+            ],
+            [
+              -74.1494249,
+              4.650297
+            ],
+            [
+              -74.1482859,
+              4.6492125
+            ],
+            [
+              -74.147752,
+              4.6487586
+            ],
+            [
+              -74.1475602,
+              4.6490144
+            ],
+            [
+              -74.1475739,
+              4.6490757
+            ],
+            [
+              -74.1475989,
+              4.6491324
+            ],
+            [
+              -74.1491771,
+              4.6505601
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625590886",
+        "verified": false,
+        "area_m2": 3792.2,
+        "osm_id": "way/625590886"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1507138,
+              4.6518066
+            ],
+            [
+              -74.1505411,
+              4.6519129
+            ],
+            [
+              -74.1492832,
+              4.6507793
+            ],
+            [
+              -74.1493947,
+              4.6506576
+            ],
+            [
+              -74.1500088,
+              4.6511925
+            ],
+            [
+              -74.1507138,
+              4.6518066
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625590887",
+        "verified": false,
+        "area_m2": 3453.3,
+        "osm_id": "way/625590887"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1527367,
+              4.6500855
+            ],
+            [
+              -74.1536052,
+              4.6498978
+            ],
+            [
+              -74.1532941,
+              4.6494594
+            ],
+            [
+              -74.1526723,
+              4.6499358
+            ],
+            [
+              -74.1527367,
+              4.6500855
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625599219",
+        "verified": false,
+        "area_m2": 7034.4,
+        "osm_id": "way/625599219"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1558521,
+              4.6545866
+            ],
+            [
+              -74.1550238,
+              4.6534423
+            ],
+            [
+              -74.1546979,
+              4.6536777
+            ],
+            [
+              -74.1555661,
+              4.6548628
+            ],
+            [
+              -74.1558521,
+              4.6545866
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625599220",
+        "verified": false,
+        "area_m2": 4648.0,
+        "osm_id": "way/625599220"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.154645,
+              4.6558265
+            ],
+            [
+              -74.1540907,
+              4.6551517
+            ],
+            [
+              -74.1539128,
+              4.6549486
+            ],
+            [
+              -74.1534893,
+              4.6545515
+            ],
+            [
+              -74.1533218,
+              4.6546969
+            ],
+            [
+              -74.1545138,
+              4.6559318
+            ],
+            [
+              -74.154645,
+              4.6558265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625599221",
+        "verified": false,
+        "area_m2": 3095.7,
+        "osm_id": "way/625599221"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1533621,
+              4.6544523
+            ],
+            [
+              -74.1529848,
+              4.6540423
+            ],
+            [
+              -74.1525229,
+              4.6535402
+            ],
+            [
+              -74.152371,
+              4.6536497
+            ],
+            [
+              -74.1531823,
+              4.6545834
+            ],
+            [
+              -74.1533621,
+              4.6544523
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625599222",
+        "verified": false,
+        "area_m2": 2110.2,
+        "osm_id": "way/625599222"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1514845,
+              4.652498
+            ],
+            [
+              -74.1513244,
+              4.6526241
+            ],
+            [
+              -74.1507378,
+              4.6521101
+            ],
+            [
+              -74.1507255,
+              4.6520879
+            ],
+            [
+              -74.1507206,
+              4.652067
+            ],
+            [
+              -74.1507237,
+              4.652046
+            ],
+            [
+              -74.1507305,
+              4.6520275
+            ],
+            [
+              -74.1508533,
+              4.651935
+            ],
+            [
+              -74.1514845,
+              4.652498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625599223",
+        "verified": false,
+        "area_m2": 1992.5,
+        "osm_id": "way/625599223"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1523865,
+              4.6533882
+            ],
+            [
+              -74.1517956,
+              4.6528334
+            ],
+            [
+              -74.1516379,
+              4.6529441
+            ],
+            [
+              -74.1522041,
+              4.6535096
+            ],
+            [
+              -74.1523865,
+              4.6533882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625601706",
+        "verified": false,
+        "area_m2": 3498.6,
+        "osm_id": "way/625601706"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1539299,
+              4.6496748
+            ],
+            [
+              -74.1536027,
+              4.6492323
+            ],
+            [
+              -74.1536676,
+              4.6491883
+            ],
+            [
+              -74.154364,
+              4.6487865
+            ],
+            [
+              -74.1544317,
+              4.6488391
+            ],
+            [
+              -74.1539299,
+              4.6496748
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625601708",
+        "verified": false,
+        "area_m2": 3673.6,
+        "osm_id": "way/625601708"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.154701,
+              4.6534637
+            ],
+            [
+              -74.1543401,
+              4.6530196
+            ],
+            [
+              -74.1539634,
+              4.6525561
+            ],
+            [
+              -74.1542454,
+              4.6526043
+            ],
+            [
+              -74.1543425,
+              4.6526218
+            ],
+            [
+              -74.1544442,
+              4.6526645
+            ],
+            [
+              -74.1549353,
+              4.6532869
+            ],
+            [
+              -74.154701,
+              4.6534637
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625601709",
+        "verified": false,
+        "area_m2": 3382.5,
+        "osm_id": "way/625601709"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1546199,
+              4.6525882
+            ],
+            [
+              -74.1552763,
+              4.6520896
+            ],
+            [
+              -74.1549453,
+              4.6516856
+            ],
+            [
+              -74.15452,
+              4.652493
+            ],
+            [
+              -74.1546199,
+              4.6525882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/625601710",
+        "verified": false,
+        "area_m2": 3879.3,
+        "osm_id": "way/625601710"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1539063,
+              4.6523517
+            ],
+            [
+              -74.1536843,
+              4.651455
+            ],
+            [
+              -74.1532331,
+              4.6517795
+            ],
+            [
+              -74.1537117,
+              4.6524176
+            ],
+            [
+              -74.1539063,
+              4.6523517
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/642924755",
+        "verified": false,
+        "area_m2": 18930.9,
+        "osm_id": "way/642924755"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1647501,
+              4.6494639
+            ],
+            [
+              -74.1645452,
+              4.6492581
+            ],
+            [
+              -74.1642664,
+              4.6494667
+            ],
+            [
+              -74.1642589,
+              4.6494261
+            ],
+            [
+              -74.1642408,
+              4.6493925
+            ],
+            [
+              -74.1641728,
+              4.6493041
+            ],
+            [
+              -74.1646446,
+              4.6490241
+            ],
+            [
+              -74.1650696,
+              4.6488544
+            ],
+            [
+              -74.1659135,
+              4.6484678
+            ],
+            [
+              -74.1660855,
+              4.648381
+            ],
+            [
+              -74.166862,
+              4.6480401
+            ],
+            [
+              -74.1669372,
+              4.648003
+            ],
+            [
+              -74.1675648,
+              4.6477012
+            ],
+            [
+              -74.1676086,
+              4.6477599
+            ],
+            [
+              -74.1676461,
+              4.6478102
+            ],
+            [
+              -74.1678525,
+              4.6480857
+            ],
+            [
+              -74.1668773,
+              4.6485632
+            ],
+            [
+              -74.1664968,
+              4.6487306
+            ],
+            [
+              -74.1663397,
+              4.6487659
+            ],
+            [
+              -74.1661579,
+              4.6487874
+            ],
+            [
+              -74.1660809,
+              4.6487935
+            ],
+            [
+              -74.1655263,
+              4.649073
+            ],
+            [
+              -74.165078,
+              4.6492803
+            ],
+            [
+              -74.1647501,
+              4.6494639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/642985912",
+        "verified": false,
+        "area_m2": 5374.8,
+        "osm_id": "way/642985912"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1689116,
+              4.6428163
+            ],
+            [
+              -74.1687531,
+              4.6426054
+            ],
+            [
+              -74.1673855,
+              4.6436947
+            ],
+            [
+              -74.1675324,
+              4.6438821
+            ],
+            [
+              -74.1689116,
+              4.6428163
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/642985916",
+        "verified": false,
+        "area_m2": 1475.3,
+        "osm_id": "way/642985916"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1655586,
+              4.6447035
+            ],
+            [
+              -74.1652598,
+              4.6443081
+            ],
+            [
+              -74.1656478,
+              4.6440167
+            ],
+            [
+              -74.1655586,
+              4.6447035
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/651770908",
+        "verified": false,
+        "area_m2": 1968.7,
+        "osm_id": "way/651770908"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1709094,
+              4.6470202
+            ],
+            [
+              -74.171431,
+              4.6466001
+            ],
+            [
+              -74.1713401,
+              4.6464881
+            ],
+            [
+              -74.1706938,
+              4.6467658
+            ],
+            [
+              -74.1709094,
+              4.6470202
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/651770912",
+        "verified": false,
+        "area_m2": 7757.4,
+        "osm_id": "way/651770912"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1638095,
+              4.6499076
+            ],
+            [
+              -74.1639643,
+              4.6498195
+            ],
+            [
+              -74.1640032,
+              4.6497595
+            ],
+            [
+              -74.1640174,
+              4.6496854
+            ],
+            [
+              -74.1640227,
+              4.6496484
+            ],
+            [
+              -74.1640227,
+              4.6496008
+            ],
+            [
+              -74.1641749,
+              4.6494861
+            ],
+            [
+              -74.164093,
+              4.6493606
+            ],
+            [
+              -74.1637264,
+              4.649679
+            ],
+            [
+              -74.1635754,
+              4.6497701
+            ],
+            [
+              -74.1632153,
+              4.6499353
+            ],
+            [
+              -74.1625704,
+              4.65025
+            ],
+            [
+              -74.1624404,
+              4.6503119
+            ],
+            [
+              -74.1615958,
+              4.6507031
+            ],
+            [
+              -74.161749,
+              4.6509036
+            ],
+            [
+              -74.162571,
+              4.6504969
+            ],
+            [
+              -74.162738,
+              4.6504087
+            ],
+            [
+              -74.1638095,
+              4.6499076
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/651770913",
+        "verified": false,
+        "area_m2": 6019.7,
+        "osm_id": "way/651770913"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1615419,
+              4.6509341
+            ],
+            [
+              -74.1614245,
+              4.6507865
+            ],
+            [
+              -74.1605317,
+              4.6512457
+            ],
+            [
+              -74.1598821,
+              4.651576
+            ],
+            [
+              -74.1589748,
+              4.6520365
+            ],
+            [
+              -74.1590742,
+              4.6521778
+            ],
+            [
+              -74.1599594,
+              4.6517255
+            ],
+            [
+              -74.1606222,
+              4.65141
+            ],
+            [
+              -74.1615419,
+              4.6509341
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/653299191",
+        "verified": false,
+        "area_m2": 3082.5,
+        "osm_id": "way/653299191"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1697257,
+              4.649983
+            ],
+            [
+              -74.1698797,
+              4.6498409
+            ],
+            [
+              -74.1699145,
+              4.6498783
+            ],
+            [
+              -74.1703316,
+              4.6494933
+            ],
+            [
+              -74.1701141,
+              4.6492475
+            ],
+            [
+              -74.1695323,
+              4.6497604
+            ],
+            [
+              -74.1697257,
+              4.649983
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/653299192",
+        "verified": false,
+        "area_m2": 2721.6,
+        "osm_id": "way/653299192"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1709667,
+              4.6513527
+            ],
+            [
+              -74.1715441,
+              4.6519965
+            ],
+            [
+              -74.1715942,
+              4.6519465
+            ],
+            [
+              -74.1712065,
+              4.6515078
+            ],
+            [
+              -74.1716161,
+              4.651139
+            ],
+            [
+              -74.1715215,
+              4.6510281
+            ],
+            [
+              -74.1714243,
+              4.6509169
+            ],
+            [
+              -74.1709667,
+              4.6513527
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/653304765",
+        "verified": false,
+        "area_m2": 2971.5,
+        "osm_id": "way/653304765"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1668741,
+              4.642509
+            ],
+            [
+              -74.1671468,
+              4.6422907
+            ],
+            [
+              -74.1671767,
+              4.6422668
+            ],
+            [
+              -74.1668952,
+              4.6419173
+            ],
+            [
+              -74.1667623,
+              4.6417522
+            ],
+            [
+              -74.1667341,
+              4.6417748
+            ],
+            [
+              -74.1666585,
+              4.6418353
+            ],
+            [
+              -74.1666927,
+              4.6418778
+            ],
+            [
+              -74.1665109,
+              4.6420232
+            ],
+            [
+              -74.1664939,
+              4.6420369
+            ],
+            [
+              -74.1668507,
+              4.6424799
+            ],
+            [
+              -74.1668741,
+              4.642509
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/653304782",
+        "verified": false,
+        "area_m2": 1019.3,
+        "osm_id": "way/653304782"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.16607,
+              4.6423726
+            ],
+            [
+              -74.1665617,
+              4.6429994
+            ],
+            [
+              -74.1664805,
+              4.6430627
+            ],
+            [
+              -74.1659867,
+              4.6424375
+            ],
+            [
+              -74.16607,
+              4.6423726
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/653310508",
+        "verified": false,
+        "area_m2": 3426.8,
+        "osm_id": "way/653310508"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.170488,
+              4.6466824
+            ],
+            [
+              -74.1702739,
+              4.6467609
+            ],
+            [
+              -74.1699056,
+              4.6463043
+            ],
+            [
+              -74.1697551,
+              4.6464266
+            ],
+            [
+              -74.169386,
+              4.6467265
+            ],
+            [
+              -74.1693598,
+              4.6466942
+            ],
+            [
+              -74.1693261,
+              4.6466525
+            ],
+            [
+              -74.1697487,
+              4.6462994
+            ],
+            [
+              -74.1698655,
+              4.6462018
+            ],
+            [
+              -74.169996,
+              4.6460928
+            ],
+            [
+              -74.1700976,
+              4.6460079
+            ],
+            [
+              -74.1701131,
+              4.6460265
+            ],
+            [
+              -74.1705321,
+              4.6457003
+            ],
+            [
+              -74.1705785,
+              4.6457575
+            ],
+            [
+              -74.1702147,
+              4.6460531
+            ],
+            [
+              -74.1701675,
+              4.6460915
+            ],
+            [
+              -74.170073,
+              4.6461683
+            ],
+            [
+              -74.170488,
+              4.6466824
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/653310658",
+        "verified": false,
+        "area_m2": 10754.7,
+        "osm_id": "way/653310658"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.168093,
+              4.6443207
+            ],
+            [
+              -74.1693422,
+              4.6458621
+            ],
+            [
+              -74.1690221,
+              4.6461199
+            ],
+            [
+              -74.1677726,
+              4.6445786
+            ],
+            [
+              -74.1677535,
+              4.6445476
+            ],
+            [
+              -74.1677442,
+              4.6445134
+            ],
+            [
+              -74.1677391,
+              4.6444751
+            ],
+            [
+              -74.167742,
+              4.6444369
+            ],
+            [
+              -74.1677482,
+              4.6443916
+            ],
+            [
+              -74.1677641,
+              4.6443511
+            ],
+            [
+              -74.1677884,
+              4.644321
+            ],
+            [
+              -74.167816,
+              4.6443007
+            ],
+            [
+              -74.1678493,
+              4.6442781
+            ],
+            [
+              -74.1678825,
+              4.6442619
+            ],
+            [
+              -74.1679213,
+              4.6442553
+            ],
+            [
+              -74.1679626,
+              4.6442526
+            ],
+            [
+              -74.1680001,
+              4.6442606
+            ],
+            [
+              -74.1680368,
+              4.644271
+            ],
+            [
+              -74.1680665,
+              4.6442918
+            ],
+            [
+              -74.168093,
+              4.6443207
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/653311621",
+        "verified": false,
+        "area_m2": 4509.2,
+        "osm_id": "way/653311621"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1684694,
+              4.6455409
+            ],
+            [
+              -74.1683391,
+              4.6453729
+            ],
+            [
+              -74.1669705,
+              4.6464264
+            ],
+            [
+              -74.167101,
+              4.6465947
+            ],
+            [
+              -74.1684694,
+              4.6455409
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/653312152",
+        "verified": false,
+        "area_m2": 8099.8,
+        "osm_id": "way/653312152"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1678168,
+              4.6478552
+            ],
+            [
+              -74.1677626,
+              4.6477743
+            ],
+            [
+              -74.1677343,
+              4.6477292
+            ],
+            [
+              -74.1677144,
+              4.6476842
+            ],
+            [
+              -74.1677374,
+              4.6476916
+            ],
+            [
+              -74.1677579,
+              4.6476901
+            ],
+            [
+              -74.1684582,
+              4.6474553
+            ],
+            [
+              -74.1694109,
+              4.6470784
+            ],
+            [
+              -74.1696112,
+              4.6470044
+            ],
+            [
+              -74.1700735,
+              4.6468363
+            ],
+            [
+              -74.1702739,
+              4.6467609
+            ],
+            [
+              -74.170488,
+              4.6466824
+            ],
+            [
+              -74.1706546,
+              4.646614
+            ],
+            [
+              -74.171117,
+              4.6464216
+            ],
+            [
+              -74.171329,
+              4.646328
+            ],
+            [
+              -74.1715098,
+              4.6462445
+            ],
+            [
+              -74.1716005,
+              4.6463746
+            ],
+            [
+              -74.1713401,
+              4.6464881
+            ],
+            [
+              -74.1706938,
+              4.6467658
+            ],
+            [
+              -74.1701582,
+              4.6469757
+            ],
+            [
+              -74.1695689,
+              4.6471968
+            ],
+            [
+              -74.1687956,
+              4.6475075
+            ],
+            [
+              -74.1678168,
+              4.6478552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/749075944",
+        "verified": false,
+        "area_m2": 2507.6,
+        "osm_id": "way/749075944"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1485049,
+              4.6539215
+            ],
+            [
+              -74.1485717,
+              4.6538521
+            ],
+            [
+              -74.149093,
+              4.6533106
+            ],
+            [
+              -74.1490623,
+              4.6533024
+            ],
+            [
+              -74.1490369,
+              4.6532889
+            ],
+            [
+              -74.1490133,
+              4.653271
+            ],
+            [
+              -74.1489897,
+              4.6532478
+            ],
+            [
+              -74.1489758,
+              4.6532194
+            ],
+            [
+              -74.148969,
+              4.6531926
+            ],
+            [
+              -74.1489507,
+              4.6531642
+            ],
+            [
+              -74.1489165,
+              4.6531498
+            ],
+            [
+              -74.1488889,
+              4.6531601
+            ],
+            [
+              -74.1488613,
+              4.6531757
+            ],
+            [
+              -74.1488435,
+              4.6532037
+            ],
+            [
+              -74.1488292,
+              4.6532387
+            ],
+            [
+              -74.1483587,
+              4.6537178
+            ],
+            [
+              -74.1483489,
+              4.6537355
+            ],
+            [
+              -74.1483472,
+              4.6537532
+            ],
+            [
+              -74.1483488,
+              4.6537728
+            ],
+            [
+              -74.1483598,
+              4.6537884
+            ],
+            [
+              -74.1485049,
+              4.6539215
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/749075947",
+        "verified": false,
+        "area_m2": 2616.3,
+        "osm_id": "way/749075947"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1483833,
+              4.6540574
+            ],
+            [
+              -74.1482696,
+              4.6541705
+            ],
+            [
+              -74.1481847,
+              4.654255
+            ],
+            [
+              -74.1478104,
+              4.6546273
+            ],
+            [
+              -74.1477573,
+              4.6546801
+            ],
+            [
+              -74.1475892,
+              4.6545122
+            ],
+            [
+              -74.1481599,
+              4.6539298
+            ],
+            [
+              -74.14818,
+              4.6539143
+            ],
+            [
+              -74.1482018,
+              4.6539097
+            ],
+            [
+              -74.1482231,
+              4.6539135
+            ],
+            [
+              -74.1482417,
+              4.6539228
+            ],
+            [
+              -74.1483833,
+              4.6540574
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque Metropolitano El Tintal",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/83886254",
+        "verified": true,
+        "area_m2": 48106.3,
+        "osm_id": "way/83886254"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1561798,
+              4.6439149
+            ],
+            [
+              -74.1562237,
+              4.6438656
+            ],
+            [
+              -74.1562433,
+              4.6438262
+            ],
+            [
+              -74.1562496,
+              4.6437742
+            ],
+            [
+              -74.1562511,
+              4.643733
+            ],
+            [
+              -74.156239,
+              4.6436918
+            ],
+            [
+              -74.1550509,
+              4.6421471
+            ],
+            [
+              -74.1536245,
+              4.6433648
+            ],
+            [
+              -74.1544293,
+              4.6446806
+            ],
+            [
+              -74.1545571,
+              4.6449002
+            ],
+            [
+              -74.1545895,
+              4.6449261
+            ],
+            [
+              -74.1546219,
+              4.6449384
+            ],
+            [
+              -74.1546664,
+              4.644943
+            ],
+            [
+              -74.1548033,
+              4.6448497
+            ],
+            [
+              -74.1556377,
+              4.6442809
+            ],
+            [
+              -74.1561798,
+              4.6439149
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/945346929",
+        "verified": false,
+        "area_m2": 2778.7,
+        "osm_id": "way/945346929"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1564459,
+              4.6494466
+            ],
+            [
+              -74.1566469,
+              4.6492826
+            ],
+            [
+              -74.1571072,
+              4.6500221
+            ],
+            [
+              -74.1568992,
+              4.6501871
+            ],
+            [
+              -74.1564459,
+              4.6494466
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque sin nombre en OSM",
+        "tipo": "parque",
+        "arborizacion": null,
+        "estado": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/945346930",
+        "verified": false,
+        "area_m2": 3173.5,
+        "osm_id": "way/945346930"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.1561956,
+              4.6491165
+            ],
+            [
+              -74.1564348,
+              4.6489387
+            ],
+            [
+              -74.1559592,
+              4.6482188
+            ],
+            [
+              -74.1557181,
+              4.6484053
+            ],
+            [
+              -74.1561956,
+              4.6491165
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

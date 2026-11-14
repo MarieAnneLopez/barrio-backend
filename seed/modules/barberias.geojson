@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "name": "barberias",
+  "license": "© OpenStreetMap contributors, ODbL 1.0",
+  "skipped": [
+    {
+      "osm_id": "node/4128359315",
+      "name": "Harpon",
+      "reason": "peluquería sin evidencia de barbería"
+    },
+    {
+      "osm_id": "way/484155721",
+      "name": "COSMOPOLITAN Sala de Belleza",
+      "reason": "peluquería sin evidencia de barbería"
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Barbería de ejemplo 1",
+        "direccion": null,
+        "horario": "Mo-Su 09:00-20:00",
+        "servicios": "Corte, barba",
+        "source_type": "seed",
+        "source_ref": "dato de ejemplo",
+        "verified": false,
+        "osm_id": "ejemplo/01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1678758,
+          4.6537626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Barbería de ejemplo 2",
+        "direccion": null,
+        "horario": "Mo-Su 09:00-20:00",
+        "servicios": "Corte, barba",
+        "source_type": "seed",
+        "source_ref": "dato de ejemplo",
+        "verified": false,
+        "osm_id": "ejemplo/02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1579177,
+          4.654532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Barbería de ejemplo 3",
+        "direccion": null,
+        "horario": "Mo-Su 09:00-20:00",
+        "servicios": "Corte, barba",
+        "source_type": "seed",
+        "source_ref": "dato de ejemplo",
+        "verified": false,
+        "osm_id": "ejemplo/03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1702128,
+          4.6495226
+        ]
+      }
+    }
+  ]
+}

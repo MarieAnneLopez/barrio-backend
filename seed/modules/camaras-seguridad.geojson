@@ -1,0 +1,70 @@
+{
+  "type": "FeatureCollection",
+  "name": "camaras-seguridad",
+  "skipped": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo": "EJEMPLO-CAM-01",
+        "tipo": "policial",
+        "operador": "Operador de ejemplo",
+        "estado": "activa",
+        "fecha_instalacion": null,
+        "source_type": "seed",
+        "source_ref": "dato de ejemplo",
+        "verified": false,
+        "osm_id": "ejemplo/01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1532505,
+          4.6540077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo": "EJEMPLO-CAM-02",
+        "tipo": "privada",
+        "operador": "Operador de ejemplo",
+        "estado": "activa",
+        "fecha_instalacion": null,
+        "source_type": "seed",
+        "source_ref": "dato de ejemplo",
+        "verified": false,
+        "osm_id": "ejemplo/02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1535633,
+          4.6487049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo": "EJEMPLO-CAM-03",
+        "tipo": "comunitaria",
+        "operador": "Operador de ejemplo",
+        "estado": "activa",
+        "fecha_instalacion": null,
+        "source_type": "seed",
+        "source_ref": "dato de ejemplo",
+        "verified": false,
+        "osm_id": "ejemplo/03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.157955,
+          4.6590289
+        ]
+      }
+    }
+  ]
+}

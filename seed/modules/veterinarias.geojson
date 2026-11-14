@@ -1,0 +1,68 @@
+{
+  "type": "FeatureCollection",
+  "name": "veterinarias",
+  "license": "© OpenStreetMap contributors, ODbL 1.0",
+  "skipped": [],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Veterinaria de ejemplo 1",
+        "servicios": "Consulta general, vacunación",
+        "direccion": null,
+        "horario": "Mo-Sa 08:00-18:00",
+        "source_type": "seed",
+        "source_ref": "dato de ejemplo",
+        "verified": false,
+        "osm_id": "ejemplo/01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1651767,
+          4.6439549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Veterinaria de ejemplo 2",
+        "servicios": "Consulta general, vacunación",
+        "direccion": null,
+        "horario": "Mo-Sa 08:00-18:00",
+        "source_type": "seed",
+        "source_ref": "dato de ejemplo",
+        "verified": false,
+        "osm_id": "ejemplo/02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1565795,
+          4.650506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Veterinaria de ejemplo 3",
+        "servicios": "Consulta general, vacunación",
+        "direccion": null,
+        "horario": "Mo-Sa 08:00-18:00",
+        "source_type": "seed",
+        "source_ref": "dato de ejemplo",
+        "verified": false,
+        "osm_id": "ejemplo/03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.152946,
+          4.6477913
+        ]
+      }
+    }
+  ]
+}

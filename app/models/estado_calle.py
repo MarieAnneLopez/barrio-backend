@@ -17,7 +17,8 @@ class EstadoCalle(AuditMixin, Base):
     nombre_via: Mapped[str] = mapped_column(String(200))
     tipo_via: Mapped[str | None] = mapped_column(String(40))
     material: Mapped[str | None] = mapped_column(String(40))
-    estado: Mapped[str] = mapped_column(String(20))
+    # Nulo = "por verificar": ninguna fuente abierta da la clase por tramo (D51).
+    estado: Mapped[str | None] = mapped_column(String(20))
     ultima_intervencion: Mapped[date | None] = mapped_column(Date)
     reportes_ciudadanos: Mapped[int | None] = mapped_column(Integer)
     geom: Mapped[Any] = geom_column("LINESTRING")

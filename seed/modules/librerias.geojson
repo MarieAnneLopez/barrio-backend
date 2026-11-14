@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "name": "librerias",
+  "license": "© OpenStreetMap contributors, ODbL 1.0",
+  "skipped": [
+    {
+      "osm_id": "node/4128348403",
+      "name": null,
+      "reason": "sin nombre"
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Librería de ejemplo 1",
+        "direccion": null,
+        "horario": "Mo-Sa 09:00-19:00",
+        "especialidad": "Papelería y textos escolares",
+        "source_type": "seed",
+        "source_ref": "dato de ejemplo",
+        "verified": false,
+        "osm_id": "ejemplo/01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1490537,
+          4.6587755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Librería de ejemplo 2",
+        "direccion": null,
+        "horario": "Mo-Sa 09:00-19:00",
+        "especialidad": "Papelería y textos escolares",
+        "source_type": "seed",
+        "source_ref": "dato de ejemplo",
+        "verified": false,
+        "osm_id": "ejemplo/02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1592139,
+          4.6511579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Librería de ejemplo 3",
+        "direccion": null,
+        "horario": "Mo-Sa 09:00-19:00",
+        "especialidad": "Papelería y textos escolares",
+        "source_type": "seed",
+        "source_ref": "dato de ejemplo",
+        "verified": false,
+        "osm_id": "ejemplo/03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1423118,
+          4.6594487
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "type": "FeatureCollection",
+  "name": "atencion-inmediata",
+  "license": "Secretaría Distrital de Salud, CC BY 4.0; Secretaría Distrital de Seguridad, Convivencia y Justicia, CC BY-SA 4.0",
+  "sources": [
+    "https://datosabiertos.bogota.gov.co/dataset/centro-de-atencion-accion-para-bogota-d-c",
+    "https://datosabiertos.bogota.gov.co/dataset/instituciones-prestadoras-de-salud-bogota"
+  ],
+  "skipped": [
+    {
+      "ref": "https://datosabiertos.bogota.gov.co/dataset/instituciones-prestadoras-de-salud-bogota#1100107357",
+      "name": "OPTICENTRO INTERNACIONAL CENTRO COMERCIAL TINTAL PLAZA",
+      "reason": "IPS sin atención inmediata declarada"
+    },
+    {
+      "ref": "https://datosabiertos.bogota.gov.co/dataset/instituciones-prestadoras-de-salud-bogota#1100108171",
+      "name": "CENTRO MEDICO COLSUBSIDIO IPANEMA",
+      "reason": "IPS sin atención inmediata declarada"
+    },
+    {
+      "ref": "https://datosabiertos.bogota.gov.co/dataset/instituciones-prestadoras-de-salud-bogota#1100117744",
+      "name": "OPTICAS SBC LTDA CONSULTORIO",
+      "reason": "IPS sin atención inmediata declarada"
+    },
+    {
+      "ref": "https://datosabiertos.bogota.gov.co/dataset/instituciones-prestadoras-de-salud-bogota#1100123845",
+      "name": "LAFAM OPTICAS",
+      "reason": "IPS sin atención inmediata declarada"
+    }
+  ],
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "CAI Tintal",
+        "tipo": "cai",
+        "direccion": "CL 6D KR 87A",
+        "telefono_24_7": "3134070555",
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/centro-de-atencion-accion-para-bogota-d-c#E08C13026",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1546159,
+          4.6448283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Unidad de Servicios de Salud Patio Bonito Tintal",
+        "tipo": "hospital",
+        "direccion": "CALLE 10 # 86 - 58",
+        "telefono_24_7": null,
+        "source_type": "datos_abiertos",
+        "source_ref": "https://datosabiertos.bogota.gov.co/dataset/instituciones-prestadoras-de-salud-bogota#1100130296",
+        "verified": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.148725,
+          4.6516509
+        ]
+      }
+    }
+  ]
+}
