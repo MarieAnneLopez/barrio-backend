@@ -9,6 +9,7 @@ from sqlalchemy.orm import Session
 
 from app.models import CentroEducativo
 from app.modules.centros_educativos import SPEC
+from app.modules.registry import MODULES
 from etl.load_seed import SEED, load_module
 
 
@@ -46,3 +47,9 @@ def test_rechaza_fuera_del_poligono_y_datos_invalidos(db_session: Session, tmp_p
     assert result["loaded"] == 1
     assert {r["source_ref"]: r["reason"] for r in result["rejected"]}["b"] == "fuera de El Tintal"
     assert "c" in {r["source_ref"] for r in result["rejected"]}
+
+
+def test_todas_las_semillas_registradas_cargan_sin_rechazos(db_session: Session) -> None:
+    for spec in MODULES:
+        result = load_module(db_session, spec)
+        assert result["loaded"] >= 1 and result["rejected"] == [], spec.slug

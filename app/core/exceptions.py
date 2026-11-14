@@ -41,6 +41,11 @@ class DatabaseUnavailableError(AppError):
         super().__init__("DATABASE_UNAVAILABLE", "La base de datos no responde", 503)
 
 
+class ConflictError(AppError):
+    def __init__(self, table: str) -> None:
+        super().__init__("CONFLICT", f"El registro choca con otro de {table} (p. ej. código repetido)", 409)
+
+
 def error_body(code: str, message: str, details: Any = None) -> dict[str, Any]:
     error: dict[str, Any] = {"code": code, "message": message}
     if details is not None:

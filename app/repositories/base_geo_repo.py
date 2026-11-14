@@ -17,6 +17,7 @@ from sqlalchemy.orm import Session
 from app.models.base import SRID, Base
 from app.repositories.filters import apply_filters, apply_search, apply_sort
 from app.repositories.query import MAX_FEATURES, ListQuery, Page, Record
+from app.repositories.transactions import commit_or_conflict
 
 ModelT = TypeVar("ModelT", bound=Base)
 
@@ -67,7 +68,7 @@ class BaseCrudRepository(Generic[ModelT]):
     def create(self, data: Mapping[str, Any], geometry: dict[str, Any]) -> Record[ModelT]:
         entity = self._model(**data, geom=self._geom(geometry))
         self._session.add(entity)
-        self._session.commit()
+        commit_or_conflict(self._session, self._model.__tablename__)
         return self.get(entity.id)  # type: ignore[attr-defined, return-value]
 
     def update(
@@ -80,7 +81,7 @@ class BaseCrudRepository(Generic[ModelT]):
             setattr(entity, name, value)
         if geometry is not None:
             entity.geom = self._geom(geometry)  # type: ignore[attr-defined]
-        self._session.commit()
+        commit_or_conflict(self._session, self._model.__tablename__)
         return self.get(item_id)
 
     def delete(self, item_id: int) -> bool:
@@ -88,7 +89,7 @@ class BaseCrudRepository(Generic[ModelT]):
         if entity is None:
             return False
         self._session.delete(entity)
-        self._session.commit()
+        commit_or_conflict(self._session, self._model.__tablename__)
         return True
 
     @staticmethod
