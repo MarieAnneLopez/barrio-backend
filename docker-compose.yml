@@ -1,0 +1,24 @@
+# PostGIS local (PROMPT_MAESTRO §7.4): SRID 4326, datos persistentes y healthcheck.
+# Requiere .env (copia de .env.example); la clave nunca va en este archivo.
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: barrio-postgis
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-barrio}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Define POSTGRES_PASSWORD en .env}
+      POSTGRES_DB: ${POSTGRES_DB:-barrio}
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 10s
+
+volumes:
+  pgdata:

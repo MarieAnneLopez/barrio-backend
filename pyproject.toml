@@ -1,0 +1,20 @@
+[project]
+name = "barrio-backend"
+version = "0.1.0"
+description = "API de Reconoce tu Barrio: El Tintal (Kennedy, Bogotá D.C.)"
+authors = [{ name = "Marie Anne Lopez Poveda" }]
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["app"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
