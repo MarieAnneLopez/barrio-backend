@@ -43,7 +43,7 @@ class ReadableRepository(Protocol[T]):
 class WritableRepository(Protocol[T]):
     """Escritura; la geometría llega como GeoJSON y se guarda en SRID 4326."""
 
-    def create(self, data: Mapping[str, Any], geometry: dict[str, Any]) -> Record[T]: ...
+    def create(self, data: Mapping[str, Any], geometry: dict[str, Any] | None) -> Record[T]: ...
 
     def update(
         self, item_id: int, data: Mapping[str, Any], geometry: dict[str, Any] | None

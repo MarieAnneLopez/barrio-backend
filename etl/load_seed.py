@@ -41,7 +41,8 @@ def load_module(session: Session, spec: ModuleSpec, seed_dir: Path = SEED) -> di
         except ValidationError as exc:
             rejected.append({"source_ref": props.get("source_ref"), "reason": str(exc.errors()[0]["msg"])})
             continue
-        inside = session.execute(WITHIN, {"g": json.dumps(feature["geometry"]), "area": area}).scalar()
+        inside = not spec.within_tintal or session.execute(
+            WITHIN, {"g": json.dumps(feature["geometry"]), "area": area}).scalar()
         if not inside:
             rejected.append({"source_ref": props.get("source_ref"), "reason": "fuera de El Tintal"})
             continue

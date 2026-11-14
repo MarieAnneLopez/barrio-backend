@@ -1,23 +1,17 @@
-"""Registro de módulos CRUD expuestos en /api/v1, en el orden del frontend (categoryConfig.ts).
+"""Registro de los 14 módulos CRUD expuestos en /api/v1, en el orden del frontend.
 
 Agregar un módulo = importar su SPEC y sumarlo aquí; el núcleo no cambia (OCP).
-H17 registra los de polígono, línea y ficha.
 """
 
 from app.modules import (
-    atencion_inmediata, barberias, camaras_seguridad, centros_educativos, estaciones_transporte,
-    librerias, robos, sitios_comida, veterinarias,
+    atencion_inmediata, barberias, camaras_seguridad, centros_educativos, datos_catastrales,
+    escenarios_deportivos, estaciones_transporte, estado_calles, librerias, localidad, robos,
+    sitios_comida, veterinarias, zonas_verdes,
 )
 from app.modules.spec import ModuleSpec
 
-MODULES: tuple[ModuleSpec, ...] = (
-    centros_educativos.SPEC,
-    camaras_seguridad.SPEC,
-    estaciones_transporte.SPEC,
-    sitios_comida.SPEC,
-    librerias.SPEC,
-    robos.SPEC,
-    atencion_inmediata.SPEC,
-    veterinarias.SPEC,
-    barberias.SPEC,
-)
+MODULES: tuple[ModuleSpec, ...] = tuple(m.SPEC for m in (
+    centros_educativos, escenarios_deportivos, camaras_seguridad, zonas_verdes, datos_catastrales,
+    estado_calles, estaciones_transporte, sitios_comida, librerias, robos, localidad,
+    atencion_inmediata, veterinarias, barberias,
+))

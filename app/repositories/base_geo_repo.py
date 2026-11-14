@@ -65,8 +65,8 @@ class BaseCrudRepository(Generic[ModelT]):
         stmt = apply_sort(self._select(query), self._model, self._sort_fields, query.sort)
         return [self._record(r) for r in self._session.execute(stmt.limit(MAX_FEATURES))]
 
-    def create(self, data: Mapping[str, Any], geometry: dict[str, Any]) -> Record[ModelT]:
-        entity = self._model(**data, geom=self._geom(geometry))
+    def create(self, data: Mapping[str, Any], geometry: dict[str, Any] | None) -> Record[ModelT]:
+        entity = self._model(**data, geom=self._geom(geometry) if geometry else None)
         self._session.add(entity)
         commit_or_conflict(self._session, self._model.__tablename__)
         return self.get(entity.id)  # type: ignore[attr-defined, return-value]

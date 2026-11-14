@@ -21,6 +21,8 @@ class ModuleSpec:
     search_fields: tuple[str, ...] = ("nombre",)
     filter_fields: tuple[str, ...] = ("verified",)
     sort_fields: tuple[str, ...] = ("id", "nombre")
+    # False solo para la ficha de la localidad, que abarca toda Kennedy.
+    within_tintal: bool = True
 
     @cached_property
     def update_schema(self) -> type[BaseModel]:
