@@ -1,4 +1,4 @@
-"""GET /api/v1/historia y su carga: orden, trazabilidad, fuentes, D55 y D56."""
+"""GET /api/v1/historia y su carga: orden, trazabilidad, fuentes, D55, D56 y D57."""
 
 import json
 from pathlib import Path
@@ -43,12 +43,14 @@ def test_d55_sin_las_fechas_descartadas() -> None:
     assert all(h["anio"] != 2002 for h in load_historia.read())
 
 
-def test_d56_sin_datos_descartados() -> None:
+def test_d56_d57_sin_datos_descartados_y_con_prensa() -> None:
     hitos = load_historia.read()
     text = json.dumps(hitos, ensure_ascii=False)
     assert "Acuerdo 224" not in text and "1989" not in text
-    assert {h["anio"] for h in hitos}.isdisjoint({1989, 2003})
-    assert all("wikipedia" not in h["source_ref"] for h in hitos if h["verified"])
+    assert all("wikipedia" not in h["source_ref"] and "wikidata" not in h["source_ref"] for h in hitos)
+    by_year = {h["anio"]: h for h in hitos}
+    assert by_year[2003]["descripcion"] == "La Fase II de TransMilenio llegó al Portal de las Américas en 2003."
+    assert "minuto60" in by_year[2003]["source_ref"] and "eluniversal" in by_year[2006]["source_ref"]
 
 
 def test_la_carga_es_idempotente(db_session: Session) -> None:

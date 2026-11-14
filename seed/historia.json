@@ -1,6 +1,6 @@
 {
   "consultado": "2026-11-14",
-  "decision": "D55 y D56 en PLAN_MAESTRO.md: fechas y hechos según fuentes oficiales; lo que viene de prensa se marca «Prensa» y lo que solo trae Wikipedia queda «por verificar».",
+  "decision": "D55, D56 y D57 en PLAN_MAESTRO.md: fechas y hechos según fuentes oficiales; lo que viene de prensa se marca «Prensa» y lo que solo trae Wikipedia queda «por verificar».",
   "fuentes": [
     {
       "url": "https://bogota.gov.co/mi-ciudad/localidades/kennedy/historia-del-poblamiento-de-kennedy",
@@ -42,21 +42,35 @@
       "titulo": "Con retos en su ampliación, aeropuerto El Dorado cumplió 60 años",
       "entidad": "Portafolio (prensa)",
       "tipo": "prensa",
-      "nota": "Leída con el buscador: el sitio está fuera de la red permitida del proyecto y no se abrió directamente. Se usa solo el año, sin día exacto."
+      "nota": "No pude abrir la página: el sitio está fuera de la red permitida del proyecto y la vi por el buscador. Se usa solo el año, sin día exacto."
+    },
+    {
+      "url": "https://www.eluniversal.com.co/cultural/2024/03/20/este-22-de-marzo-se-cumplen-dos-decadas-sin-manuel-zapata-olivella/",
+      "titulo": "Este 22 de marzo se cumplen dos décadas sin Manuel Zapata Olivella",
+      "entidad": "El Universal (prensa), 20/03/2024",
+      "tipo": "prensa",
+      "nota": "«Desde 2006, la biblioteca lleva por nombre Manuel Zapata Olivella - El Tintal»."
+    },
+    {
+      "url": "https://www.minuto60.com/bogota/transmilenio-celebra-25-anos-operacion-bogota/4460",
+      "titulo": "TransMilenio celebra 25 años de operación en Bogotá",
+      "entidad": "Minuto60 (prensa), 18/12/2025",
+      "tipo": "prensa",
+      "nota": "La Fase II «inició operaciones en 2003» con «la llegada hasta el portal de las Américas». Sin día ni mes."
     },
     {
       "url": "https://es.wikipedia.org/w/index.php?title=Kennedy_(Bogot%C3%A1)&oldid=176260200",
       "titulo": "Kennedy (Bogotá)",
       "entidad": "Wikipedia en español, revisión 176260200",
       "tipo": "enciclopedia",
-      "nota": "Sus fechas del cambio de nombre (1963 y 1964), de la biblioteca (2002) y del Portal Américas (2000 y 2004, se contradice) no se usan (D55, D56)."
+      "nota": "Sus fechas del cambio de nombre (1963 y 1964), de la biblioteca (2002) y del Portal Américas (2000 y 2004, se contradice) no se usan (D55, D56, D57)."
     },
     {
       "url": "https://es.wikipedia.org/w/index.php?title=Biblioteca_El_Tintal&oldid=175623072",
       "titulo": "Biblioteca El Tintal",
       "entidad": "Wikipedia en español, revisión 175623072",
       "tipo": "enciclopedia",
-      "nota": "Su año 1989 para la planta de basuras no se confirma en otra fuente y no se usa; tampoco el número del acuerdo de 2006 (D56)."
+      "nota": "No respalda ningún hito: su año 1989 para la planta no se confirma y el nombre de 2006 se cita de prensa (D57)."
     },
     {
       "url": "https://commons.wikimedia.org/wiki/File:Bandera_de_kennedy_(bogot%C3%A1).png",
@@ -132,12 +146,20 @@
       "source_ref": "https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/la-biblioteca-el-tintal-era-una-planta-de-procesamiento-de-basuras | https://bogota.gov.co/que-hacer/cultura/cumpleanos-de-la-biblioteca-publica-el-tintal-manuel-zapata-olivella"
     },
     {
-      "anio": 2006,
+      "anio": 2003,
       "orden": 9,
       "verified": false,
+      "titulo": "TransMilenio llega al Portal de las Américas",
+      "descripcion": "La Fase II de TransMilenio llegó al Portal de las Américas en 2003.",
+      "source_ref": "https://www.minuto60.com/bogota/transmilenio-celebra-25-anos-operacion-bogota/4460"
+    },
+    {
+      "anio": 2006,
+      "orden": 10,
+      "verified": false,
       "titulo": "La biblioteca lleva el nombre de Manuel Zapata Olivella",
-      "descripcion": "En 2006 el Concejo de Bogotá le dio a la biblioteca el nombre de Manuel Zapata Olivella, en homenaje al escritor afrocolombiano.",
-      "source_ref": "https://es.wikipedia.org/w/index.php?title=Biblioteca_El_Tintal&oldid=175623072"
+      "descripcion": "Desde 2006 la biblioteca lleva el nombre de Manuel Zapata Olivella - El Tintal, en homenaje al escritor.",
+      "source_ref": "https://www.eluniversal.com.co/cultural/2024/03/20/este-22-de-marzo-se-cumplen-dos-decadas-sin-manuel-zapata-olivella/"
     }
   ]
 }
