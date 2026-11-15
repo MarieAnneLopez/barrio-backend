@@ -20,7 +20,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/1940810948",
         "verified": true,
-        "osm_id": "node/1940810948"
+        "osm_id": "node/1940810948",
+        "descripcion_es": "Sitio de comida de tipo «Café» registrado en OpenStreetMap.",
+        "descripcion_en": "Food place of type «café» listed on OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -40,7 +42,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/3097364524",
         "verified": true,
-        "osm_id": "node/3097364524"
+        "osm_id": "node/3097364524",
+        "descripcion_es": "Sitio de comida de tipo «Café» registrado en OpenStreetMap.",
+        "descripcion_en": "Food place of type «café» listed on OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +64,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/4128362085",
         "verified": true,
-        "osm_id": "node/4128362085"
+        "osm_id": "node/4128362085",
+        "descripcion_es": "Sitio de comida de tipo «Restaurante» registrado en OpenStreetMap.",
+        "descripcion_en": "Food place of type «restaurant» listed on OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -80,7 +86,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/4128369947",
         "verified": true,
-        "osm_id": "node/4128369947"
+        "osm_id": "node/4128369947",
+        "descripcion_es": "Sitio de comida de tipo «Restaurante» registrado en OpenStreetMap.",
+        "descripcion_en": "Food place of type «restaurant» listed on OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -100,7 +108,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/484155719",
         "verified": true,
-        "osm_id": "way/484155719"
+        "osm_id": "way/484155719",
+        "descripcion_es": "Sitio de comida de tipo «Comida rápida» registrado en OpenStreetMap.",
+        "descripcion_en": "Food place of type «fast food» listed on OpenStreetMap."
       },
       "geometry": {
         "type": "Point",

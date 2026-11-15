@@ -70,7 +70,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13705604063",
         "verified": true,
-        "osm_id": "node/13705604063"
+        "osm_id": "node/13705604063",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Calle 12. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Calle 12. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -90,7 +92,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943229355",
         "verified": true,
-        "osm_id": "node/13943229355"
+        "osm_id": "node/13943229355",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 89. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 89. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -110,7 +114,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943229356",
         "verified": true,
-        "osm_id": "node/13943229356"
+        "osm_id": "node/13943229356",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 89. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 89. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -130,7 +136,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943229359",
         "verified": true,
-        "osm_id": "node/13943229359"
+        "osm_id": "node/13943229359",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Calle 10. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Calle 10. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -150,7 +158,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943229360",
         "verified": true,
-        "osm_id": "node/13943229360"
+        "osm_id": "node/13943229360",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Calle 10. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Calle 10. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -170,7 +180,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943229367",
         "verified": true,
-        "osm_id": "node/13943229367"
+        "osm_id": "node/13943229367",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 89. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 89. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -190,7 +202,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943229368",
         "verified": true,
-        "osm_id": "node/13943229368"
+        "osm_id": "node/13943229368",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 89. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 89. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -210,7 +224,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943229371",
         "verified": true,
-        "osm_id": "node/13943229371"
+        "osm_id": "node/13943229371",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 89. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 89. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -230,7 +246,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943229380",
         "verified": true,
-        "osm_id": "node/13943229380"
+        "osm_id": "node/13943229380",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Carrera 88D. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Carrera 88D. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -250,7 +268,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943229381",
         "verified": true,
-        "osm_id": "node/13943229381"
+        "osm_id": "node/13943229381",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Carrera 88D. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Carrera 88D. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -270,7 +290,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943229395",
         "verified": true,
-        "osm_id": "node/13943229395"
+        "osm_id": "node/13943229395",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 89B. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 89B. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -290,7 +312,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943235603",
         "verified": true,
-        "osm_id": "node/13943235603"
+        "osm_id": "node/13943235603",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 89B. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 89B. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -310,7 +334,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943235604",
         "verified": true,
-        "osm_id": "node/13943235604"
+        "osm_id": "node/13943235604",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 89B. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 89B. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -330,7 +356,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943235606",
         "verified": true,
-        "osm_id": "node/13943235606"
+        "osm_id": "node/13943235606",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 89B. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 89B. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -350,7 +378,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943235607",
         "verified": true,
-        "osm_id": "node/13943235607"
+        "osm_id": "node/13943235607",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 89B. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 89B. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -370,7 +400,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943235609",
         "verified": true,
-        "osm_id": "node/13943235609"
+        "osm_id": "node/13943235609",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 89B. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 89B. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -390,7 +422,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/13943235611",
         "verified": true,
-        "osm_id": "node/13943235611"
+        "osm_id": "node/13943235611",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 89B. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 89B. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -410,7 +444,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/14178098987",
         "verified": true,
-        "osm_id": "node/14178098987"
+        "osm_id": "node/14178098987",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), con la ruta 8-5, sobre Carrera 87A. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), served by route 8-5, on Carrera 87A. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -430,7 +466,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/14178098989",
         "verified": true,
-        "osm_id": "node/14178098989"
+        "osm_id": "node/14178098989",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), con la ruta 8-5, sobre Calle 6D. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), served by route 8-5, on Calle 6D. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -450,7 +488,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/2372217268",
         "verified": true,
-        "osm_id": "node/2372217268"
+        "osm_id": "node/2372217268",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 86. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 86. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -470,7 +510,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/2397986449",
         "verified": true,
-        "osm_id": "node/2397986449"
+        "osm_id": "node/2397986449",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), con la ruta 8-5, sobre Carrera 92, en Cra 92 - Clle 6D. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), served by route 8-5, on Carrera 92, at Cra 92 - Clle 6D. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -490,7 +532,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/2439962080",
         "verified": true,
-        "osm_id": "node/2439962080"
+        "osm_id": "node/2439962080",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Avenida Carrera 86. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Avenida Carrera 86. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -510,7 +554,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/2501848286",
         "verified": true,
-        "osm_id": "node/2501848286"
+        "osm_id": "node/2501848286",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Calle 6D. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Calle 6D. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -530,7 +576,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/2501848287",
         "verified": true,
-        "osm_id": "node/2501848287"
+        "osm_id": "node/2501848287",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), con la ruta 8-5, sobre Calle 6A. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), served by route 8-5, on Calle 6A. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -550,7 +598,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/2501848322",
         "verified": true,
-        "osm_id": "node/2501848322"
+        "osm_id": "node/2501848322",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Carrera 94. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Carrera 94. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -570,7 +620,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/2501848323",
         "verified": true,
-        "osm_id": "node/2501848323"
+        "osm_id": "node/2501848323",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Calle 6D. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Calle 6D. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -590,7 +642,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/2501848325",
         "verified": true,
-        "osm_id": "node/2501848325"
+        "osm_id": "node/2501848325",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Calle 6D. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Calle 6D. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -610,7 +664,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/node/2501848327",
         "verified": true,
-        "osm_id": "node/2501848327"
+        "osm_id": "node/2501848327",
+        "descripcion_es": "Paradero del SITP (Sistema Integrado de Transporte Público), sobre Calle 6D. Dato de OpenStreetMap.",
+        "descripcion_en": "SITP bus stop (Bogotá's integrated public transport), on Calle 6D. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",

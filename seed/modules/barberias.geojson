@@ -14,7 +14,9 @@
         "source_type": "seed",
         "source_ref": "dato de ejemplo",
         "verified": false,
-        "osm_id": "ejemplo/01"
+        "osm_id": "ejemplo/01",
+        "descripcion_es": "Dato de ejemplo: no corresponde a un lugar real; se muestra mientras no haya datos abiertos de este tipo en El Tintal.",
+        "descripcion_en": "Sample record: not a real place; shown while there is no open data of this kind in El Tintal."
       },
       "geometry": {
         "type": "Point",
@@ -34,7 +36,9 @@
         "source_type": "seed",
         "source_ref": "dato de ejemplo",
         "verified": false,
-        "osm_id": "ejemplo/02"
+        "osm_id": "ejemplo/02",
+        "descripcion_es": "Dato de ejemplo: no corresponde a un lugar real; se muestra mientras no haya datos abiertos de este tipo en El Tintal.",
+        "descripcion_en": "Sample record: not a real place; shown while there is no open data of this kind in El Tintal."
       },
       "geometry": {
         "type": "Point",
@@ -54,7 +58,9 @@
         "source_type": "seed",
         "source_ref": "dato de ejemplo",
         "verified": false,
-        "osm_id": "ejemplo/03"
+        "osm_id": "ejemplo/03",
+        "descripcion_es": "Dato de ejemplo: no corresponde a un lugar real; se muestra mientras no haya datos abiertos de este tipo en El Tintal.",
+        "descripcion_en": "Sample record: not a real place; shown while there is no open data of this kind in El Tintal."
       },
       "geometry": {
         "type": "Point",

@@ -16,7 +16,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1001577169",
         "verified": true,
-        "osm_id": "way/1001577169"
+        "osm_id": "way/1001577169",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -68,7 +70,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1004209051",
         "verified": true,
-        "osm_id": "way/1004209051"
+        "osm_id": "way/1004209051",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -132,7 +136,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1010017724",
         "verified": true,
-        "osm_id": "way/1010017724"
+        "osm_id": "way/1010017724",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -160,7 +166,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1011878061",
         "verified": true,
-        "osm_id": "way/1011878061"
+        "osm_id": "way/1011878061",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -212,7 +220,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1011878062",
         "verified": true,
-        "osm_id": "way/1011878062"
+        "osm_id": "way/1011878062",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -248,7 +258,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1011905030",
         "verified": true,
-        "osm_id": "way/1011905030"
+        "osm_id": "way/1011905030",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -280,7 +292,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1011905031",
         "verified": true,
-        "osm_id": "way/1011905031"
+        "osm_id": "way/1011905031",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -316,7 +330,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1011905032",
         "verified": true,
-        "osm_id": "way/1011905032"
+        "osm_id": "way/1011905032",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -348,7 +364,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1011905033",
         "verified": true,
-        "osm_id": "way/1011905033"
+        "osm_id": "way/1011905033",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -392,7 +410,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1011909072",
         "verified": true,
-        "osm_id": "way/1011909072"
+        "osm_id": "way/1011909072",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -420,7 +440,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1011909073",
         "verified": true,
-        "osm_id": "way/1011909073"
+        "osm_id": "way/1011909073",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -448,7 +470,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1012145624",
         "verified": true,
-        "osm_id": "way/1012145624"
+        "osm_id": "way/1012145624",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -496,7 +520,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1012150340",
         "verified": true,
-        "osm_id": "way/1012150340"
+        "osm_id": "way/1012150340",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -532,7 +558,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1012168313",
         "verified": true,
-        "osm_id": "way/1012168313"
+        "osm_id": "way/1012168313",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -580,7 +608,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1012168314",
         "verified": true,
-        "osm_id": "way/1012168314"
+        "osm_id": "way/1012168314",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -628,7 +658,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1012168315",
         "verified": true,
-        "osm_id": "way/1012168315"
+        "osm_id": "way/1012168315",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -664,7 +696,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1012185260",
         "verified": true,
-        "osm_id": "way/1012185260"
+        "osm_id": "way/1012185260",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -696,7 +730,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1012185261",
         "verified": true,
-        "osm_id": "way/1012185261"
+        "osm_id": "way/1012185261",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -728,7 +764,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1012205110",
         "verified": true,
-        "osm_id": "way/1012205110"
+        "osm_id": "way/1012205110",
+        "descripcion_es": "Vía intermedia, en concreto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with concrete. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -768,7 +806,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1012205111",
         "verified": true,
-        "osm_id": "way/1012205111"
+        "osm_id": "way/1012205111",
+        "descripcion_es": "Vía intermedia, en concreto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with concrete. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -796,7 +836,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1012207146",
         "verified": true,
-        "osm_id": "way/1012207146"
+        "osm_id": "way/1012207146",
+        "descripcion_es": "Vía intermedia. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -824,7 +866,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1020222487",
         "verified": true,
-        "osm_id": "way/1020222487"
+        "osm_id": "way/1020222487",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -852,7 +896,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1022153052",
         "verified": true,
-        "osm_id": "way/1022153052"
+        "osm_id": "way/1022153052",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -880,7 +926,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1051491914",
         "verified": true,
-        "osm_id": "way/1051491914"
+        "osm_id": "way/1051491914",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -908,7 +956,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1063808619",
         "verified": true,
-        "osm_id": "way/1063808619"
+        "osm_id": "way/1063808619",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -936,7 +986,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1063808620",
         "verified": true,
-        "osm_id": "way/1063808620"
+        "osm_id": "way/1063808620",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -968,7 +1020,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1068357023",
         "verified": true,
-        "osm_id": "way/1068357023"
+        "osm_id": "way/1068357023",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1016,7 +1070,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1078161016",
         "verified": true,
-        "osm_id": "way/1078161016"
+        "osm_id": "way/1078161016",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1068,7 +1124,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1087260370",
         "verified": true,
-        "osm_id": "way/1087260370"
+        "osm_id": "way/1087260370",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1100,7 +1158,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1087260371",
         "verified": true,
-        "osm_id": "way/1087260371"
+        "osm_id": "way/1087260371",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1132,7 +1192,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1087260373",
         "verified": true,
-        "osm_id": "way/1087260373"
+        "osm_id": "way/1087260373",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1160,7 +1222,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1087260374",
         "verified": true,
-        "osm_id": "way/1087260374"
+        "osm_id": "way/1087260374",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1188,7 +1252,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1088488794",
         "verified": true,
-        "osm_id": "way/1088488794"
+        "osm_id": "way/1088488794",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1216,7 +1282,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1117927755",
         "verified": true,
-        "osm_id": "way/1117927755"
+        "osm_id": "way/1117927755",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1244,7 +1312,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1117927756",
         "verified": true,
-        "osm_id": "way/1117927756"
+        "osm_id": "way/1117927756",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1292,7 +1362,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1117927757",
         "verified": true,
-        "osm_id": "way/1117927757"
+        "osm_id": "way/1117927757",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1320,7 +1392,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1146477032",
         "verified": true,
-        "osm_id": "way/1146477032"
+        "osm_id": "way/1146477032",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1348,7 +1422,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1146477033",
         "verified": true,
-        "osm_id": "way/1146477033"
+        "osm_id": "way/1146477033",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1392,7 +1468,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1153629501",
         "verified": true,
-        "osm_id": "way/1153629501"
+        "osm_id": "way/1153629501",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1452,7 +1530,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1153629502",
         "verified": true,
-        "osm_id": "way/1153629502"
+        "osm_id": "way/1153629502",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1520,7 +1600,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1153629503",
         "verified": true,
-        "osm_id": "way/1153629503"
+        "osm_id": "way/1153629503",
+        "descripcion_es": "Vía intermedia. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1552,7 +1634,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1153629504",
         "verified": true,
-        "osm_id": "way/1153629504"
+        "osm_id": "way/1153629504",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1584,7 +1668,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1153629505",
         "verified": true,
-        "osm_id": "way/1153629505"
+        "osm_id": "way/1153629505",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1616,7 +1702,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1153629506",
         "verified": true,
-        "osm_id": "way/1153629506"
+        "osm_id": "way/1153629506",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1644,7 +1732,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1153629507",
         "verified": true,
-        "osm_id": "way/1153629507"
+        "osm_id": "way/1153629507",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1672,7 +1762,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1153629509",
         "verified": true,
-        "osm_id": "way/1153629509"
+        "osm_id": "way/1153629509",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1728,7 +1820,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1153629511",
         "verified": true,
-        "osm_id": "way/1153629511"
+        "osm_id": "way/1153629511",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1776,7 +1870,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1155265793",
         "verified": true,
-        "osm_id": "way/1155265793"
+        "osm_id": "way/1155265793",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1808,7 +1904,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1162628715",
         "verified": true,
-        "osm_id": "way/1162628715"
+        "osm_id": "way/1162628715",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1836,7 +1934,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1162628716",
         "verified": true,
-        "osm_id": "way/1162628716"
+        "osm_id": "way/1162628716",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1872,7 +1972,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1180760044",
         "verified": true,
-        "osm_id": "way/1180760044"
+        "osm_id": "way/1180760044",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1928,7 +2030,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1180760045",
         "verified": true,
-        "osm_id": "way/1180760045"
+        "osm_id": "way/1180760045",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -1968,7 +2072,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1180760046",
         "verified": true,
-        "osm_id": "way/1180760046"
+        "osm_id": "way/1180760046",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2016,7 +2122,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1180760047",
         "verified": true,
-        "osm_id": "way/1180760047"
+        "osm_id": "way/1180760047",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2048,7 +2156,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1182586024",
         "verified": true,
-        "osm_id": "way/1182586024"
+        "osm_id": "way/1182586024",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2096,7 +2206,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1182586025",
         "verified": true,
-        "osm_id": "way/1182586025"
+        "osm_id": "way/1182586025",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2140,7 +2252,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1182586026",
         "verified": true,
-        "osm_id": "way/1182586026"
+        "osm_id": "way/1182586026",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2176,7 +2290,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1182586027",
         "verified": true,
-        "osm_id": "way/1182586027"
+        "osm_id": "way/1182586027",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2212,7 +2328,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1182586028",
         "verified": true,
-        "osm_id": "way/1182586028"
+        "osm_id": "way/1182586028",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2260,7 +2378,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1182586029",
         "verified": true,
-        "osm_id": "way/1182586029"
+        "osm_id": "way/1182586029",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2312,7 +2432,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1182586030",
         "verified": true,
-        "osm_id": "way/1182586030"
+        "osm_id": "way/1182586030",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2348,7 +2470,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1182586031",
         "verified": true,
-        "osm_id": "way/1182586031"
+        "osm_id": "way/1182586031",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2376,7 +2500,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1182586032",
         "verified": true,
-        "osm_id": "way/1182586032"
+        "osm_id": "way/1182586032",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2404,7 +2530,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1182586033",
         "verified": true,
-        "osm_id": "way/1182586033"
+        "osm_id": "way/1182586033",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2432,7 +2560,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1184088523",
         "verified": true,
-        "osm_id": "way/1184088523"
+        "osm_id": "way/1184088523",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2484,7 +2614,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1184088524",
         "verified": true,
-        "osm_id": "way/1184088524"
+        "osm_id": "way/1184088524",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2532,7 +2664,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1184088529",
         "verified": true,
-        "osm_id": "way/1184088529"
+        "osm_id": "way/1184088529",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2564,7 +2698,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1184088530",
         "verified": true,
-        "osm_id": "way/1184088530"
+        "osm_id": "way/1184088530",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2608,7 +2744,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1184088531",
         "verified": true,
-        "osm_id": "way/1184088531"
+        "osm_id": "way/1184088531",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2648,7 +2786,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1184088535",
         "verified": true,
-        "osm_id": "way/1184088535"
+        "osm_id": "way/1184088535",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2692,7 +2832,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1184088537",
         "verified": true,
-        "osm_id": "way/1184088537"
+        "osm_id": "way/1184088537",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2720,7 +2862,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1184363674",
         "verified": true,
-        "osm_id": "way/1184363674"
+        "osm_id": "way/1184363674",
+        "descripcion_es": "Vía intermedia, en concreto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with concrete. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2748,7 +2892,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1184363676",
         "verified": true,
-        "osm_id": "way/1184363676"
+        "osm_id": "way/1184363676",
+        "descripcion_es": "Vía intermedia, en concreto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with concrete. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2776,7 +2922,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1184363677",
         "verified": true,
-        "osm_id": "way/1184363677"
+        "osm_id": "way/1184363677",
+        "descripcion_es": "Vía intermedia, en concreto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with concrete. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2804,7 +2952,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1191301629",
         "verified": true,
-        "osm_id": "way/1191301629"
+        "osm_id": "way/1191301629",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2864,7 +3014,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1191446526",
         "verified": true,
-        "osm_id": "way/1191446526"
+        "osm_id": "way/1191446526",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2916,7 +3068,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1191446527",
         "verified": true,
-        "osm_id": "way/1191446527"
+        "osm_id": "way/1191446527",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -2944,7 +3098,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1196544128",
         "verified": true,
-        "osm_id": "way/1196544128"
+        "osm_id": "way/1196544128",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3000,7 +3156,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1196544132",
         "verified": true,
-        "osm_id": "way/1196544132"
+        "osm_id": "way/1196544132",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3032,7 +3190,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1196544134",
         "verified": true,
-        "osm_id": "way/1196544134"
+        "osm_id": "way/1196544134",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3064,7 +3224,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1196544135",
         "verified": true,
-        "osm_id": "way/1196544135"
+        "osm_id": "way/1196544135",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3108,7 +3270,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1196544142",
         "verified": true,
-        "osm_id": "way/1196544142"
+        "osm_id": "way/1196544142",
+        "descripcion_es": "Vía intermedia, en concreto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with concrete. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3136,7 +3300,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1196544143",
         "verified": true,
-        "osm_id": "way/1196544143"
+        "osm_id": "way/1196544143",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3184,7 +3350,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1197469647",
         "verified": true,
-        "osm_id": "way/1197469647"
+        "osm_id": "way/1197469647",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3216,7 +3384,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1197469648",
         "verified": true,
-        "osm_id": "way/1197469648"
+        "osm_id": "way/1197469648",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3248,7 +3418,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1197472444",
         "verified": true,
-        "osm_id": "way/1197472444"
+        "osm_id": "way/1197472444",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3284,7 +3456,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1197472446",
         "verified": true,
-        "osm_id": "way/1197472446"
+        "osm_id": "way/1197472446",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3312,7 +3486,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1197472447",
         "verified": true,
-        "osm_id": "way/1197472447"
+        "osm_id": "way/1197472447",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3344,7 +3520,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1197472448",
         "verified": true,
-        "osm_id": "way/1197472448"
+        "osm_id": "way/1197472448",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3372,7 +3550,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1197472449",
         "verified": true,
-        "osm_id": "way/1197472449"
+        "osm_id": "way/1197472449",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3400,7 +3580,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1197472450",
         "verified": true,
-        "osm_id": "way/1197472450"
+        "osm_id": "way/1197472450",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3436,7 +3618,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1197472451",
         "verified": true,
-        "osm_id": "way/1197472451"
+        "osm_id": "way/1197472451",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3464,7 +3648,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1197472452",
         "verified": true,
-        "osm_id": "way/1197472452"
+        "osm_id": "way/1197472452",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3496,7 +3682,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1198280280",
         "verified": true,
-        "osm_id": "way/1198280280"
+        "osm_id": "way/1198280280",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3524,7 +3712,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1198280281",
         "verified": true,
-        "osm_id": "way/1198280281"
+        "osm_id": "way/1198280281",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3552,7 +3742,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1198280282",
         "verified": true,
-        "osm_id": "way/1198280282"
+        "osm_id": "way/1198280282",
+        "descripcion_es": "Vía local, pavimentada. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3592,7 +3784,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1198280283",
         "verified": true,
-        "osm_id": "way/1198280283"
+        "osm_id": "way/1198280283",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3624,7 +3818,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1199616739",
         "verified": true,
-        "osm_id": "way/1199616739"
+        "osm_id": "way/1199616739",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3652,7 +3848,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1199616740",
         "verified": true,
-        "osm_id": "way/1199616740"
+        "osm_id": "way/1199616740",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3684,7 +3882,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1199622572",
         "verified": true,
-        "osm_id": "way/1199622572"
+        "osm_id": "way/1199622572",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3728,7 +3928,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1199622573",
         "verified": true,
-        "osm_id": "way/1199622573"
+        "osm_id": "way/1199622573",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3764,7 +3966,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1199634837",
         "verified": true,
-        "osm_id": "way/1199634837"
+        "osm_id": "way/1199634837",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3800,7 +4004,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1204272783",
         "verified": true,
-        "osm_id": "way/1204272783"
+        "osm_id": "way/1204272783",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3836,7 +4042,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1209485023",
         "verified": true,
-        "osm_id": "way/1209485023"
+        "osm_id": "way/1209485023",
+        "descripcion_es": "Vía intermedia, en concreto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with concrete. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3868,7 +4076,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1209495212",
         "verified": true,
-        "osm_id": "way/1209495212"
+        "osm_id": "way/1209495212",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3916,7 +4126,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1209495213",
         "verified": true,
-        "osm_id": "way/1209495213"
+        "osm_id": "way/1209495213",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -3948,7 +4160,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1209495214",
         "verified": true,
-        "osm_id": "way/1209495214"
+        "osm_id": "way/1209495214",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4032,7 +4246,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1209495215",
         "verified": true,
-        "osm_id": "way/1209495215"
+        "osm_id": "way/1209495215",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4064,7 +4280,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1210791732",
         "verified": true,
-        "osm_id": "way/1210791732"
+        "osm_id": "way/1210791732",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4092,7 +4310,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1269152542",
         "verified": true,
-        "osm_id": "way/1269152542"
+        "osm_id": "way/1269152542",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4120,7 +4340,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1270364191",
         "verified": true,
-        "osm_id": "way/1270364191"
+        "osm_id": "way/1270364191",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4148,7 +4370,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1270364192",
         "verified": true,
-        "osm_id": "way/1270364192"
+        "osm_id": "way/1270364192",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4176,7 +4400,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1270364193",
         "verified": true,
-        "osm_id": "way/1270364193"
+        "osm_id": "way/1270364193",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4212,7 +4438,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1272082822",
         "verified": true,
-        "osm_id": "way/1272082822"
+        "osm_id": "way/1272082822",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4248,7 +4476,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1275052051",
         "verified": true,
-        "osm_id": "way/1275052051"
+        "osm_id": "way/1275052051",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4288,7 +4518,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1342595471",
         "verified": true,
-        "osm_id": "way/1342595471"
+        "osm_id": "way/1342595471",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4316,7 +4548,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1380299391",
         "verified": true,
-        "osm_id": "way/1380299391"
+        "osm_id": "way/1380299391",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4344,7 +4578,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1460190857",
         "verified": true,
-        "osm_id": "way/1460190857"
+        "osm_id": "way/1460190857",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4376,7 +4612,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1462629231",
         "verified": true,
-        "osm_id": "way/1462629231"
+        "osm_id": "way/1462629231",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4404,7 +4642,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1468727377",
         "verified": true,
-        "osm_id": "way/1468727377"
+        "osm_id": "way/1468727377",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4432,7 +4672,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1468727378",
         "verified": true,
-        "osm_id": "way/1468727378"
+        "osm_id": "way/1468727378",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4460,7 +4702,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1473938468",
         "verified": true,
-        "osm_id": "way/1473938468"
+        "osm_id": "way/1473938468",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4492,7 +4736,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1525917286",
         "verified": true,
-        "osm_id": "way/1525917286"
+        "osm_id": "way/1525917286",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4532,7 +4778,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1543994657",
         "verified": true,
-        "osm_id": "way/1543994657"
+        "osm_id": "way/1543994657",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4568,7 +4816,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1547593355",
         "verified": true,
-        "osm_id": "way/1547593355"
+        "osm_id": "way/1547593355",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4600,7 +4850,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1547969662",
         "verified": true,
-        "osm_id": "way/1547969662"
+        "osm_id": "way/1547969662",
+        "descripcion_es": "Vía intermedia, en concreto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with concrete. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4628,7 +4880,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1547969663",
         "verified": true,
-        "osm_id": "way/1547969663"
+        "osm_id": "way/1547969663",
+        "descripcion_es": "Vía intermedia. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4656,7 +4910,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1547969664",
         "verified": true,
-        "osm_id": "way/1547969664"
+        "osm_id": "way/1547969664",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4684,7 +4940,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1550239179",
         "verified": true,
-        "osm_id": "way/1550239179"
+        "osm_id": "way/1550239179",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4736,7 +4994,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1550239180",
         "verified": true,
-        "osm_id": "way/1550239180"
+        "osm_id": "way/1550239180",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4776,7 +5036,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1550239181",
         "verified": true,
-        "osm_id": "way/1550239181"
+        "osm_id": "way/1550239181",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4816,7 +5078,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1554614247",
         "verified": true,
-        "osm_id": "way/1554614247"
+        "osm_id": "way/1554614247",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4856,7 +5120,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1557475165",
         "verified": true,
-        "osm_id": "way/1557475165"
+        "osm_id": "way/1557475165",
+        "descripcion_es": "Vía intermedia, en concreto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with concrete. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4884,7 +5150,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1567772978",
         "verified": true,
-        "osm_id": "way/1567772978"
+        "osm_id": "way/1567772978",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4920,7 +5188,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/167989832",
         "verified": true,
-        "osm_id": "way/167989832"
+        "osm_id": "way/167989832",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -4976,7 +5246,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/167989833",
         "verified": true,
-        "osm_id": "way/167989833"
+        "osm_id": "way/167989833",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5016,7 +5288,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/167989834",
         "verified": true,
-        "osm_id": "way/167989834"
+        "osm_id": "way/167989834",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5052,7 +5326,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/167989835",
         "verified": true,
-        "osm_id": "way/167989835"
+        "osm_id": "way/167989835",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5088,7 +5364,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/167989836",
         "verified": true,
-        "osm_id": "way/167989836"
+        "osm_id": "way/167989836",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5116,7 +5394,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/167990169",
         "verified": true,
-        "osm_id": "way/167990169"
+        "osm_id": "way/167990169",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5144,7 +5424,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/168298755",
         "verified": true,
-        "osm_id": "way/168298755"
+        "osm_id": "way/168298755",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5200,7 +5482,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/168304184",
         "verified": true,
-        "osm_id": "way/168304184"
+        "osm_id": "way/168304184",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5240,7 +5524,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/168312538",
         "verified": true,
-        "osm_id": "way/168312538"
+        "osm_id": "way/168312538",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5296,7 +5582,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/169057998",
         "verified": true,
-        "osm_id": "way/169057998"
+        "osm_id": "way/169057998",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5336,7 +5624,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/169057999",
         "verified": true,
-        "osm_id": "way/169057999"
+        "osm_id": "way/169057999",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5368,7 +5658,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/174486782",
         "verified": true,
-        "osm_id": "way/174486782"
+        "osm_id": "way/174486782",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5396,7 +5688,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/174486809",
         "verified": true,
-        "osm_id": "way/174486809"
+        "osm_id": "way/174486809",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5436,7 +5730,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/175098082",
         "verified": true,
-        "osm_id": "way/175098082"
+        "osm_id": "way/175098082",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5464,7 +5760,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/175525088",
         "verified": true,
-        "osm_id": "way/175525088"
+        "osm_id": "way/175525088",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5512,7 +5810,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/175525092",
         "verified": true,
-        "osm_id": "way/175525092"
+        "osm_id": "way/175525092",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5572,7 +5872,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/175525094",
         "verified": true,
-        "osm_id": "way/175525094"
+        "osm_id": "way/175525094",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5628,7 +5930,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/175525095",
         "verified": true,
-        "osm_id": "way/175525095"
+        "osm_id": "way/175525095",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5676,7 +5980,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/175525098",
         "verified": true,
-        "osm_id": "way/175525098"
+        "osm_id": "way/175525098",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5708,7 +6014,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/175788644",
         "verified": true,
-        "osm_id": "way/175788644"
+        "osm_id": "way/175788644",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5736,7 +6044,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/175789852",
         "verified": true,
-        "osm_id": "way/175789852"
+        "osm_id": "way/175789852",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5792,7 +6102,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/178740979",
         "verified": true,
-        "osm_id": "way/178740979"
+        "osm_id": "way/178740979",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5832,7 +6144,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/178740984",
         "verified": true,
-        "osm_id": "way/178740984"
+        "osm_id": "way/178740984",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5860,7 +6174,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/183797762",
         "verified": true,
-        "osm_id": "way/183797762"
+        "osm_id": "way/183797762",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5900,7 +6216,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/220346951",
         "verified": true,
-        "osm_id": "way/220346951"
+        "osm_id": "way/220346951",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5932,7 +6250,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/231403434",
         "verified": true,
-        "osm_id": "way/231403434"
+        "osm_id": "way/231403434",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -5960,7 +6280,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/240578857",
         "verified": true,
-        "osm_id": "way/240578857"
+        "osm_id": "way/240578857",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6004,7 +6326,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511804",
         "verified": true,
-        "osm_id": "way/247511804"
+        "osm_id": "way/247511804",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6032,7 +6356,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511805",
         "verified": true,
-        "osm_id": "way/247511805"
+        "osm_id": "way/247511805",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6064,7 +6390,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511806",
         "verified": true,
-        "osm_id": "way/247511806"
+        "osm_id": "way/247511806",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6096,7 +6424,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511807",
         "verified": true,
-        "osm_id": "way/247511807"
+        "osm_id": "way/247511807",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6128,7 +6458,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511809",
         "verified": true,
-        "osm_id": "way/247511809"
+        "osm_id": "way/247511809",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6176,7 +6508,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511810",
         "verified": true,
-        "osm_id": "way/247511810"
+        "osm_id": "way/247511810",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6220,7 +6554,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511813",
         "verified": true,
-        "osm_id": "way/247511813"
+        "osm_id": "way/247511813",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6248,7 +6584,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511814",
         "verified": true,
-        "osm_id": "way/247511814"
+        "osm_id": "way/247511814",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6280,7 +6618,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511817",
         "verified": true,
-        "osm_id": "way/247511817"
+        "osm_id": "way/247511817",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6312,7 +6652,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511834",
         "verified": true,
-        "osm_id": "way/247511834"
+        "osm_id": "way/247511834",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6380,7 +6722,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511835",
         "verified": true,
-        "osm_id": "way/247511835"
+        "osm_id": "way/247511835",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6456,7 +6800,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511836",
         "verified": true,
-        "osm_id": "way/247511836"
+        "osm_id": "way/247511836",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6504,7 +6850,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511837",
         "verified": true,
-        "osm_id": "way/247511837"
+        "osm_id": "way/247511837",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6548,7 +6896,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247511839",
         "verified": true,
-        "osm_id": "way/247511839"
+        "osm_id": "way/247511839",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6596,7 +6946,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/247539525",
         "verified": true,
-        "osm_id": "way/247539525"
+        "osm_id": "way/247539525",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6632,7 +6984,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/268558028",
         "verified": true,
-        "osm_id": "way/268558028"
+        "osm_id": "way/268558028",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6672,7 +7026,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/268558034",
         "verified": true,
-        "osm_id": "way/268558034"
+        "osm_id": "way/268558034",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6720,7 +7076,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/28118664",
         "verified": true,
-        "osm_id": "way/28118664"
+        "osm_id": "way/28118664",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6768,7 +7126,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/28739239",
         "verified": true,
-        "osm_id": "way/28739239"
+        "osm_id": "way/28739239",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6820,7 +7180,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/31107747",
         "verified": true,
-        "osm_id": "way/31107747"
+        "osm_id": "way/31107747",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6892,7 +7254,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/319944220",
         "verified": true,
-        "osm_id": "way/319944220"
+        "osm_id": "way/319944220",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6936,7 +7300,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/32258299",
         "verified": true,
-        "osm_id": "way/32258299"
+        "osm_id": "way/32258299",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -6972,7 +7338,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/32258307",
         "verified": true,
-        "osm_id": "way/32258307"
+        "osm_id": "way/32258307",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7004,7 +7372,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/32258309",
         "verified": true,
-        "osm_id": "way/32258309"
+        "osm_id": "way/32258309",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7036,7 +7406,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/352879496",
         "verified": true,
-        "osm_id": "way/352879496"
+        "osm_id": "way/352879496",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7072,7 +7444,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/352879498",
         "verified": true,
-        "osm_id": "way/352879498"
+        "osm_id": "way/352879498",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7120,7 +7494,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/352879501",
         "verified": true,
-        "osm_id": "way/352879501"
+        "osm_id": "way/352879501",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7152,7 +7528,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/352879502",
         "verified": true,
-        "osm_id": "way/352879502"
+        "osm_id": "way/352879502",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7184,7 +7562,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/402991339",
         "verified": true,
-        "osm_id": "way/402991339"
+        "osm_id": "way/402991339",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7228,7 +7608,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/402991348",
         "verified": true,
-        "osm_id": "way/402991348"
+        "osm_id": "way/402991348",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7264,7 +7646,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/402991351",
         "verified": true,
-        "osm_id": "way/402991351"
+        "osm_id": "way/402991351",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7300,7 +7684,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/402991352",
         "verified": true,
-        "osm_id": "way/402991352"
+        "osm_id": "way/402991352",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7352,7 +7738,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/402991355",
         "verified": true,
-        "osm_id": "way/402991355"
+        "osm_id": "way/402991355",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7416,7 +7804,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/402991356",
         "verified": true,
-        "osm_id": "way/402991356"
+        "osm_id": "way/402991356",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7460,7 +7850,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/403931533",
         "verified": true,
-        "osm_id": "way/403931533"
+        "osm_id": "way/403931533",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7488,7 +7880,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/407502380",
         "verified": true,
-        "osm_id": "way/407502380"
+        "osm_id": "way/407502380",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7540,7 +7934,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/484998723",
         "verified": true,
-        "osm_id": "way/484998723"
+        "osm_id": "way/484998723",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7572,7 +7968,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/484998724",
         "verified": true,
-        "osm_id": "way/484998724"
+        "osm_id": "way/484998724",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7600,7 +7998,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/487128138",
         "verified": true,
-        "osm_id": "way/487128138"
+        "osm_id": "way/487128138",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7660,7 +8060,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/498450726",
         "verified": true,
-        "osm_id": "way/498450726"
+        "osm_id": "way/498450726",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7688,7 +8090,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885822",
         "verified": true,
-        "osm_id": "way/49885822"
+        "osm_id": "way/49885822",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7736,7 +8140,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885829",
         "verified": true,
-        "osm_id": "way/49885829"
+        "osm_id": "way/49885829",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7768,7 +8174,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885832",
         "verified": true,
-        "osm_id": "way/49885832"
+        "osm_id": "way/49885832",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7796,7 +8204,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885834",
         "verified": true,
-        "osm_id": "way/49885834"
+        "osm_id": "way/49885834",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7824,7 +8234,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885839",
         "verified": true,
-        "osm_id": "way/49885839"
+        "osm_id": "way/49885839",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7860,7 +8272,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885843",
         "verified": true,
-        "osm_id": "way/49885843"
+        "osm_id": "way/49885843",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7892,7 +8306,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885846",
         "verified": true,
-        "osm_id": "way/49885846"
+        "osm_id": "way/49885846",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7924,7 +8340,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885850",
         "verified": true,
-        "osm_id": "way/49885850"
+        "osm_id": "way/49885850",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7956,7 +8374,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885856",
         "verified": true,
-        "osm_id": "way/49885856"
+        "osm_id": "way/49885856",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -7988,7 +8408,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885857",
         "verified": true,
-        "osm_id": "way/49885857"
+        "osm_id": "way/49885857",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8020,7 +8442,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885862",
         "verified": true,
-        "osm_id": "way/49885862"
+        "osm_id": "way/49885862",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8048,7 +8472,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885863",
         "verified": true,
-        "osm_id": "way/49885863"
+        "osm_id": "way/49885863",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8076,7 +8502,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885911",
         "verified": true,
-        "osm_id": "way/49885911"
+        "osm_id": "way/49885911",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8140,7 +8568,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885917",
         "verified": true,
-        "osm_id": "way/49885917"
+        "osm_id": "way/49885917",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8168,7 +8598,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885922",
         "verified": true,
-        "osm_id": "way/49885922"
+        "osm_id": "way/49885922",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8196,7 +8628,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885942",
         "verified": true,
-        "osm_id": "way/49885942"
+        "osm_id": "way/49885942",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8256,7 +8690,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885955",
         "verified": true,
-        "osm_id": "way/49885955"
+        "osm_id": "way/49885955",
+        "descripcion_es": "Vía intermedia. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8356,7 +8792,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49885989",
         "verified": true,
-        "osm_id": "way/49885989"
+        "osm_id": "way/49885989",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8384,7 +8822,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49903168",
         "verified": true,
-        "osm_id": "way/49903168"
+        "osm_id": "way/49903168",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8468,7 +8908,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/49903174",
         "verified": true,
-        "osm_id": "way/49903174"
+        "osm_id": "way/49903174",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8552,7 +8994,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/502250690",
         "verified": true,
-        "osm_id": "way/502250690"
+        "osm_id": "way/502250690",
+        "descripcion_es": "Vía local, pavimentada. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8600,7 +9044,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/50331572",
         "verified": true,
-        "osm_id": "way/50331572"
+        "osm_id": "way/50331572",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8664,7 +9110,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/50342788",
         "verified": true,
-        "osm_id": "way/50342788"
+        "osm_id": "way/50342788",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8692,7 +9140,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/50342814",
         "verified": true,
-        "osm_id": "way/50342814"
+        "osm_id": "way/50342814",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8720,7 +9170,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/50342831",
         "verified": true,
-        "osm_id": "way/50342831"
+        "osm_id": "way/50342831",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8768,7 +9220,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/525059778",
         "verified": true,
-        "osm_id": "way/525059778"
+        "osm_id": "way/525059778",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8800,7 +9254,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/525062156",
         "verified": true,
-        "osm_id": "way/525062156"
+        "osm_id": "way/525062156",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8844,7 +9300,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/525062157",
         "verified": true,
-        "osm_id": "way/525062157"
+        "osm_id": "way/525062157",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8888,7 +9346,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/525062158",
         "verified": true,
-        "osm_id": "way/525062158"
+        "osm_id": "way/525062158",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8932,7 +9392,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/525062159",
         "verified": true,
-        "osm_id": "way/525062159"
+        "osm_id": "way/525062159",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -8980,7 +9442,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/527580188",
         "verified": true,
-        "osm_id": "way/527580188"
+        "osm_id": "way/527580188",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9024,7 +9488,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/527580193",
         "verified": true,
-        "osm_id": "way/527580193"
+        "osm_id": "way/527580193",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9088,7 +9554,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/543168181",
         "verified": true,
-        "osm_id": "way/543168181"
+        "osm_id": "way/543168181",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9140,7 +9608,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/543196736",
         "verified": true,
-        "osm_id": "way/543196736"
+        "osm_id": "way/543196736",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9192,7 +9662,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/543353673",
         "verified": true,
-        "osm_id": "way/543353673"
+        "osm_id": "way/543353673",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9228,7 +9700,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/543361016",
         "verified": true,
-        "osm_id": "way/543361016"
+        "osm_id": "way/543361016",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9260,7 +9734,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/543361017",
         "verified": true,
-        "osm_id": "way/543361017"
+        "osm_id": "way/543361017",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9320,7 +9796,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/543361018",
         "verified": true,
-        "osm_id": "way/543361018"
+        "osm_id": "way/543361018",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9384,7 +9862,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/584975675",
         "verified": true,
-        "osm_id": "way/584975675"
+        "osm_id": "way/584975675",
+        "descripcion_es": "Vía intermedia. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9424,7 +9904,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/62115642",
         "verified": true,
-        "osm_id": "way/62115642"
+        "osm_id": "way/62115642",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9464,7 +9946,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/623554122",
         "verified": true,
-        "osm_id": "way/623554122"
+        "osm_id": "way/623554122",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9496,7 +9980,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/623554149",
         "verified": true,
-        "osm_id": "way/623554149"
+        "osm_id": "way/623554149",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9524,7 +10010,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/623554151",
         "verified": true,
-        "osm_id": "way/623554151"
+        "osm_id": "way/623554151",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9552,7 +10040,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/623554152",
         "verified": true,
-        "osm_id": "way/623554152"
+        "osm_id": "way/623554152",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9580,7 +10070,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/623577519",
         "verified": true,
-        "osm_id": "way/623577519"
+        "osm_id": "way/623577519",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9608,7 +10100,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/623577539",
         "verified": true,
-        "osm_id": "way/623577539"
+        "osm_id": "way/623577539",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9640,7 +10134,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/623590076",
         "verified": true,
-        "osm_id": "way/623590076"
+        "osm_id": "way/623590076",
+        "descripcion_es": "Vía local, pavimentada. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9668,7 +10164,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/623590077",
         "verified": true,
-        "osm_id": "way/623590077"
+        "osm_id": "way/623590077",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9708,7 +10206,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/623590079",
         "verified": true,
-        "osm_id": "way/623590079"
+        "osm_id": "way/623590079",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9748,7 +10248,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/623884503",
         "verified": true,
-        "osm_id": "way/623884503"
+        "osm_id": "way/623884503",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9776,7 +10278,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/625562400",
         "verified": true,
-        "osm_id": "way/625562400"
+        "osm_id": "way/625562400",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9848,7 +10352,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/625562401",
         "verified": true,
-        "osm_id": "way/625562401"
+        "osm_id": "way/625562401",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -9988,7 +10494,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/625562402",
         "verified": true,
-        "osm_id": "way/625562402"
+        "osm_id": "way/625562402",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10132,7 +10640,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/625569873",
         "verified": true,
-        "osm_id": "way/625569873"
+        "osm_id": "way/625569873",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10168,7 +10678,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/625569876",
         "verified": true,
-        "osm_id": "way/625569876"
+        "osm_id": "way/625569876",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10212,7 +10724,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/625569885",
         "verified": true,
-        "osm_id": "way/625569885"
+        "osm_id": "way/625569885",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10264,7 +10778,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/625594190",
         "verified": true,
-        "osm_id": "way/625594190"
+        "osm_id": "way/625594190",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10300,7 +10816,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/625599216",
         "verified": true,
-        "osm_id": "way/625599216"
+        "osm_id": "way/625599216",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10340,7 +10858,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/625599218",
         "verified": true,
-        "osm_id": "way/625599218"
+        "osm_id": "way/625599218",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10396,7 +10916,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/625601707",
         "verified": true,
-        "osm_id": "way/625601707"
+        "osm_id": "way/625601707",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10444,7 +10966,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/625615120",
         "verified": true,
-        "osm_id": "way/625615120"
+        "osm_id": "way/625615120",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10496,7 +11020,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/638337807",
         "verified": true,
-        "osm_id": "way/638337807"
+        "osm_id": "way/638337807",
+        "descripcion_es": "Vía intermedia, en concreto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with concrete. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10524,7 +11050,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/638337808",
         "verified": true,
-        "osm_id": "way/638337808"
+        "osm_id": "way/638337808",
+        "descripcion_es": "Vía intermedia, en concreto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with concrete. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10556,7 +11084,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/639425968",
         "verified": true,
-        "osm_id": "way/639425968"
+        "osm_id": "way/639425968",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10584,7 +11114,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/639425969",
         "verified": true,
-        "osm_id": "way/639425969"
+        "osm_id": "way/639425969",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10712,7 +11244,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642629794",
         "verified": true,
-        "osm_id": "way/642629794"
+        "osm_id": "way/642629794",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10740,7 +11274,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642920317",
         "verified": true,
-        "osm_id": "way/642920317"
+        "osm_id": "way/642920317",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10776,7 +11312,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642920318",
         "verified": true,
-        "osm_id": "way/642920318"
+        "osm_id": "way/642920318",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10808,7 +11346,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642920319",
         "verified": true,
-        "osm_id": "way/642920319"
+        "osm_id": "way/642920319",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10840,7 +11380,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642920322",
         "verified": true,
-        "osm_id": "way/642920322"
+        "osm_id": "way/642920322",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10900,7 +11442,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642924750",
         "verified": true,
-        "osm_id": "way/642924750"
+        "osm_id": "way/642924750",
+        "descripcion_es": "Vía intermedia. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -10964,7 +11508,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642924752",
         "verified": true,
-        "osm_id": "way/642924752"
+        "osm_id": "way/642924752",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11004,7 +11550,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642924753",
         "verified": true,
-        "osm_id": "way/642924753"
+        "osm_id": "way/642924753",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11040,7 +11588,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642924757",
         "verified": true,
-        "osm_id": "way/642924757"
+        "osm_id": "way/642924757",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11100,7 +11650,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642924758",
         "verified": true,
-        "osm_id": "way/642924758"
+        "osm_id": "way/642924758",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11188,7 +11740,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642924762",
         "verified": true,
-        "osm_id": "way/642924762"
+        "osm_id": "way/642924762",
+        "descripcion_es": "Vía local, pavimentada. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11268,7 +11822,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642926534",
         "verified": true,
-        "osm_id": "way/642926534"
+        "osm_id": "way/642926534",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11388,7 +11944,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642926537",
         "verified": true,
-        "osm_id": "way/642926537"
+        "osm_id": "way/642926537",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11484,7 +12042,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642926540",
         "verified": true,
-        "osm_id": "way/642926540"
+        "osm_id": "way/642926540",
+        "descripcion_es": "Vía intermedia. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11516,7 +12076,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642926543",
         "verified": true,
-        "osm_id": "way/642926543"
+        "osm_id": "way/642926543",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11560,7 +12122,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642985903",
         "verified": true,
-        "osm_id": "way/642985903"
+        "osm_id": "way/642985903",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11588,7 +12152,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642985904",
         "verified": true,
-        "osm_id": "way/642985904"
+        "osm_id": "way/642985904",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11616,7 +12182,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642985974",
         "verified": true,
-        "osm_id": "way/642985974"
+        "osm_id": "way/642985974",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11672,7 +12240,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/643002902",
         "verified": true,
-        "osm_id": "way/643002902"
+        "osm_id": "way/643002902",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11720,7 +12290,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/643008465",
         "verified": true,
-        "osm_id": "way/643008465"
+        "osm_id": "way/643008465",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11756,7 +12328,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/643008466",
         "verified": true,
-        "osm_id": "way/643008466"
+        "osm_id": "way/643008466",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11788,7 +12362,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/643008467",
         "verified": true,
-        "osm_id": "way/643008467"
+        "osm_id": "way/643008467",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11816,7 +12392,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/643560232",
         "verified": true,
-        "osm_id": "way/643560232"
+        "osm_id": "way/643560232",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11844,7 +12422,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/651770914",
         "verified": true,
-        "osm_id": "way/651770914"
+        "osm_id": "way/651770914",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11896,7 +12476,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/652169529",
         "verified": true,
-        "osm_id": "way/652169529"
+        "osm_id": "way/652169529",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11924,7 +12506,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653302663",
         "verified": true,
-        "osm_id": "way/653302663"
+        "osm_id": "way/653302663",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11956,7 +12540,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653302665",
         "verified": true,
-        "osm_id": "way/653302665"
+        "osm_id": "way/653302665",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -11992,7 +12578,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653302670",
         "verified": true,
-        "osm_id": "way/653302670"
+        "osm_id": "way/653302670",
+        "descripcion_es": "Vía intermedia. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12040,7 +12628,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653302673",
         "verified": true,
-        "osm_id": "way/653302673"
+        "osm_id": "way/653302673",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12080,7 +12670,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653302675",
         "verified": true,
-        "osm_id": "way/653302675"
+        "osm_id": "way/653302675",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12112,7 +12704,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653302676",
         "verified": true,
-        "osm_id": "way/653302676"
+        "osm_id": "way/653302676",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12144,7 +12738,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653302928",
         "verified": true,
-        "osm_id": "way/653302928"
+        "osm_id": "way/653302928",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12172,7 +12768,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653302929",
         "verified": true,
-        "osm_id": "way/653302929"
+        "osm_id": "way/653302929",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12220,7 +12818,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653302930",
         "verified": true,
-        "osm_id": "way/653302930"
+        "osm_id": "way/653302930",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12248,7 +12848,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653304766",
         "verified": true,
-        "osm_id": "way/653304766"
+        "osm_id": "way/653304766",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12280,7 +12882,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653304780",
         "verified": true,
-        "osm_id": "way/653304780"
+        "osm_id": "way/653304780",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12308,7 +12912,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653304783",
         "verified": true,
-        "osm_id": "way/653304783"
+        "osm_id": "way/653304783",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12340,7 +12946,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653304787",
         "verified": true,
-        "osm_id": "way/653304787"
+        "osm_id": "way/653304787",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12380,7 +12988,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653310137",
         "verified": true,
-        "osm_id": "way/653310137"
+        "osm_id": "way/653310137",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12464,7 +13074,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653310139",
         "verified": true,
-        "osm_id": "way/653310139"
+        "osm_id": "way/653310139",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12492,7 +13104,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653310144",
         "verified": true,
-        "osm_id": "way/653310144"
+        "osm_id": "way/653310144",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12520,7 +13134,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653311618",
         "verified": true,
-        "osm_id": "way/653311618"
+        "osm_id": "way/653311618",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12548,7 +13164,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653311628",
         "verified": true,
-        "osm_id": "way/653311628"
+        "osm_id": "way/653311628",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12584,7 +13202,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/661309373",
         "verified": true,
-        "osm_id": "way/661309373"
+        "osm_id": "way/661309373",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12628,7 +13248,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/661309377",
         "verified": true,
-        "osm_id": "way/661309377"
+        "osm_id": "way/661309377",
+        "descripcion_es": "Vía local, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12672,7 +13294,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/748907000",
         "verified": true,
-        "osm_id": "way/748907000"
+        "osm_id": "way/748907000",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12700,7 +13324,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749024666",
         "verified": true,
-        "osm_id": "way/749024666"
+        "osm_id": "way/749024666",
+        "descripcion_es": "Vía intermedia. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12760,7 +13386,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749024667",
         "verified": true,
-        "osm_id": "way/749024667"
+        "osm_id": "way/749024667",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12808,7 +13436,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749029563",
         "verified": true,
-        "osm_id": "way/749029563"
+        "osm_id": "way/749029563",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12864,7 +13494,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749029565",
         "verified": true,
-        "osm_id": "way/749029565"
+        "osm_id": "way/749029565",
+        "descripcion_es": "Vía arterial secundaria, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12944,7 +13576,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749029581",
         "verified": true,
-        "osm_id": "way/749029581"
+        "osm_id": "way/749029581",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -12976,7 +13610,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749029582",
         "verified": true,
-        "osm_id": "way/749029582"
+        "osm_id": "way/749029582",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13048,7 +13684,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749029583",
         "verified": true,
-        "osm_id": "way/749029583"
+        "osm_id": "way/749029583",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13076,7 +13714,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749035500",
         "verified": true,
-        "osm_id": "way/749035500"
+        "osm_id": "way/749035500",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13128,7 +13768,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749035501",
         "verified": true,
-        "osm_id": "way/749035501"
+        "osm_id": "way/749035501",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13160,7 +13802,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749075940",
         "verified": true,
-        "osm_id": "way/749075940"
+        "osm_id": "way/749075940",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13208,7 +13852,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749075941",
         "verified": true,
-        "osm_id": "way/749075941"
+        "osm_id": "way/749075941",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13260,7 +13906,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749075959",
         "verified": true,
-        "osm_id": "way/749075959"
+        "osm_id": "way/749075959",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13340,7 +13988,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749075966",
         "verified": true,
-        "osm_id": "way/749075966"
+        "osm_id": "way/749075966",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13428,7 +14078,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749075967",
         "verified": true,
-        "osm_id": "way/749075967"
+        "osm_id": "way/749075967",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13484,7 +14136,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749075968",
         "verified": true,
-        "osm_id": "way/749075968"
+        "osm_id": "way/749075968",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13520,7 +14174,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749075969",
         "verified": true,
-        "osm_id": "way/749075969"
+        "osm_id": "way/749075969",
+        "descripcion_es": "Vía arterial secundaria. Dato de OpenStreetMap.",
+        "descripcion_en": "Secondary arterial road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13560,7 +14216,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/760605953",
         "verified": true,
-        "osm_id": "way/760605953"
+        "osm_id": "way/760605953",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13608,7 +14266,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/812927745",
         "verified": true,
-        "osm_id": "way/812927745"
+        "osm_id": "way/812927745",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13676,7 +14336,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/831017880",
         "verified": true,
-        "osm_id": "way/831017880"
+        "osm_id": "way/831017880",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13724,7 +14386,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/831017881",
         "verified": true,
-        "osm_id": "way/831017881"
+        "osm_id": "way/831017881",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13784,7 +14448,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/838459572",
         "verified": true,
-        "osm_id": "way/838459572"
+        "osm_id": "way/838459572",
+        "descripcion_es": "Vía local, sin pavimentar. Según la regla publicada por el IDU, las vías sin pavimentar se reportan en mal estado. Datos de OpenStreetMap.",
+        "descripcion_en": "Local road, unpaved. Under the rule published by IDU, unpaved roads are reported in poor condition. Data from OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13928,7 +14594,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/91080964",
         "verified": true,
-        "osm_id": "way/91080964"
+        "osm_id": "way/91080964",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -13992,7 +14660,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/91081031",
         "verified": true,
-        "osm_id": "way/91081031"
+        "osm_id": "way/91081031",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -14064,7 +14734,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/91081130",
         "verified": true,
-        "osm_id": "way/91081130"
+        "osm_id": "way/91081130",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -14116,7 +14788,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/915125083",
         "verified": true,
-        "osm_id": "way/915125083"
+        "osm_id": "way/915125083",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -14152,7 +14826,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/915125084",
         "verified": true,
-        "osm_id": "way/915125084"
+        "osm_id": "way/915125084",
+        "descripcion_es": "Vía arterial principal, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Main arterial road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -14208,7 +14884,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/945346931",
         "verified": true,
-        "osm_id": "way/945346931"
+        "osm_id": "way/945346931",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -14240,7 +14918,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/993478907",
         "verified": true,
-        "osm_id": "way/993478907"
+        "osm_id": "way/993478907",
+        "descripcion_es": "Vía intermedia, en asfalto. Dato de OpenStreetMap.",
+        "descripcion_en": "Intermediate road, paved with asphalt. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",
@@ -14276,7 +14956,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/993691415",
         "verified": true,
-        "osm_id": "way/993691415"
+        "osm_id": "way/993691415",
+        "descripcion_es": "Vía local. Dato de OpenStreetMap.",
+        "descripcion_en": "Local road. From OpenStreetMap."
       },
       "geometry": {
         "type": "LineString",

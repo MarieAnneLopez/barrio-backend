@@ -74,7 +74,7 @@ def test_acepta_fotos_de_mapillary_con_texto_alternativo_en_ingles(tmp_path: Pat
 
 def test_la_semilla_de_mapillary_trae_autor_licencia_original_y_texto_en_ingles() -> None:
     fotos = load_fotos.read(load_fotos.SEED_MAPILLARY)
-    assert len(fotos) == 201
+    assert len(fotos) == 199  # 201 elegidas menos 2 de parques eliminados (H35)
     assert all(f["url"].startswith("/assets/photos/mapillary/") and f["licencia"] == "CC BY-SA 4.0" for f in fotos)
     assert all(f["autor"] and f["source_ref"].startswith(load_fotos.MAPILLARY) and f["alt_text_en"] for f in fotos)
     assert all(f["lugar_ref"].startswith("https://www.openstreetmap.org/") for f in fotos)

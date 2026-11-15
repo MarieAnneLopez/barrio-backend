@@ -38,7 +38,9 @@
         "telefono_24_7": "3134070555",
         "source_type": "datos_abiertos",
         "source_ref": "https://datosabiertos.bogota.gov.co/dataset/centro-de-atencion-accion-para-bogota-d-c#E08C13026",
-        "verified": true
+        "verified": true,
+        "descripcion_es": "Comando de Atención Inmediata (CAI) de la Policía Nacional, en CL 6D KR 87A. Dato de Datos Abiertos de Bogotá.",
+        "descripcion_en": "National Police Immediate Response Command (CAI), at CL 6D KR 87A. From Bogotá open data."
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +59,9 @@
         "telefono_24_7": null,
         "source_type": "datos_abiertos",
         "source_ref": "https://datosabiertos.bogota.gov.co/dataset/instituciones-prestadoras-de-salud-bogota#1100130296",
-        "verified": true
+        "verified": true,
+        "descripcion_es": "Unidad de servicios de salud en CALLE 10 # 86 - 58. Dato de Datos Abiertos de Bogotá.",
+        "descripcion_en": "Health services unit at CALLE 10 # 86 - 58. From Bogotá open data."
       },
       "geometry": {
         "type": "Point",

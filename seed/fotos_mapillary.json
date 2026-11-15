@@ -2170,28 +2170,6 @@
     },
     {
       "modulo": "zonas-verdes",
-      "lugar_ref": "https://www.openstreetmap.org/way/651770912",
-      "url": "/assets/photos/mapillary/1297529878637718-1024.webp",
-      "alt_text": "Zona verde vista desde la vía (2025).",
-      "alt_text_en": "Green area seen from the road (2025).",
-      "autor": "MiguelForero",
-      "licencia": "CC BY-SA 4.0",
-      "source_ref": "https://www.mapillary.com/app/?pKey=1297529878637718",
-      "orden": 0
-    },
-    {
-      "modulo": "zonas-verdes",
-      "lugar_ref": "https://www.openstreetmap.org/way/653299191",
-      "url": "/assets/photos/mapillary/1144384819302218-1024.webp",
-      "alt_text": "Zona verde vista desde la vía (2021).",
-      "alt_text_en": "Green area seen from the road (2021).",
-      "autor": "kaart5",
-      "licencia": "CC BY-SA 4.0",
-      "source_ref": "https://www.mapillary.com/app/?pKey=1144384819302218",
-      "orden": 0
-    },
-    {
-      "modulo": "zonas-verdes",
       "lugar_ref": "https://www.openstreetmap.org/way/653304782",
       "url": "/assets/photos/mapillary/274235841329530-1024.webp",
       "alt_text": "Zona verde vista desde la vía (2021).",

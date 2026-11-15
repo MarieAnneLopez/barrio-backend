@@ -36,7 +36,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/168163567",
         "verified": true,
-        "osm_id": "way/168163567"
+        "osm_id": "way/168163567",
+        "descripcion_es": "Colegio público, en Carrera 87A. Dato de OpenStreetMap.",
+        "descripcion_en": "Public school, at Carrera 87A. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +59,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/183669152",
         "verified": false,
-        "osm_id": "way/183669152"
+        "osm_id": "way/183669152",
+        "descripcion_es": "Colegio público. Dato de OpenStreetMap.",
+        "descripcion_en": "Public school. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -78,7 +82,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/319942177",
         "verified": true,
-        "osm_id": "way/319942177"
+        "osm_id": "way/319942177",
+        "descripcion_es": "Jardín infantil público. Dato de OpenStreetMap.",
+        "descripcion_en": "Public kindergarten. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -99,7 +105,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/407502379",
         "verified": false,
-        "osm_id": "way/407502379"
+        "osm_id": "way/407502379",
+        "descripcion_es": "Colegio público. Dato de OpenStreetMap.",
+        "descripcion_en": "Public school. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",
@@ -120,7 +128,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/414819235",
         "verified": false,
-        "osm_id": "way/414819235"
+        "osm_id": "way/414819235",
+        "descripcion_es": "Colegio público. Dato de OpenStreetMap.",
+        "descripcion_en": "Public school. From OpenStreetMap."
       },
       "geometry": {
         "type": "Point",

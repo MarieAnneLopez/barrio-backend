@@ -152,7 +152,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1088488796",
         "verified": false,
-        "osm_id": "way/1088488796"
+        "osm_id": "way/1088488796",
+        "descripcion_es": "Escenario deportivo para fútbol, de acceso restringido. Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for football (soccer), with restricted access. From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -194,7 +196,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1088488797",
         "verified": false,
-        "osm_id": "way/1088488797"
+        "osm_id": "way/1088488797",
+        "descripcion_es": "Escenario deportivo para fútbol, de acceso restringido. Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for football (soccer), with restricted access. From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -236,7 +240,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1088488798",
         "verified": false,
-        "osm_id": "way/1088488798"
+        "osm_id": "way/1088488798",
+        "descripcion_es": "Escenario deportivo para fútbol, de acceso restringido. Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for football (soccer), with restricted access. From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -278,7 +284,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1149182630",
         "verified": false,
-        "osm_id": "way/1149182630"
+        "osm_id": "way/1149182630",
+        "descripcion_es": "Escenario deportivo para tenis, dentro de «Urbanización Otero De Francisco». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for tennis, inside «Urbanización Otero De Francisco». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -320,7 +328,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1149187166",
         "verified": false,
-        "osm_id": "way/1149187166"
+        "osm_id": "way/1149187166",
+        "descripcion_es": "Escenario deportivo para patinaje, con superficie de asfalto, con iluminación, dentro de «Pista de Patinaje Ciudad Tintal». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for skating, with asphalt, with lighting, inside «Pista de Patinaje Ciudad Tintal». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -362,7 +372,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1197842282",
         "verified": false,
-        "osm_id": "way/1197842282"
+        "osm_id": "way/1197842282",
+        "descripcion_es": "Escenario deportivo para atletismo. Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for athletics. From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -404,7 +416,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/1445782565",
         "verified": false,
-        "osm_id": "way/1445782565"
+        "osm_id": "way/1445782565",
+        "descripcion_es": "Escenario deportivo para baloncesto. Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball. From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -446,7 +460,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/319944282",
         "verified": false,
-        "osm_id": "way/319944282"
+        "osm_id": "way/319944282",
+        "descripcion_es": "Escenario deportivo para fútbol, con superficie de asfalto, con iluminación, dentro de «Parque vecinal IDRD 08-684». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for football (soccer), with asphalt, with lighting, inside «Parque vecinal IDRD 08-684». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -488,7 +504,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/538616467",
         "verified": false,
-        "osm_id": "way/538616467"
+        "osm_id": "way/538616467",
+        "descripcion_es": "Escenario deportivo para fútbol, con superficie de césped sintético, con iluminación, dentro de «Urbanización Parques Del Tintal Sector A». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for football (soccer), with artificial turf, with lighting, inside «Urbanización Parques Del Tintal Sector A». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -530,7 +548,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/538616468",
         "verified": false,
-        "osm_id": "way/538616468"
+        "osm_id": "way/538616468",
+        "descripcion_es": "Escenario deportivo para fútbol, con superficie de césped sintético, con iluminación, dentro de «Urbanización Parques Del Tintal Sector A». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for football (soccer), with artificial turf, with lighting, inside «Urbanización Parques Del Tintal Sector A». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -572,7 +592,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/543160767",
         "verified": false,
-        "osm_id": "way/543160767"
+        "osm_id": "way/543160767",
+        "descripcion_es": "Escenario deportivo para baloncesto, con superficie de pavimento, con iluminación, dentro de «Urbanización Otero De Francisco Cta 8». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball, with a paved surface, with lighting, inside «Urbanización Otero De Francisco Cta 8». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -614,7 +636,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/543160768",
         "verified": false,
-        "osm_id": "way/543160768"
+        "osm_id": "way/543160768",
+        "descripcion_es": "Escenario deportivo para baloncesto, con superficie de pavimento, con iluminación, dentro de «Urbanización Otero De Francisco Cta 8». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball, with a paved surface, with lighting, inside «Urbanización Otero De Francisco Cta 8». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -656,7 +680,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/543160769",
         "verified": false,
-        "osm_id": "way/543160769"
+        "osm_id": "way/543160769",
+        "descripcion_es": "Escenario deportivo para baloncesto, con superficie de pavimento, con iluminación, dentro de «Urbanización Otero De Francisco Cta 8». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball, with a paved surface, with lighting, inside «Urbanización Otero De Francisco Cta 8». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -698,7 +724,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/551339054",
         "verified": false,
-        "osm_id": "way/551339054"
+        "osm_id": "way/551339054",
+        "descripcion_es": "Escenario deportivo para baloncesto. Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball. From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -744,7 +772,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/625599217",
         "verified": false,
-        "osm_id": "way/625599217"
+        "osm_id": "way/625599217",
+        "descripcion_es": "Escenario deportivo para fútbol, dentro de «Urbanización Otero De Francisco». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for football (soccer), inside «Urbanización Otero De Francisco». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -786,7 +816,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642968775",
         "verified": false,
-        "osm_id": "way/642968775"
+        "osm_id": "way/642968775",
+        "descripcion_es": "Escenario deportivo para baloncesto, dentro de «Riveras De Occidente». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball, inside «Riveras De Occidente». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -828,7 +860,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642968779",
         "verified": false,
-        "osm_id": "way/642968779"
+        "osm_id": "way/642968779",
+        "descripcion_es": "Escenario deportivo para baloncesto, dentro de «Urbanización Riberas De Occidente». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball, inside «Urbanización Riberas De Occidente». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -870,7 +904,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642985913",
         "verified": false,
-        "osm_id": "way/642985913"
+        "osm_id": "way/642985913",
+        "descripcion_es": "Escenario deportivo para baloncesto, dentro de «Riveras De Occidente». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball, inside «Riveras De Occidente». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -912,7 +948,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642985983",
         "verified": false,
-        "osm_id": "way/642985983"
+        "osm_id": "way/642985983",
+        "descripcion_es": "Escenario deportivo para baloncesto, con superficie de gravilla fina, con iluminación, dentro de «Urbanización Parques Del Tintal». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball, with fine gravel, with lighting, inside «Urbanización Parques Del Tintal». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -954,7 +992,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/642986035",
         "verified": false,
-        "osm_id": "way/642986035"
+        "osm_id": "way/642986035",
+        "descripcion_es": "Escenario deportivo para baloncesto. Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball. From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -996,7 +1036,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/653311620",
         "verified": false,
-        "osm_id": "way/653311620"
+        "osm_id": "way/653311620",
+        "descripcion_es": "Escenario deportivo para baloncesto, dentro de «Urbanización Riberas De Occidente». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball, inside «Urbanización Riberas De Occidente». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -1038,7 +1080,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/674136093",
         "verified": false,
-        "osm_id": "way/674136093"
+        "osm_id": "way/674136093",
+        "descripcion_es": "Escenario deportivo para baloncesto, dentro de «Urbanización Otero De Francisco». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball, inside «Urbanización Otero De Francisco». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -1080,7 +1124,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/674136095",
         "verified": false,
-        "osm_id": "way/674136095"
+        "osm_id": "way/674136095",
+        "descripcion_es": "Escenario deportivo para baloncesto, dentro de «Urbanización Otero De Francisco». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball, inside «Urbanización Otero De Francisco». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -1122,7 +1168,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749035481",
         "verified": false,
-        "osm_id": "way/749035481"
+        "osm_id": "way/749035481",
+        "descripcion_es": "Escenario deportivo para tenis, dentro de «Parque Nueva Castilla». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for tennis, inside «Parque Nueva Castilla». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -1164,7 +1212,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/749035482",
         "verified": false,
-        "osm_id": "way/749035482"
+        "osm_id": "way/749035482",
+        "descripcion_es": "Escenario deportivo para tenis, dentro de «Parque Nueva Castilla». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for tennis, inside «Parque Nueva Castilla». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -1206,7 +1256,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/962454334",
         "verified": false,
-        "osm_id": "way/962454334"
+        "osm_id": "way/962454334",
+        "descripcion_es": "Escenario deportivo para ciclismo, con superficie de asfalto, con iluminación, dentro de «Pista de Patinaje Ciudad Tintal». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for cycling, with asphalt, with lighting, inside «Pista de Patinaje Ciudad Tintal». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -1312,7 +1364,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/962454338",
         "verified": true,
-        "osm_id": "way/962454338"
+        "osm_id": "way/962454338",
+        "descripcion_es": "Escenario deportivo para fútbol, con superficie de césped sintético, con iluminación, dentro de «Parque vecinal IDRD 08-684». Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for football (soccer), with artificial turf, with lighting, inside «Parque vecinal IDRD 08-684». From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -1354,7 +1408,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/962454344",
         "verified": false,
-        "osm_id": "way/962454344"
+        "osm_id": "way/962454344",
+        "descripcion_es": "Escenario deportivo para baloncesto. Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball. From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -1396,7 +1452,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/962454348",
         "verified": false,
-        "osm_id": "way/962454348"
+        "osm_id": "way/962454348",
+        "descripcion_es": "Escenario deportivo para baloncesto. Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball. From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -1438,7 +1496,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/962454349",
         "verified": false,
-        "osm_id": "way/962454349"
+        "osm_id": "way/962454349",
+        "descripcion_es": "Escenario deportivo para baloncesto. Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball. From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
@@ -1480,7 +1540,9 @@
         "source_type": "osm",
         "source_ref": "https://www.openstreetmap.org/way/962454350",
         "verified": false,
-        "osm_id": "way/962454350"
+        "osm_id": "way/962454350",
+        "descripcion_es": "Escenario deportivo para baloncesto. Dato de OpenStreetMap.",
+        "descripcion_en": "Sports venue for basketball. From OpenStreetMap."
       },
       "geometry": {
         "type": "Polygon",
