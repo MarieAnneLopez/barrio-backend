@@ -55,6 +55,8 @@ async def test_sin_datos_y_modelo_por_defecto(client: AsyncClient) -> None:
     assert stats["texto"].startswith("La plataforma tiene 0 registros")
     kennedy = (await client.post(CHAT, json={"mensaje": "localidad"})).json()
     assert kennedy["texto"] == "La historia del barrio todavía no está cargada."
+    # H36: sin proveedor externo configurado, el chat no avisa de Gemini.
+    assert (await client.get(f"{CHAT}/estado")).json() == {"proveedor": None}
 
 
 @pytest.mark.parametrize("payload", [

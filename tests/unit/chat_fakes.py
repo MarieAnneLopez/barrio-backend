@@ -15,6 +15,12 @@ class FakeTools:
             return ModuleSummary(slug, 0, 0, ())
         return ModuleSummary(slug, 5, 2, ("Colegio Alfa", "Jardín Beta", "IED Gamma"))
 
+    def place_names(self, slug: str) -> list[tuple[str, str]]:
+        if self.empty:
+            return []
+        return [("Colegio Alfa", "verificado"), ("Cancha de fútbol", "por_verificar"),
+                ("Cancha de fútbol", "por_verificar"), ("Librería de ejemplo 1", "ejemplo")]
+
     def totals(self) -> dict[str, int]:
         return {"datos-catastrales": 3706, "estado-calles": 341, "robos": 132, "barberias": 4}
 

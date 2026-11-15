@@ -43,3 +43,9 @@ class ChatOut(BaseModel):
     acciones: list[AccionOut]
     sugerencias: list[str]
     datos: list[DatoOut]
+
+
+class ChatEstadoOut(BaseModel):
+    """Proveedor externo que recibe los mensajes (H36), para el aviso de privacidad del chat."""
+
+    proveedor: Literal["gemini", "claude"] | None

@@ -43,6 +43,15 @@ class SqlBarrioTools:
         unique = dict.fromkeys(str(n) for n in names if n is not None)  # sin repetidos (p. ej. modalidades)
         return ModuleSummary(slug, total, verified, tuple(unique)[:3])
 
+    def place_names(self, slug: str) -> list[tuple[str, str]]:
+        """(nombre, estado) con estado = verificado | por_verificar | ejemplo (semilla inventada)."""
+        spec = SPECS[slug]
+        model: Any = spec.model
+        rows = self._session.execute(select(getattr(model, spec.label_field), model.verified, model.source_type)
+                                     .order_by(model.id))
+        return [(str(n), "ejemplo" if s == "seed" else "verificado" if v else "por_verificar")
+                for n, v, s in rows if n is not None]
+
     def totals(self) -> dict[str, int]:
         return {slug: SqlGeoInsightsRepository(self._session, spec.model).counts()[0]
                 for slug, spec in SPECS.items()}

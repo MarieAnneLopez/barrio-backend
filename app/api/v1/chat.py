@@ -14,10 +14,10 @@ from app.api.deps import SessionDep, get_barrio_repository
 from app.core.client_ip import client_key
 from app.core.config import get_settings
 from app.core.rate_limit import AttemptLimiter
-from app.providers.factory import build_provider
+from app.providers.factory import build_provider, provider_name
 from app.repositories.barrio_tools import SqlBarrioTools
 from app.repositories.interfaces import BarrioRepository
-from app.schemas.chat import ChatIn, ChatOut
+from app.schemas.chat import ChatEstadoOut, ChatIn, ChatOut
 from app.services.chat_agent import ChatAgent
 
 router = APIRouter(tags=["chat"])
@@ -54,3 +54,9 @@ def chat(payload: ChatIn, request: Request, agent: Annotated[ChatAgent, Depends(
     for current in (limiter, session_limiter):
         current.hit(key)
     return agent.reply(payload)
+
+
+@router.get("/chat/estado", response_model=ChatEstadoOut)
+def chat_estado() -> ChatEstadoOut:
+    """Si el chat usa un proveedor externo (Gemini), el frontend avisa antes del primer mensaje."""
+    return ChatEstadoOut(proveedor=provider_name(get_settings()))

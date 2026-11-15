@@ -44,6 +44,9 @@ class Settings(BaseSettings):
     chat_model: Literal["analitico", "generativo", "moe"] = "analitico"
     anthropic_api_key: SecretStr = SecretStr("")
     chat_llm_model: str = "claude-opus-5-5"
+    # Chat con IA gratuita (H36): Gemini, con prioridad sobre Claude si hay clave.
+    gemini_api_key: SecretStr = SecretStr("")
+    gemini_model: str = "gemini-3.5-flash-lite"
     # Límites del chat por visitante (D62): por minuto y por sesión de una hora.
     chat_messages_per_minute: int = 30
     chat_messages_per_hour: int = 120
