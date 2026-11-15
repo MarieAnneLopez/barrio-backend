@@ -13,7 +13,7 @@ class AuditIn(BaseModel):
     """Trazabilidad declarada al crear; extra="forbid" impide asignar id o fechas."""
 
     model_config = ConfigDict(extra="forbid", str_strip_whitespace=True)
-    source_type: Literal["osm", "datos_abiertos", "seed"] = "seed"
+    source_type: Literal["osm", "datos_abiertos", "seed", "sitio_oficial"] = "seed"
     source_ref: str | None = Field(None, max_length=500)
     verified: bool = False
     # H35: descripción verificada en ES/EN y publicación (False = oculto, sin borrar).

@@ -1,19 +1,8 @@
 {
   "type": "FeatureCollection",
   "name": "barberias",
-  "license": "© OpenStreetMap contributors, ODbL 1.0",
-  "skipped": [
-    {
-      "osm_id": "node/4128359315",
-      "name": "Harpon",
-      "reason": "peluquería sin evidencia de barbería"
-    },
-    {
-      "osm_id": "way/484155721",
-      "name": "COSMOPOLITAN Sala de Belleza",
-      "reason": "peluquería sin evidencia de barbería"
-    }
-  ],
+  "license": "© OpenStreetMap contributors, ODbL 1.0; IDARTES/IDECA, CC BY 4.0; datos (nombre y local) del sitio oficial del C. C. Tintal Plaza",
+  "skipped": [],
   "features": [
     {
       "type": "Feature",
@@ -72,6 +61,121 @@
         "coordinates": [
           -74.1702128,
           4.6495226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "horario": null,
+        "verified": true,
+        "publicado": true,
+        "nombre": "ZABDIEL BARBERIA",
+        "direccion": "C. C. Tintal Plaza, Av. Carrera 86 # 6-37, local 117",
+        "servicios": null,
+        "source_type": "sitio_oficial",
+        "source_ref": "https://tintalplaza.com/categoria-belleza-y-salud/",
+        "osm_id": null,
+        "descripcion_es": "Barbería en el C. C. Tintal Plaza, local 117, según el directorio oficial del centro comercial. El punto del mapa es el del centro comercial, no el del local.",
+        "descripcion_en": "Barbershop in the Tintal Plaza mall, unit 117, according to the mall's official directory. The map point is the mall building, not the unit."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.156268,
+          4.642669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "horario": null,
+        "verified": true,
+        "publicado": true,
+        "nombre": "LONDON PELUQUERÍA",
+        "direccion": "C. C. Tintal Plaza, Av. Carrera 86 # 6-37, local 162",
+        "servicios": null,
+        "source_type": "sitio_oficial",
+        "source_ref": "https://tintalplaza.com/categoria-belleza-y-salud/",
+        "osm_id": null,
+        "descripcion_es": "Peluquería en el C. C. Tintal Plaza, local 162, según el directorio oficial del centro comercial. El punto del mapa es el del centro comercial, no el del local.",
+        "descripcion_en": "Hair salon in the Tintal Plaza mall, unit 162, according to the mall's official directory. The map point is the mall building, not the unit."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.156268,
+          4.642669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "horario": null,
+        "verified": true,
+        "publicado": true,
+        "nombre": "EURO PELUQUERÍA",
+        "direccion": "C. C. Tintal Plaza, Av. Carrera 86 # 6-37, local 217",
+        "servicios": null,
+        "source_type": "sitio_oficial",
+        "source_ref": "https://tintalplaza.com/categoria-belleza-y-salud/",
+        "osm_id": null,
+        "descripcion_es": "Peluquería en el C. C. Tintal Plaza, local 217, según el directorio oficial del centro comercial. El punto del mapa es el del centro comercial, no el del local.",
+        "descripcion_en": "Hair salon in the Tintal Plaza mall, unit 217, according to the mall's official directory. The map point is the mall building, not the unit."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.156268,
+          4.642669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "horario": null,
+        "verified": true,
+        "publicado": true,
+        "nombre": "COSMOPOLITAN Sala de Belleza",
+        "direccion": "C. C. Tintal Plaza, Av. Carrera 86 # 6-37, local 116/168D",
+        "servicios": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/way/484155721",
+        "osm_id": "way/484155721",
+        "descripcion_es": "Sala de belleza (peluquería) en el C. C. Tintal Plaza, local 116/168D. Aparece en OpenStreetMap y en el directorio oficial del centro comercial.",
+        "descripcion_en": "Beauty salon (hairdresser) in the Tintal Plaza mall, unit 116/168D. Listed on OpenStreetMap and in the mall's official directory."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.156223,
+          4.643378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "horario": null,
+        "verified": true,
+        "publicado": true,
+        "nombre": "Harpon",
+        "direccion": null,
+        "servicios": null,
+        "source_type": "osm",
+        "source_ref": "https://www.openstreetmap.org/node/4128359315",
+        "osm_id": "node/4128359315",
+        "descripcion_es": "Peluquería registrada en OpenStreetMap; el mapa abierto no trae dirección ni horario.",
+        "descripcion_en": "Hair salon listed on OpenStreetMap; the open map has no address or opening hours."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.146472,
+          4.650022
         ]
       }
     }

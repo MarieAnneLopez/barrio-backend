@@ -10,7 +10,8 @@ from sqlalchemy.orm import Mapped, mapped_column
 
 from app.models.base import SRID
 
-SOURCE_TYPES = ("osm", "datos_abiertos", "seed")
+# sitio_oficial (H35): web del propio establecimiento, para lo que no está en OSM ni en Datos Abiertos.
+SOURCE_TYPES = ("osm", "datos_abiertos", "seed", "sitio_oficial")
 
 
 class AuditMixin:

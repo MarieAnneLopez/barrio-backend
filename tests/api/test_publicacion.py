@@ -36,3 +36,13 @@ async def test_volver_a_publicar_lo_muestra_otra_vez() -> None:
         detail = await http.get(f"{BASE}/{hidden['id']}")
 
     assert patched.json()["publicado"] is True and detail.status_code == 200
+
+
+async def test_acepta_la_fuente_sitio_oficial() -> None:
+    async with make_client(crud_app(as_admin=True)) as http:
+        created = await http.post(BASE, json={**colegio("Colegio Oficial"), "source_type": "sitio_oficial",
+                                              "source_ref": "https://example.org/directorio", "verified": True})
+        wrong = await http.post(BASE, json={**colegio("Colegio X"), "source_type": "google_maps"})
+
+    assert created.status_code == 201 and created.json()["source_type"] == "sitio_oficial"
+    assert wrong.status_code == 422

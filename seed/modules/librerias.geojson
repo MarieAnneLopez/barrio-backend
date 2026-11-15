@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "name": "librerias",
-  "license": "© OpenStreetMap contributors, ODbL 1.0",
+  "license": "© OpenStreetMap contributors, ODbL 1.0; IDARTES/IDECA, CC BY 4.0; datos (nombre y local) del sitio oficial del C. C. Tintal Plaza",
   "skipped": [
     {
       "osm_id": "node/4128348403",
@@ -67,6 +67,52 @@
         "coordinates": [
           -74.1423118,
           4.6594487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "horario": null,
+        "verified": true,
+        "publicado": true,
+        "nombre": "La Papelería Moderna",
+        "direccion": "C. C. Tintal Plaza, Av. Carrera 86 # 6-37, local 276B",
+        "especialidad": "Papelería",
+        "source_type": "sitio_oficial",
+        "source_ref": "https://tintalplaza.com/categoria-hogar-y-variedades/",
+        "osm_id": null,
+        "descripcion_es": "Papelería en el C. C. Tintal Plaza, local 276B, según el directorio oficial del centro comercial. El punto del mapa es el del centro comercial, no el del local.",
+        "descripcion_en": "Stationery shop in the Tintal Plaza mall, unit 276B, according to the mall's official directory. The map point is the mall building, not the unit."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.156268,
+          4.642669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "horario": null,
+        "verified": true,
+        "publicado": true,
+        "nombre": "Almacén Éxito",
+        "direccion": "AV Ciudad de Cali AV de las America CECO Tintal Plaza LC 177",
+        "especialidad": "Gran almacén con venta de libros nuevos (temas generales)",
+        "source_type": "datos_abiertos",
+        "source_ref": "https://serviciosgis.catastrobogota.gov.co/arcgis/rest/services/recreaciondeporte/culturaidartes/MapServer/10/query?where=OBJECTID%3D279&outFields=*&f=html",
+        "osm_id": null,
+        "descripcion_es": "Gran almacén que vende libros nuevos de temas generales; no es una librería especializada. Dato de la capa de librerías y lectura de IDARTES/IDECA (2022).",
+        "descripcion_en": "Department store that sells new general-interest books; not a specialist bookstore. From the IDARTES/IDECA books and reading layer (2022)."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.156648,
+          4.6429126
         ]
       }
     }
