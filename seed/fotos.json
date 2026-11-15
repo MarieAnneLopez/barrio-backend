@@ -1,0 +1,75 @@
+{
+  "descripcion": "Fotos reales de Wikimedia Commons (licencia libre) de lugares de El Tintal, guardadas en el frontend (D66). Cada una apunta al registro por su source_ref de OpenStreetMap.",
+  "fotos": [
+    {
+      "modulo": "estaciones-transporte",
+      "lugar_ref": "https://www.openstreetmap.org/node/2501848327",
+      "url": "/assets/photos/carrusel/biblioteca-exterior-1280.webp",
+      "alt_text": "Biblioteca Pública El Tintal Manuel Zapata Olivella, que da nombre a esta parada.",
+      "autor": "ArmandoCasitasS",
+      "licencia": "CC BY 4.0",
+      "source_ref": "https://commons.wikimedia.org/wiki/File:Biblioteca_El_Tintal.jpg",
+      "orden": 0
+    },
+    {
+      "modulo": "estaciones-transporte",
+      "lugar_ref": "https://www.openstreetmap.org/node/2501848327",
+      "url": "/assets/photos/carrusel/biblioteca-fachada-1280.webp",
+      "alt_text": "Fachada de la Biblioteca Pública El Tintal, junto a la parada.",
+      "autor": "Baiji",
+      "licencia": "CC BY-SA 4.0",
+      "source_ref": "https://commons.wikimedia.org/wiki/File:Biblioteca_Tintal.jpg",
+      "orden": 1
+    },
+    {
+      "modulo": "estaciones-transporte",
+      "lugar_ref": "https://www.openstreetmap.org/node/2501848327",
+      "url": "/assets/photos/carrusel/biblioteca-entrada-1280.webp",
+      "alt_text": "Entrada de la Biblioteca Pública El Tintal.",
+      "autor": "Baiji",
+      "licencia": "CC BY-SA 4.0",
+      "source_ref": "https://commons.wikimedia.org/wiki/File:El_Tintal.jpg",
+      "orden": 2
+    },
+    {
+      "modulo": "estaciones-transporte",
+      "lugar_ref": "https://www.openstreetmap.org/node/2501848327",
+      "url": "/assets/photos/lugares/biblioteca-fachada-2-1280.webp",
+      "alt_text": "La Biblioteca El Tintal vista desde el parque, con edificios del barrio al fondo.",
+      "autor": "ArmandoCasitasS",
+      "licencia": "CC BY 4.0",
+      "source_ref": "https://commons.wikimedia.org/wiki/File:Facade_of_a_historic_building_in_Bogot%C3%A1,_Colombia..jpg",
+      "orden": 3
+    },
+    {
+      "modulo": "estaciones-transporte",
+      "lugar_ref": "https://www.openstreetmap.org/node/2501848327",
+      "url": "/assets/photos/lugares/biblioteca-fachada-3-1280.webp",
+      "alt_text": "Puente peatonal que llega a la Biblioteca El Tintal al atardecer.",
+      "autor": "ArmandoCasitasS",
+      "licencia": "CC BY 4.0",
+      "source_ref": "https://commons.wikimedia.org/wiki/File:Facade_of_a_historic_building_in_Bogot%C3%A1,_Colombia._(16913).jpg",
+      "orden": 4
+    },
+    {
+      "modulo": "estaciones-transporte",
+      "lugar_ref": "https://www.openstreetmap.org/node/13705604063",
+      "url": "/assets/photos/lugares/campus-tagaste-1280.webp",
+      "alt_text": "Campus Tagaste de la Universidad Agustiniana, que da nombre a esta parada.",
+      "autor": "Futbolero",
+      "licencia": "CC BY-SA 4.0",
+      "source_ref": "https://commons.wikimedia.org/wiki/File:Campus_Tagaste_Uniagustiniana_Bogot%C3%A1.jpg",
+      "orden": 0
+    },
+    {
+      "modulo": "estaciones-transporte",
+      "lugar_ref": "https://www.openstreetmap.org/node/14178098987",
+      "url": "/assets/photos/carrusel/tintal-plaza-1280.webp",
+      "alt_text": "Vista aérea del Centro Comercial Tintal Plaza y sus alrededores.",
+      "autor": "Aidanwjns",
+      "licencia": "CC BY-SA 4.0",
+      "source_ref": "https://commons.wikimedia.org/wiki/File:Galeriia-tintal-plaza-01.jpg",
+      "orden": 0
+    }
+  ]
+}

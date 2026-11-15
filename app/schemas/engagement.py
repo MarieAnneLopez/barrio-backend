@@ -68,6 +68,14 @@ class FotoOut(BaseModel):
     verified: bool
 
 
+class GaleriaItem(FotoOut):
+    """Foto de la Galería General con el lugar al que pertenece (D66)."""
+
+    categoria_slug: str
+    objeto_id: int
+    nombre: str
+
+
 class Cercano(BaseModel):
     distancia_m: float
     item: dict[str, Any]

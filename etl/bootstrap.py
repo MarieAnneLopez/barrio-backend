@@ -8,7 +8,8 @@ Uso: python -m etl.bootstrap && uvicorn app.main:app --host 0.0.0.0 --port $PORT
    mitad de la carga se completa en el siguiente.
    RESEED_MODULES=slug1,slug2 fuerza la recarga de esos módulos (uso puntual:
    quitar la variable después, porque recargar cambia sus id).
-4. Recarga la Historia Local y crea o actualiza la cuenta de administración.
+4. Recarga la Historia Local y las fotos de Commons (D66), y crea o actualiza
+   la cuenta de administración.
 Sin red: todo sale de seed/ (los datos reales ya vienen del ETL de desarrollo).
 """
 
@@ -23,7 +24,7 @@ from app.core.config import get_settings
 from app.core.database import get_engine
 from app.modules.registry import MODULES
 from app.repositories.geo_insights_repository import SqlGeoInsightsRepository
-from etl import admin, load_historia, load_seed
+from etl import admin, load_fotos, load_historia, load_seed
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -54,6 +55,7 @@ def main(engine: Engine | None = None) -> dict[str, object]:
     forced = {s.strip() for s in get_settings().reseed_modules.split(",") if s.strip()}
     steps: dict[str, object] = {"semillas": load_missing(engine, forced)}
     steps["historia"] = load_historia.run(engine)
+    steps["fotos"] = load_fotos.run(engine)
     steps["admin"] = admin.run(engine)
     for name, result in steps.items():
         print(f"[bootstrap] {name}: {result if name != 'semillas' or isinstance(result, str) else 'cargadas'}")

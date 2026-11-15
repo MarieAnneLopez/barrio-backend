@@ -4,6 +4,7 @@ Los servicios dependen de estos protocolos, no de SQLAlchemy (DIP); las pruebas
 pueden darles dobles en memoria.
 """
 
+from collections.abc import Sequence
 from typing import Any, Protocol
 
 
@@ -29,6 +30,12 @@ class PhotoRepository(Protocol):
     def add(self, slug: str, objeto_id: int, data: dict[str, Any]) -> Any: ...
 
     def remove(self, slug: str, objeto_id: int, foto_id: int) -> bool: ...
+
+
+class GalleryRepository(Protocol):
+    def page(self, offset: int, limit: int) -> tuple[Sequence[Any], int]:
+        """(fotos de la página, total) de todos los módulos."""
+        ...
 
 
 class Forgettable(Protocol):

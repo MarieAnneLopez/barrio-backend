@@ -5,29 +5,16 @@ from typing import Annotated, Any
 from fastapi import APIRouter, Depends, Query
 
 from app.api.deps import SessionDep
-from app.api.v1.router_factory import CrudRouterFactory
-from app.core.exceptions import AppError
-from app.modules.registry import MODULES
+from app.api.v1.place_labels import place_labeler
 from app.repositories.rating_repository import SqlRatingRepository
 from app.schemas.engagement import RankingItem
 from app.services.ranking_service import GlobalRankingService
 
 router = APIRouter(tags=["ranking"])
-SPECS = {spec.slug: spec for spec in MODULES}
 
 
 def get_ranking_service(session: SessionDep) -> GlobalRankingService:
-    def label(slug: str, objeto_id: int) -> str | None:
-        spec = SPECS.get(slug)
-        if spec is None:
-            return None
-        try:
-            item = CrudRouterFactory(spec).service(session).get(objeto_id)
-        except AppError:
-            return None
-        return str(getattr(item, spec.label_field))
-
-    return GlobalRankingService(SqlRatingRepository(session), label)
+    return GlobalRankingService(SqlRatingRepository(session), place_labeler(session))
 
 
 @router.get("/ranking", response_model=list[RankingItem])
