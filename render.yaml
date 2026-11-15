@@ -27,8 +27,13 @@ services:
         sync: false
       - key: PROXY_SECRET
         sync: false
+      # H36: chat con Gemini (plan gratuito); la clave solo en el panel de Render.
       - key: CHAT_MODEL
-        value: analitico
+        value: generativo
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.5-flash-lite
       - key: CHAT_MESSAGES_PER_MINUTE
         value: "30"
       - key: CHAT_MESSAGES_PER_HOUR
