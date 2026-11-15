@@ -11,7 +11,7 @@ Email = Annotated[str, StringConstraints(strip_whitespace=True, to_lower=True, m
 
 def _bcrypt_limit(value: SecretStr) -> SecretStr:
     if len(value.get_secret_value().encode()) > 72:
-        raise ValueError("La contraseña no puede pasar de 72 bytes")
+        raise ValueError("La contraseña no puede tener más de 72 bytes (las letras con tilde y la ñ ocupan 2 bytes)")
     return value
 
 

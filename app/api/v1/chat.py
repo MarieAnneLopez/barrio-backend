@@ -1,7 +1,8 @@
 """POST /api/v1/chat: Mini Marie responde con el ModelProvider elegido en CHAT_MODEL (D59).
 
-Abierto a visitantes sin sesión; 30 mensajes por minuto por IP, porque en
-ambiente Nube cada mensaje puede ser una llamada pagada al LLM.
+Abierto a visitantes sin sesión. Límites por visitante (D62), configurables en
+.env: CHAT_MESSAGES_PER_MINUTE (30) y CHAT_MESSAGES_PER_HOUR (120, la
+«sesión»), porque en ambiente Nube cada mensaje puede ser una llamada pagada.
 """
 
 from functools import lru_cache
@@ -10,6 +11,7 @@ from typing import Annotated
 from fastapi import APIRouter, Depends, Request
 
 from app.api.deps import SessionDep, get_barrio_repository
+from app.core.client_ip import client_key
 from app.core.config import get_settings
 from app.core.rate_limit import AttemptLimiter
 from app.providers.factory import build_provider
@@ -23,7 +25,12 @@ router = APIRouter(tags=["chat"])
 
 @lru_cache
 def get_chat_limiter() -> AttemptLimiter:
-    return AttemptLimiter(max_attempts=30, window_s=60)
+    return AttemptLimiter(max_attempts=get_settings().chat_messages_per_minute, window_s=60)
+
+
+@lru_cache
+def get_chat_session_limiter() -> AttemptLimiter:
+    return AttemptLimiter(max_attempts=get_settings().chat_messages_per_hour, window_s=3600)
 
 
 def center_of(barrio: BarrioRepository) -> tuple[float, float]:
@@ -39,8 +46,11 @@ def get_chat_agent(session: SessionDep,
 
 @router.post("/chat", response_model=ChatOut)
 def chat(payload: ChatIn, request: Request, agent: Annotated[ChatAgent, Depends(get_chat_agent)],
-         limiter: Annotated[AttemptLimiter, Depends(get_chat_limiter)]) -> ChatOut:
-    key = f"chat|{request.client.host if request.client else 'desconocido'}"
-    limiter.check(key)
-    limiter.hit(key)
+         limiter: Annotated[AttemptLimiter, Depends(get_chat_limiter)],
+         session_limiter: Annotated[AttemptLimiter, Depends(get_chat_session_limiter)]) -> ChatOut:
+    key = f"chat|{client_key(request)}"
+    for current in (limiter, session_limiter):
+        current.check(key)
+    for current in (limiter, session_limiter):
+        current.hit(key)
     return agent.reply(payload)

@@ -12,6 +12,7 @@ from typing import Annotated
 from fastapi import APIRouter, Depends, Request, Response, status
 
 from app.api.guards import SESSION_COOKIE, AuthDep, MaybeUser, require_user
+from app.core.client_ip import client_key
 from app.core.config import get_settings
 from app.core.rate_limit import AttemptLimiter
 from app.core.security import create_access_token
@@ -31,10 +32,6 @@ def get_limiter() -> AttemptLimiter:
 Limiter = Annotated[AttemptLimiter, Depends(get_limiter)]
 
 
-def _client(request: Request) -> str:
-    return request.client.host if request.client else "desconocido"
-
-
 def _open_session(response: Response, user: Usuario) -> SesionOut:
     settings = get_settings()
     max_age = settings.jwt_expire_minutes * 60
@@ -46,7 +43,7 @@ def _open_session(response: Response, user: Usuario) -> SesionOut:
 @router.post("/login", response_model=SesionOut)
 def login(payload: LoginIn, request: Request, response: Response, service: AuthDep,
           limiter: Limiter) -> SesionOut:
-    key = f"login|{_client(request)}|{payload.email}"
+    key = f"login|{client_key(request)}|{payload.email}"
     limiter.check(key)
     try:
         user = service.login(payload.email, payload.password.get_secret_value())
@@ -60,7 +57,7 @@ def login(payload: LoginIn, request: Request, response: Response, service: AuthD
 @router.post("/register", response_model=SesionOut, status_code=status.HTTP_201_CREATED)
 def register(payload: RegisterIn, request: Request, response: Response, service: AuthDep,
              limiter: Limiter) -> SesionOut:
-    key = f"register|{_client(request)}"
+    key = f"register|{client_key(request)}"
     limiter.check(key)
     limiter.hit(key)
     return _open_session(response, service.register(payload))

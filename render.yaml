@@ -1,0 +1,35 @@
+# Blueprint de Render (D62): API de Reconoce tu Barrio en un Web Service gratis.
+# Los valores marcados sync: false se escriben en el panel de Render; nunca aquí.
+services:
+  - type: web
+    name: barrio-backend
+    runtime: python
+    plan: free
+    region: virginia
+    buildCommand: pip install -r requirements.txt
+    # Activa PostGIS, migra, carga semillas solo si la base está vacía, y arranca sin --reload.
+    startCommand: python -m etl.bootstrap && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.14
+      - key: ENVIRONMENT
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGINS
+        sync: false
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: PROXY_SECRET
+        sync: false
+      - key: CHAT_MODEL
+        value: analitico
+      - key: CHAT_MESSAGES_PER_MINUTE
+        value: "30"
+      - key: CHAT_MESSAGES_PER_HOUR
+        value: "120"

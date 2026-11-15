@@ -6,11 +6,14 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.api.v1.router import api_router
 from app.core.config import Settings, get_settings
 from app.core.exceptions import register_exception_handlers
+from app.core.security import signing_key
 from app.core.security_headers import register_security_headers
 
 
 def create_app(settings: Settings | None = None) -> FastAPI:
     settings = settings or get_settings()
+    if settings.environment == "production":
+        signing_key()  # sin JWT_SECRET válido, la API no arranca (D62)
     app = FastAPI(
         title=settings.app_name,
         version="0.1.0",

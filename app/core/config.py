@@ -4,9 +4,9 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Literal
 
-from pydantic import SecretStr
+from pydantic import Field, SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from sqlalchemy.engine import URL
+from sqlalchemy.engine import URL, make_url
 
 
 class Settings(BaseSettings):
@@ -26,6 +26,8 @@ class Settings(BaseSettings):
     postgres_host: str = "127.0.0.1"
     postgres_port: int = 5432
     db_connect_timeout_s: int = 3
+    # Producción (D62): cadena completa del proveedor (p. ej. Neon, con sslmode=require).
+    database_url_override: SecretStr = Field(SecretStr(""), validation_alias="DATABASE_URL")
 
     cors_origins: list[str] = ["http://localhost:5173"]
     seed_dir: Path = Path(__file__).resolve().parents[2] / "seed"
@@ -42,10 +44,18 @@ class Settings(BaseSettings):
     chat_model: Literal["analitico", "generativo", "moe"] = "analitico"
     anthropic_api_key: SecretStr = SecretStr("")
     chat_llm_model: str = "claude-opus-5-5"
+    # Límites del chat por visitante (D62): por minuto y por sesión de una hora.
+    chat_messages_per_minute: int = 30
+    chat_messages_per_hour: int = 120
+    # Proxy del frontend publicado (D62): solo con esta clave se cree la IP que reenvía.
+    proxy_secret: SecretStr = SecretStr("")
 
     @property
     def database_url(self) -> URL:
         """URL de SQLAlchemy (driver psycopg 3); la clave queda enmascarada al imprimirla."""
+        override = self.database_url_override.get_secret_value()
+        if override:
+            return make_url(override).set(drivername="postgresql+psycopg")
         return URL.create(
             drivername="postgresql+psycopg",
             username=self.postgres_user,
