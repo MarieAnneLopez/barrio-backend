@@ -19,7 +19,7 @@ start:  python -m etl.bootstrap && uvicorn app.main:app --host 0.0.0.0 --port $P
 `etl/bootstrap.py` hace esto en cada arranque:
 1. valida la cuenta de administración;
 2. activa PostGIS y aplica las migraciones;
-3. carga las semillas **solo si la base está vacía**, para que los id no cambien al reiniciar;
+3. carga las semillas de **cada módulo que esté vacío**, para que los id no cambien al reiniciar y una carga cortada se complete en el siguiente arranque. `RESEED_MODULES` fuerza la recarga puntual de unos módulos; hay que quitarla después;
 4. recarga la Historia Local y crea o actualiza la cuenta de administración.
 
 ## Variables de entorno de producción

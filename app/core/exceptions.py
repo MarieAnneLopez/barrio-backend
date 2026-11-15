@@ -9,6 +9,7 @@ from typing import Any
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
+from sqlalchemy.exc import OperationalError
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
 logger = logging.getLogger(__name__)
@@ -74,6 +75,11 @@ async def _validation_error(_: Request, exc: Exception) -> JSONResponse:
     return JSONResponse(error_body("VALIDATION_ERROR", "Datos inválidos", details), 422)
 
 
+async def _database_down(_: Request, exc: Exception) -> JSONResponse:
+    logger.warning("Base de datos no disponible: %s", type(exc).__name__)
+    return JSONResponse(error_body("DATABASE_UNAVAILABLE", "La base de datos no responde"), 503)
+
+
 async def _unhandled_error(request: Request, exc: Exception) -> JSONResponse:
     logger.exception("Error no controlado en %s %s", request.method, request.url.path)
     return JSONResponse(error_body("INTERNAL_ERROR", "Error interno del servidor"), 500)
@@ -83,4 +89,5 @@ def register_exception_handlers(app: FastAPI) -> None:
     app.add_exception_handler(AppError, _app_error)
     app.add_exception_handler(StarletteHTTPException, _http_error)
     app.add_exception_handler(RequestValidationError, _validation_error)
+    app.add_exception_handler(OperationalError, _database_down)
     app.add_exception_handler(Exception, _unhandled_error)

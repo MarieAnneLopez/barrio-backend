@@ -27,9 +27,10 @@ def fresh_limiter() -> Iterator[None]:
 async def test_colegios_cercania_ranking_e_historia_con_datos_reales(db_session: Session) -> None:
     load_historia.run(get_engine())
     async with make_client(crud_app(as_admin=True)) as http:
-        for nombre, lon in (("Colegio Alfa", HERE[0]), ("Colegio Beta", HERE[0] + 0.002)):
+        # Al norte de la biblioteca: hacia el este se sale de El Tintal (la API lo rechaza).
+        for nombre, lat in (("Colegio Alfa", HERE[1]), ("Colegio Beta", HERE[1] + 0.002)):
             body = {"nombre": nombre, "tipo": "colegio", "caracter": "publico",
-                    "geometry": {"type": "Point", "coordinates": [lon, HERE[1]]}}
+                    "geometry": {"type": "Point", "coordinates": [HERE[0], lat]}}
             item = (await http.post("/api/v1/centros-educativos", json=body)).json()["id"]
         await http.post(f"/api/v1/centros-educativos/{item}/calificaciones", json={"estrellas": 4.5})
 
@@ -40,7 +41,7 @@ async def test_colegios_cercania_ranking_e_historia_con_datos_reales(db_session:
 
     assert listed["texto"] == "En Centros Educativos hay 2 registros (0 verificados). Por ejemplo: Colegio Alfa y Colegio Beta."
     assert listed["acciones"] == [{"ruta": "/categorias/centros-educativos", "etiqueta": "Centros Educativos"}]
-    assert near["texto"] == "Cerca de tu ubicación están: Colegio Alfa (0 m) y Colegio Beta (222 m)."
+    assert near["texto"] == "Cerca de tu ubicación están: Colegio Alfa (0 m) y Colegio Beta (221 m)."
     assert best["texto"].startswith("The best-rated place in Schools is Colegio Beta: 4.5 out of 5")
     assert history["intent"] == "historia" and history["acciones"] == []  # ya está en /historia
     assert "1963: De Techo a Ciudad Kennedy" in history["texto"]

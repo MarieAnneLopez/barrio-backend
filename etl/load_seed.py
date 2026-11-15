@@ -19,7 +19,7 @@ from app.modules.spec import ModuleSpec
 from app.repositories.base_geo_repo import BaseCrudRepository
 
 SEED = Path(__file__).resolve().parent.parent / "seed"
-WITHIN = text("SELECT ST_Within(ST_GeomFromGeoJSON(:g), ST_GeomFromGeoJSON(:area))")
+from app.repositories.tintal_area import WITHIN  # misma regla que la API (H30)
 
 
 def _area(seed_dir: Path) -> str:

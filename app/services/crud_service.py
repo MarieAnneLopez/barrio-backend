@@ -22,10 +22,18 @@ class NotFoundError(AppError):
         super().__init__("NOT_FOUND", f"No existe el registro {item_id} en {slug}", 404)
 
 
+class OutsideTintalError(AppError):
+    def __init__(self) -> None:
+        super().__init__("OUTSIDE_TINTAL", "La geometría debe quedar dentro de El Tintal (UPZ 78 + 79)", 422)
+
+
 class CrudService(Generic[T]):
     def __init__(self, slug: str, repository: CrudRepository[T], out_schema: type[BaseModel],
-                 on_delete: Sequence[Callable[[int], None]] = ()):
+                 on_delete: Sequence[Callable[[int], None]] = (),
+                 inside: Callable[[dict[str, Any]], bool] | None = None):
         self._slug = slug
+        # Regla del módulo (ModuleSpec.within_tintal): la API la exige, no solo el formulario.
+        self._inside = inside
         self._repository = repository
         self._out = out_schema
         # Limpiezas al borrar (calificaciones y fotos del objeto, H18).
@@ -51,15 +59,21 @@ class CrudService(Generic[T]):
     def create(self, payload: BaseModel) -> BaseModel:
         data = payload.model_dump(exclude={"geometry"})
         geometry = payload.model_dump(include={"geometry"})["geometry"]
+        self._check_area(geometry)
         return self._to_out(self._repository.create(data, geometry))
 
     def update(self, item_id: int, payload: BaseModel) -> BaseModel:
         data = payload.model_dump(exclude_unset=True, exclude={"geometry"})
         geometry = payload.model_dump(include={"geometry"})["geometry"] if "geometry" in payload.model_fields_set else None
+        self._check_area(geometry)
         record = self._repository.update(item_id, data, geometry)
         if record is None:
             raise NotFoundError(self._slug, item_id)
         return self._to_out(record)
+
+    def _check_area(self, geometry: dict[str, Any] | None) -> None:
+        if geometry is not None and self._inside is not None and not self._inside(geometry):
+            raise OutsideTintalError()
 
     def delete(self, item_id: int) -> None:
         if not self._repository.delete(item_id):

@@ -11,7 +11,7 @@ from typing import Annotated
 
 from fastapi import APIRouter, Depends, Request, Response, status
 
-from app.api.guards import SESSION_COOKIE, AuthDep, MaybeUser, require_user
+from app.api.guards import SESSION_COOKIE, AuthDep, AuthRequiredError, MaybeUser
 from app.core.client_ip import client_key
 from app.core.config import get_settings
 from app.core.rate_limit import AttemptLimiter
@@ -70,7 +70,9 @@ def session(user: MaybeUser) -> SesionActual:
 
 
 @router.get("/me", response_model=UsuarioOut)
-def me(user: Annotated[Usuario, Depends(require_user)]) -> Usuario:
+def me(user: MaybeUser) -> Usuario:
+    if user is None:
+        raise AuthRequiredError("Inicia sesión para continuar")
     return user
 
 

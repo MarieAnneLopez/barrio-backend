@@ -17,15 +17,16 @@ BASE = "/api/v1/barberias"
 HERE = (-74.1547809, 4.6430253)
 
 
-async def barberia(http: AsyncClient, nombre: str, lon: float = HERE[0], **extra: object) -> int:
+async def barberia(http: AsyncClient, nombre: str, lon: float = HERE[0], lat: float = HERE[1],
+                   **extra: object) -> int:
     body = payload("barberias", nombre=nombre, **extra)
-    body["geometry"] = {"type": "Point", "coordinates": [lon, HERE[1]]}
+    body["geometry"] = {"type": "Point", "coordinates": [lon, lat]}
     return (await http.post(BASE, json=body)).json()["id"]
 
 
 async def test_cercania_en_metros_reales_y_ordenada() -> None:
     async with make_client(crud_app(as_admin=True)) as http:
-        await barberia(http, "Lejos", lon=HERE[0] + 0.02)  # ≈ 2,2 km
+        await barberia(http, "Lejos", lon=-74.1577659, lat=4.6540182)  # Ciudad Tintal, ≈ 1,3 km
         near = await barberia(http, "Cerca", lon=HERE[0] + 0.001)  # ≈ 111 m
         found = await http.get(f"{BASE}/cercania", params={"lon": HERE[0], "lat": HERE[1], "radio_m": 500})
         bad = await http.get(f"{BASE}/cercania", params={"lon": HERE[0], "lat": 95})

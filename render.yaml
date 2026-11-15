@@ -7,7 +7,7 @@ services:
     plan: free
     region: virginia
     buildCommand: pip install -r requirements.txt
-    # Activa PostGIS, migra, carga semillas solo si la base está vacía, y arranca sin --reload.
+    # Activa PostGIS, migra, carga las semillas de los módulos vacíos y arranca sin --reload.
     startCommand: python -m etl.bootstrap && uvicorn app.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /api/v1/health
     envVars:

@@ -1,4 +1,4 @@
-"""Límite de intentos de inicio de sesión y registro (H21, D58).
+"""Límite de intentos: inicio de sesión, registro y chat (H21, D58, D62).
 
 Ventana fija en memoria: sirve para un solo proceso de uvicorn, que es como
 corre el proyecto. Con varios procesos habría que llevarlo a un almacén común.

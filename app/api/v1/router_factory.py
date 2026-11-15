@@ -9,7 +9,7 @@ from typing import Annotated, Any
 
 from fastapi import APIRouter, Depends, Query, Request, Response, status
 
-from app.api.deps import SessionDep
+from app.api.deps import SessionDep, get_barrio_repository
 from app.api.guards import require_admin
 from app.modules.spec import ModuleSpec
 from app.repositories.base_geo_repo import BaseCrudRepository
@@ -17,6 +17,7 @@ from app.repositories.photo_repository import SqlPhotoRepository
 from app.repositories.rating_repository import SqlRatingRepository
 from app.repositories.query import MAX_PAGE_SIZE, ListQuery
 from app.schemas.crud import FeatureCollectionOut, PageOut
+from app.repositories.tintal_area import SqlTintalArea
 from app.services.crud_service import CrudService
 
 RESERVED = {"page", "size", "q", "sort"}
@@ -33,7 +34,9 @@ class CrudRouterFactory:
         )
         cleanups = [partial(r.forget, spec.slug)
                     for r in (SqlRatingRepository(session), SqlPhotoRepository(session))]
-        return CrudService(spec.slug, repository, spec.out_schema, cleanups)
+        area = SqlTintalArea(session, get_barrio_repository().polygon_feature()["geometry"])
+        return CrudService(spec.slug, repository, spec.out_schema, cleanups,
+                           area.contains if spec.within_tintal else None)
 
     def build(self) -> APIRouter:
         spec = self.spec
