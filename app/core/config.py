@@ -49,6 +49,8 @@ class Settings(BaseSettings):
     chat_messages_per_hour: int = 120
     # Proxy del frontend publicado (D62): solo con esta clave se cree la IP que reenvía.
     proxy_secret: SecretStr = SecretStr("")
+    # Recarga forzada de módulos en el próximo arranque (coma), p. ej. tras una carga cortada.
+    reseed_modules: str = ""
 
     @property
     def database_url(self) -> URL:

@@ -6,6 +6,8 @@ Uso: python -m etl.bootstrap && uvicorn app.main:app --host 0.0.0.0 --port $PORT
 3. Carga las semillas de cada módulo que esté vacío: un reinicio no cambia
    los id (calificaciones y fotos siguen valiendo) y un arranque cortado a
    mitad de la carga se completa en el siguiente.
+   RESEED_MODULES=slug1,slug2 fuerza la recarga de esos módulos (uso puntual:
+   quitar la variable después, porque recargar cambia sus id).
 4. Recarga la Historia Local y crea o actualiza la cuenta de administración.
 Sin red: todo sale de seed/ (los datos reales ya vienen del ETL de desarrollo).
 """
@@ -35,8 +37,8 @@ def is_empty(engine: Engine) -> bool:
     return len(empty_modules(engine)) == len(MODULES)
 
 
-def load_missing(engine: Engine) -> dict[str, object] | str:
-    missing = set(empty_modules(engine))
+def load_missing(engine: Engine, forced: set[str] | None = None) -> dict[str, object] | str:
+    missing = set(empty_modules(engine)) | (forced or set())
     if not missing:
         return "ya cargadas"
     with Session(engine) as session:
@@ -49,7 +51,8 @@ def main(engine: Engine | None = None) -> dict[str, object]:
     with engine.begin() as conn:
         conn.execute(text("CREATE EXTENSION IF NOT EXISTS postgis"))
     command.upgrade(Config(str(ROOT / "alembic.ini")), "head")
-    steps: dict[str, object] = {"semillas": load_missing(engine)}
+    forced = {s.strip() for s in get_settings().reseed_modules.split(",") if s.strip()}
+    steps: dict[str, object] = {"semillas": load_missing(engine, forced)}
     steps["historia"] = load_historia.run(engine)
     steps["admin"] = admin.run(engine)
     for name, result in steps.items():

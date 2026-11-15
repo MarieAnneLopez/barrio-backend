@@ -30,3 +30,5 @@ def test_carga_una_vez_y_conserva_los_id(db_session: Session, monkeypatch) -> No
     db_session.commit()
     third = bootstrap.main()  # un arranque cortado: solo se completa el módulo vacío
     assert list(third["semillas"]) == ["centros-educativos"]  # type: ignore[call-overload]
+    forced = bootstrap.load_missing(get_engine(), {"barberias"})
+    assert list(forced) == ["barberias"]  # type: ignore[call-overload]
