@@ -47,6 +47,7 @@ class FotoIn(BaseModel):
     model_config = ConfigDict(extra="forbid", str_strip_whitespace=True)
     url: str = Field(max_length=500, pattern=PHOTO_PATH)
     alt_text: str = Field(min_length=3, max_length=300)
+    alt_text_en: str | None = Field(None, min_length=3, max_length=300)
     orden: int = Field(0, ge=0, le=999)
     autor: str | None = Field(None, max_length=200)
     licencia: str | None = Field(None, max_length=120)
@@ -60,6 +61,7 @@ class FotoOut(BaseModel):
     id: int
     url: str
     alt_text: str
+    alt_text_en: str | None = None
     orden: int
     autor: str | None
     licencia: str | None

@@ -62,3 +62,19 @@ async def test_carga_idempotente_y_galeria_general(tmp_path: Path, db_session: S
     assert (first["categoria_slug"], first["objeto_id"], first["nombre"]) == ("barberias", item, "Alfa")
     assert (first["autor"], first["licencia"], first["verified"]) == ("Ana", "CC BY 4.0", True)
     assert bad.status_code == 422
+
+
+def test_acepta_fotos_de_mapillary_con_texto_alternativo_en_ingles(tmp_path: Path) -> None:
+    mly = {**PHOTO, "source_ref": "https://www.mapillary.com/app/?pKey=123", "licencia": "CC BY-SA 4.0",
+           "alt_text_en": "Street-level view of the Alfa barbershop"}
+    assert load_fotos.read(seed(tmp_path, mly))[0]["alt_text_en"].startswith("Street-level")
+    with pytest.raises(ValidationError):
+        load_fotos.read(seed(tmp_path, {**mly, "alt_text_en": "x"}))
+
+
+def test_la_semilla_de_mapillary_trae_autor_licencia_original_y_texto_en_ingles() -> None:
+    fotos = load_fotos.read(load_fotos.SEED_MAPILLARY)
+    assert len(fotos) == 201
+    assert all(f["url"].startswith("/assets/photos/mapillary/") and f["licencia"] == "CC BY-SA 4.0" for f in fotos)
+    assert all(f["autor"] and f["source_ref"].startswith(load_fotos.MAPILLARY) and f["alt_text_en"] for f in fotos)
+    assert all(f["lugar_ref"].startswith("https://www.openstreetmap.org/") for f in fotos)
