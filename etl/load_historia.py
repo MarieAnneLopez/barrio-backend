@@ -21,7 +21,7 @@ FIELDS = ("anio", "orden", "titulo", "descripcion", "source_ref", "verified")
 
 def read(path: Path = SEED) -> list[dict[str, Any]]:
     data = json.loads(path.read_text(encoding="utf-8"))
-    known = {f["url"] for f in data["fuentes"]}
+    known = {f["url"] for f in data["fuentes"] if f.get("url")}
     hitos = [{k: h[k] for k in FIELDS} for h in data["hitos"]]
     for hito in hitos:
         refs = set(hito["source_ref"].split(" | "))

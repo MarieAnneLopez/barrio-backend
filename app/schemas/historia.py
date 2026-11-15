@@ -20,7 +20,8 @@ class HitoOut(BaseModel):
 
 
 class FuenteOut(BaseModel):
-    url: str
+    # Sin URL para datos citados de un documento sin enlace (D63: área SDP 2012).
+    url: str | None
     titulo: str
     entidad: str
     tipo: Literal["oficial", "prensa", "enciclopedia", "comunitaria"]

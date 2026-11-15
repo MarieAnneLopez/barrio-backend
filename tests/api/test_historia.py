@@ -33,6 +33,8 @@ async def test_linea_de_tiempo_ordenada_con_fuentes(client: AsyncClient, db_sess
     assert by_year[1992]["verified"] and "C-541-93" in by_year[1992]["source_ref"]
     assert not by_year[1959]["verified"]
     assert body["consultado"] == "2026-11-14"
+    area = next(f for f in body["fuentes"] if f["url"] is None)
+    assert "662 ha" in area["nota"] and "SDP" in area["entidad"]
     tipos = [f["tipo"] for f in body["fuentes"]]
     assert tipos[:2] == ["oficial", "oficial"] and tipos[-1] == "comunitaria"
 

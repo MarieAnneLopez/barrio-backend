@@ -1,6 +1,6 @@
 {
   "consultado": "2026-11-14",
-  "decision": "D55, D56 y D57 en PLAN_MAESTRO.md: fechas y hechos según fuentes oficiales; lo que viene de prensa se marca «Prensa» y lo que solo trae Wikipedia queda «por verificar».",
+  "decision": "D55, D56, D57 y D63 en PLAN_MAESTRO.md: fechas y hechos según fuentes oficiales; lo que viene de prensa se marca «Prensa» y lo que solo trae Wikipedia queda «por verificar».",
   "fuentes": [
     {
       "url": "https://bogota.gov.co/mi-ciudad/localidades/kennedy/historia-del-poblamiento-de-kennedy",
@@ -8,6 +8,13 @@
       "entidad": "Portal Bogotá (Alcaldía Mayor de Bogotá). Texto tomado de «Diagnósticos Locales con Participación Social», Secretaría Distrital de Salud, facilitado por el Archivo Distrital",
       "tipo": "oficial",
       "nota": null
+    },
+    {
+      "url": null,
+      "titulo": "Área de las UPZ 78 Tintal Norte (343 ha) y 79 Calandaima (319 ha)",
+      "entidad": "Secretaría Distrital de Planeación (SDP), 2012, vía Catastro Bogotá",
+      "tipo": "oficial",
+      "nota": "En esta plataforma, El Tintal es la suma de las UPZ 78 y 79: 662 ha. Es una definición operativa, no una unidad administrativa oficial (D38, D63)."
     },
     {
       "url": "https://bogota.gov.co/mi-ciudad/cultura-recreacion-y-deporte/la-biblioteca-el-tintal-era-una-planta-de-procesamiento-de-basuras",
@@ -56,7 +63,7 @@
       "titulo": "TransMilenio celebra 25 años de operación en Bogotá",
       "entidad": "Minuto60 (prensa), 18/12/2025",
       "tipo": "prensa",
-      "nota": "La Fase II «inició operaciones en 2003» con «la llegada hasta el portal de las Américas». Sin día ni mes."
+      "nota": "La Fase II «inició operaciones en 2003» con «la llegada hasta el portal de las Américas». Sin día ni mes. El Portal Américas queda fuera de El Tintal (≈ 1,3 km al sur, UPZ 83 Las Margaritas): se cita como referencia cercana (D63)."
     },
     {
       "url": "https://es.wikipedia.org/w/index.php?title=Kennedy_(Bogot%C3%A1)&oldid=176260200",
