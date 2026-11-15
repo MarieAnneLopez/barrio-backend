@@ -17,7 +17,7 @@ MODULE_TABLES = {
     "robos": "POINT", "localidad_kennedy": "MULTIPOLYGON", "atencion_inmediata": "POINT",
     "veterinarias": "POINT", "barberias": "POINT",
 }
-TRANSVERSAL = {"usuarios", "calificaciones", "fotos", "historia_hitos", "faq_items"}
+TRANSVERSAL = {"usuarios", "calificaciones", "fotos", "historia_hitos"}  # faq_items se retiró (D65)
 AUDIT = {"source_type", "source_ref", "verified", "created_at", "updated_at"}
 
 

@@ -12,7 +12,6 @@ from app.models.dato_catastral import DatoCatastral
 from app.models.escenario_deportivo import EscenarioDeportivo
 from app.models.estacion_transporte import EstacionTransporte
 from app.models.estado_calle import EstadoCalle
-from app.models.faq_item import FaqItem
 from app.models.foto import Foto
 from app.models.historia_hito import HistoriaHito
 from app.models.libreria import Libreria
@@ -25,7 +24,7 @@ from app.models.zona_verde import ZonaVerde
 
 __all__ = [
     "AtencionInmediata", "Barberia", "Calificacion", "CamaraSeguridad", "CentroEducativo",
-    "DatoCatastral", "EscenarioDeportivo", "EstacionTransporte", "EstadoCalle", "FaqItem",
+    "DatoCatastral", "EscenarioDeportivo", "EstacionTransporte", "EstadoCalle",
     "Foto", "HistoriaHito", "Libreria", "LocalidadKennedy", "Robo", "SitioComida",
     "Usuario", "Veterinaria", "ZonaVerde",
 ]

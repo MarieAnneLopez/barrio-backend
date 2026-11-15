@@ -53,7 +53,7 @@ def test_catastro_lotes_dentro_con_estrato_y_sin_datos_personales(
     [feature] = catastro.features(area_conn, lotes, estratos)
     p = feature["properties"]
 
-    assert p["matricula_inmobiliaria"] == "008519073023" and p["estrato"] == 2
+    assert p["codigo_lote"] == "008519073023" and p["estrato"] == 2
     assert 1_900 < p["area_lote_m2"] < 2_100 and p["avaluo_cop"] is None
     assert p["source_ref"].endswith("#LOTCODIGO=008519073023") and feature["geometry"]["type"] == "Polygon"
 

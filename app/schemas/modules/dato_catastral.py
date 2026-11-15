@@ -13,7 +13,7 @@ from app.schemas.modules.fields import Direccion, PolygonGeometry
 
 
 class DatoCatastralCreate(AuditIn):
-    matricula_inmobiliaria: str = Field(min_length=2, max_length=40, pattern=r"^[0-9A-Za-z\-]+$")
+    codigo_lote: str = Field(min_length=2, max_length=40, pattern=r"^[0-9A-Za-z\-]+$")
     direccion: Direccion
     area_lote_m2: float | None = Field(None, ge=0)
     area_construida_m2: float | None = Field(None, ge=0)

@@ -22,7 +22,7 @@ PAYLOADS: dict[str, dict[str, Any]] = {
     "barberias": {"nombre": "Barbería Alfa", "servicios": "Corte"},
     "escenarios-deportivos": {"nombre": "Cancha Alfa", "deportes": "fútbol", "iluminacion": True},
     "zonas-verdes": {"nombre": "Parque Alfa", "tipo": "parque", "area_m2": 1200.5},
-    "datos-catastrales": {"matricula_inmobiliaria": "004601001001", "estrato": 2, "area_lote_m2": 48},
+    "datos-catastrales": {"codigo_lote": "004601001001", "estrato": 2, "area_lote_m2": 48},
     "estado-calles": {"nombre_via": "Calle 6D", "material": "asfalto"},
     "localidad": {"nombre_localidad": "Kennedy", "poblacion": 1104934, "bandera_url": "/assets/kennedy/bandera.svg"},
 }

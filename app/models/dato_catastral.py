@@ -14,10 +14,10 @@ class DatoCatastral(AuditMixin, Base):
     __tablename__ = "datos_catastrales"
     __table_args__ = audit_checks(
         CheckConstraint("estrato BETWEEN 1 AND 6", name="estrato"),
-        UniqueConstraint("matricula_inmobiliaria"),
+        UniqueConstraint("codigo_lote"),
     )
 
-    matricula_inmobiliaria: Mapped[str] = mapped_column(String(40))
+    codigo_lote: Mapped[str] = mapped_column(String(40))
     direccion: Mapped[str | None] = mapped_column(String(200))
     area_lote_m2: Mapped[float | None] = mapped_column(Float)
     area_construida_m2: Mapped[float | None] = mapped_column(Float)

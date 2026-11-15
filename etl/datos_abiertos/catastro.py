@@ -52,7 +52,7 @@ def features(conn: Connection, lote_gpkg: Path, estrato_gpkg: Path) -> list[dict
     conn.execute(text("CREATE INDEX ON estratos USING gist (g)"))
     out = []
     for row in conn.execute(JOIN):
-        props = {"matricula_inmobiliaria": row.code, "direccion": None,
+        props = {"codigo_lote": row.code, "direccion": None,
                  "area_lote_m2": round(row.m2, 1), "area_construida_m2": None, "pisos": None,
                  "uso": None, "avaluo_cop": None,
                  "estrato": row.e if row.e and 1 <= row.e <= 6 else None,

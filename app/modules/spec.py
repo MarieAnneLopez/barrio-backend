@@ -13,7 +13,7 @@ from app.models.base import Base
 from app.schemas.crud import output_schema, partial_schema
 
 
-LABELS = ("nombre", "nombre_via", "nombre_localidad", "codigo", "matricula_inmobiliaria",
+LABELS = ("nombre", "nombre_via", "nombre_localidad", "codigo", "codigo_lote",
           "modalidad")
 
 

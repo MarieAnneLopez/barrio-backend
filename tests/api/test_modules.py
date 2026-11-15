@@ -59,7 +59,7 @@ async def test_codigo_de_camara_repetido_es_conflicto() -> None:
     ("sitios-comida", {"rango_precios": "$$$$"}), ("atencion-inmediata", {"tipo": "farmacia"}),
     ("estaciones-transporte", {"tipo": "metro"}), ("camaras-seguridad", {"codigo": "X"}),
     ("veterinarias", {"geometry": {"type": "LineString", "coordinates": [[0, 0], [1, 1]]}}),
-    ("datos-catastrales", {"estrato": 7}), ("datos-catastrales", {"matricula_inmobiliaria": "50C 1"}),
+    ("datos-catastrales", {"estrato": 7}), ("datos-catastrales", {"codigo_lote": "50C 1"}),
     ("zonas-verdes", {"tipo": "bosque"}), ("estado-calles", {"geometry": POINT}),
     ("localidad", {"bandera_url": "https://example.com/bandera.png"}),
     ("escenarios-deportivos", {"acceso": "gratis"}),
