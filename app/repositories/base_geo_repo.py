@@ -1,8 +1,5 @@
-"""BaseCrudRepository: CRUD genérico sobre cualquier modelo con columna geom.
-
-Implementa ReadableRepository, WritableRepository y SpatialQueryRepository.
-Cada módulo lo configura con sus campos de búsqueda, filtro y orden (OCP).
-"""
+"""BaseCrudRepository: CRUD genérico (Readable, Writable y SpatialQuery) sobre un modelo con geom;
+cada módulo lo configura con sus campos de búsqueda, filtro y orden (OCP). Lee solo lo publicado (H35)."""
 
 # Anotaciones diferidas: el método `list` tapa al tipo `list` dentro de la clase.
 from __future__ import annotations
@@ -15,6 +12,7 @@ from sqlalchemy import Select, func, select
 from sqlalchemy.orm import Session
 
 from app.models.base import SRID, Base
+from app.models.mixins import published
 from app.repositories.filters import apply_filters, apply_search, apply_sort
 from app.repositories.query import MAX_FEATURES, ListQuery, Page, Record
 from app.repositories.transactions import commit_or_conflict
@@ -42,6 +40,9 @@ class BaseCrudRepository(Generic[ModelT]):
         stmt = select(self._model, geometry)
         if query.q and self._search:
             stmt = apply_search(stmt, self._search, query.q)
+        visible = published(self._model)
+        if visible is not None and not query.include_unpublished:
+            stmt = stmt.where(visible)
         return apply_filters(stmt, self._model, self._filter_fields, query.filters)
 
     @staticmethod
@@ -49,8 +50,9 @@ class BaseCrudRepository(Generic[ModelT]):
         entity, geometry = row
         return Record(entity=entity, geometry=json.loads(geometry) if geometry else None)
 
-    def get(self, item_id: int) -> Record[ModelT] | None:
-        stmt = self._select(ListQuery()).where(self._model.id == item_id)  # type: ignore[attr-defined]
+    def get(self, item_id: int, include_unpublished: bool = False) -> Record[ModelT] | None:
+        query = ListQuery(include_unpublished=include_unpublished)
+        stmt = self._select(query).where(self._model.id == item_id)  # type: ignore[attr-defined]
         row = self._session.execute(stmt).one_or_none()
         return self._record(row) if row else None
 
@@ -69,7 +71,7 @@ class BaseCrudRepository(Generic[ModelT]):
         entity = self._model(**data, geom=self._geom(geometry) if geometry else None)
         self._session.add(entity)
         commit_or_conflict(self._session, self._model.__tablename__)
-        return self.get(entity.id)  # type: ignore[attr-defined, return-value]
+        return self.get(entity.id, include_unpublished=True)  # type: ignore[attr-defined, return-value]
 
     def update(
         self, item_id: int, data: Mapping[str, Any], geometry: dict[str, Any] | None
@@ -82,7 +84,7 @@ class BaseCrudRepository(Generic[ModelT]):
         if geometry is not None:
             entity.geom = self._geom(geometry)  # type: ignore[attr-defined]
         commit_or_conflict(self._session, self._model.__tablename__)
-        return self.get(item_id)
+        return self.get(item_id, include_unpublished=True)
 
     def delete(self, item_id: int) -> bool:
         entity = self._session.get(self._model, item_id)

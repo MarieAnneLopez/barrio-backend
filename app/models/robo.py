@@ -7,10 +7,10 @@ from sqlalchemy import CheckConstraint, Date, Integer, String
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.models.base import Base
-from app.models.mixins import AuditMixin, audit_checks, check_in, geom_column
+from app.models.mixins import AuditMixin, PublicationMixin, audit_checks, check_in, geom_column
 
 
-class Robo(AuditMixin, Base):
+class Robo(AuditMixin, PublicationMixin, Base):
     __tablename__ = "robos"
     __table_args__ = audit_checks(
         check_in("franja_horaria", ("madrugada", "manana", "tarde", "noche")),

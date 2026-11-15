@@ -6,10 +6,10 @@ from sqlalchemy import Float, Integer, String, Text
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.models.base import Base
-from app.models.mixins import AuditMixin, audit_checks, geom_column
+from app.models.mixins import AuditMixin, PublicationMixin, audit_checks, geom_column
 
 
-class LocalidadKennedy(AuditMixin, Base):
+class LocalidadKennedy(AuditMixin, PublicationMixin, Base):
     __tablename__ = "localidad_kennedy"
     __table_args__ = audit_checks()
 

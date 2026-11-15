@@ -45,3 +45,21 @@ def geom_column(geometry_type: str, nullable: bool = False) -> Mapped[Any]:
         Geometry(geometry_type=geometry_type, srid=SRID, spatial_index=True),
         nullable=nullable,
     )
+
+
+class PublicationMixin:
+    """H35: descripción verificada (ES/EN) y publicación de los 14 módulos.
+
+    publicado = False oculta el registro en la plataforma sin borrar la fila
+    (lugares sin nombre propio, sin foto con licencia o datos de ejemplo).
+    """
+
+    descripcion_es: Mapped[str | None] = mapped_column(Text)
+    descripcion_en: Mapped[str | None] = mapped_column(Text)
+    publicado: Mapped[bool] = mapped_column(Boolean, default=True, server_default="true")
+
+
+def published(model: Any) -> Any:
+    """Condición SQL «solo publicados», o None si el modelo no tiene publicación."""
+    column = getattr(model, "publicado", None)
+    return None if column is None else column.is_(True)

@@ -7,10 +7,10 @@ from sqlalchemy import CheckConstraint, Numeric, String
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.models.base import Base
-from app.models.mixins import AuditMixin, audit_checks, check_in, geom_column
+from app.models.mixins import AuditMixin, PublicationMixin, audit_checks, check_in, geom_column
 
 
-class SitioComida(AuditMixin, Base):
+class SitioComida(AuditMixin, PublicationMixin, Base):
     __tablename__ = "sitios_comida"
     __table_args__ = audit_checks(
         check_in("rango_precios", ("$", "$$", "$$$")),

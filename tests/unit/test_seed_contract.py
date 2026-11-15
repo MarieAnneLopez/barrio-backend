@@ -40,7 +40,9 @@ def test_semilla_cumple_el_modelo(slug: str) -> None:
     model = TABLES[slug]
     data = json.loads((SEED / "modules" / f"{slug}.geojson").read_text(encoding="utf-8"))
     columns = {c.name for c in model.__table__.columns} - {"id", "geom", "created_at", "updated_at"}
-    required = {c.name for c in model.__table__.columns if not c.nullable} & columns - {"source_type", "verified"}
+    # Obligatorias = sin NULL y sin valor por defecto del servidor (publicado = true, H35).
+    required = ({c.name for c in model.__table__.columns if not c.nullable and c.server_default is None}
+                & columns - {"source_type", "verified"})
     allowed, geom = _allowed(model), GEOMETRY[model.__table__.c.geom.type.geometry_type]
 
     assert data["features"], f"{slug} sin registros"

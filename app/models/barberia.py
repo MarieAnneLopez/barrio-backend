@@ -7,10 +7,10 @@ from sqlalchemy import CheckConstraint, Numeric, String, Text
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.models.base import Base
-from app.models.mixins import AuditMixin, audit_checks, geom_column
+from app.models.mixins import AuditMixin, PublicationMixin, audit_checks, geom_column
 
 
-class Barberia(AuditMixin, Base):
+class Barberia(AuditMixin, PublicationMixin, Base):
     __tablename__ = "barberias"
     __table_args__ = audit_checks(
         CheckConstraint("calificacion_promedio BETWEEN 0 AND 5", name="calificacion_promedio"),

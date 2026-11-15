@@ -6,10 +6,10 @@ from sqlalchemy import String, Text
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.models.base import Base
-from app.models.mixins import AuditMixin, audit_checks, check_in, geom_column
+from app.models.mixins import AuditMixin, PublicationMixin, audit_checks, check_in, geom_column
 
 
-class CentroEducativo(AuditMixin, Base):
+class CentroEducativo(AuditMixin, PublicationMixin, Base):
     __tablename__ = "centros_educativos"
     __table_args__ = audit_checks(
         check_in("tipo", ("jardin", "colegio", "universidad")),

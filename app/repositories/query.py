@@ -19,6 +19,8 @@ class ListQuery:
     # "campo" ascendente o "-campo" descendente; solo campos permitidos por el módulo.
     sort: str | None = None
     filters: Mapping[str, str] = field(default_factory=dict)
+    # H35: la plataforma solo muestra lo publicado; las escrituras del admin leen todo.
+    include_unpublished: bool = False
 
 
 @dataclass(frozen=True)

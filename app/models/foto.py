@@ -16,6 +16,8 @@ class Foto(AuditMixin, Base):
     # Ruta bajo /assets/photos/ del frontend.
     url: Mapped[str] = mapped_column(String(500))
     alt_text: Mapped[str] = mapped_column(String(300))
+    # H35: texto alternativo en inglés (todo texto nuevo va en ES y EN).
+    alt_text_en: Mapped[str | None] = mapped_column(String(300))
     orden: Mapped[int] = mapped_column(Integer, default=0, server_default="0")
     autor: Mapped[str | None] = mapped_column(String(200))
     licencia: Mapped[str | None] = mapped_column(String(120))

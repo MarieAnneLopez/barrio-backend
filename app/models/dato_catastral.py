@@ -7,10 +7,10 @@ from sqlalchemy import CheckConstraint, Float, Integer, Numeric, String, UniqueC
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.models.base import Base
-from app.models.mixins import AuditMixin, audit_checks, geom_column
+from app.models.mixins import AuditMixin, PublicationMixin, audit_checks, geom_column
 
 
-class DatoCatastral(AuditMixin, Base):
+class DatoCatastral(AuditMixin, PublicationMixin, Base):
     __tablename__ = "datos_catastrales"
     __table_args__ = audit_checks(
         CheckConstraint("estrato BETWEEN 1 AND 6", name="estrato"),

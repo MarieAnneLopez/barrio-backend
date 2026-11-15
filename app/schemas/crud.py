@@ -6,7 +6,7 @@ from typing import Any, Generic, Literal, TypeVar
 from pydantic import BaseModel, ConfigDict, Field, create_model
 
 T = TypeVar("T")
-AUDIT_FIELDS = ("source_type", "source_ref", "verified")
+AUDIT_FIELDS = ("source_type", "source_ref", "verified", "descripcion_es", "descripcion_en", "publicado")
 
 
 class AuditIn(BaseModel):
@@ -16,6 +16,10 @@ class AuditIn(BaseModel):
     source_type: Literal["osm", "datos_abiertos", "seed"] = "seed"
     source_ref: str | None = Field(None, max_length=500)
     verified: bool = False
+    # H35: descripción verificada en ES/EN y publicación (False = oculto, sin borrar).
+    descripcion_es: str | None = Field(None, max_length=1000)
+    descripcion_en: str | None = Field(None, max_length=1000)
+    publicado: bool = True
 
 
 class AuditOut(BaseModel):
@@ -24,6 +28,9 @@ class AuditOut(BaseModel):
     source_type: str
     source_ref: str | None
     verified: bool
+    descripcion_es: str | None = None
+    descripcion_en: str | None = None
+    publicado: bool = True
     created_at: datetime
     updated_at: datetime
 

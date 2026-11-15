@@ -7,10 +7,10 @@ from sqlalchemy import Date, String, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.models.base import Base
-from app.models.mixins import AuditMixin, audit_checks, check_in, geom_column
+from app.models.mixins import AuditMixin, PublicationMixin, audit_checks, check_in, geom_column
 
 
-class CamaraSeguridad(AuditMixin, Base):
+class CamaraSeguridad(AuditMixin, PublicationMixin, Base):
     __tablename__ = "camaras_seguridad"
     __table_args__ = audit_checks(
         check_in("tipo", ("policial", "comunitaria", "privada")),

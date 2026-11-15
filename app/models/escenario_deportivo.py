@@ -6,10 +6,10 @@ from sqlalchemy import Boolean, String, Text
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.models.base import Base
-from app.models.mixins import AuditMixin, audit_checks, check_in, geom_column
+from app.models.mixins import AuditMixin, PublicationMixin, audit_checks, check_in, geom_column
 
 
-class EscenarioDeportivo(AuditMixin, Base):
+class EscenarioDeportivo(AuditMixin, PublicationMixin, Base):
     __tablename__ = "escenarios_deportivos"
     __table_args__ = audit_checks(check_in("acceso", ("libre", "restringido", "pago")))
 

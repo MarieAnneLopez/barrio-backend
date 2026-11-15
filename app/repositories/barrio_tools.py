@@ -12,6 +12,7 @@ from sqlalchemy.orm import Session
 from app.models.calificacion import Calificacion
 from app.models.historia_hito import HistoriaHito
 from app.models.localidad_kennedy import LocalidadKennedy
+from app.models.mixins import published
 from app.modules.registry import MODULES
 from app.modules.spec import ModuleSpec
 from app.providers.tools import Locality, Milestone, ModuleSummary, NearPlace, RankedPlace
@@ -31,14 +32,15 @@ class SqlBarrioTools:
 
     def _label(self, spec: ModuleSpec, objeto_id: int) -> str | None:
         column: Any = getattr(spec.model, spec.label_field)
-        value = self._session.scalar(select(column).where(spec.model.id == objeto_id))  # type: ignore[attr-defined]
+        stmt = select(column).where(spec.model.id == objeto_id, published(spec.model))  # type: ignore[attr-defined]
+        value = self._session.scalar(stmt)
         return None if value is None else str(value)
 
     def summary(self, slug: str) -> ModuleSummary:
         spec = SPECS[slug]
         total, verified, _ = SqlGeoInsightsRepository(self._session, spec.model).counts()
         model: Any = spec.model
-        names = self._session.scalars(select(getattr(model, spec.label_field))
+        names = self._session.scalars(select(getattr(model, spec.label_field)).where(published(model))
                                       .order_by(model.verified.desc(), model.id).limit(12))
         unique = dict.fromkeys(str(n) for n in names if n is not None)  # sin repetidos (p. ej. modalidades)
         return ModuleSummary(slug, total, verified, tuple(unique)[:3])
@@ -48,7 +50,7 @@ class SqlBarrioTools:
         spec = SPECS[slug]
         model: Any = spec.model
         rows = self._session.execute(select(getattr(model, spec.label_field), model.verified, model.source_type)
-                                     .order_by(model.id))
+                                     .where(published(model)).order_by(model.id))
         return [(str(n), "ejemplo" if s == "seed" else "verificado" if v else "por_verificar")
                 for n, v, s in rows if n is not None]
 
