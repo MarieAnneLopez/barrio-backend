@@ -3,8 +3,9 @@
 Uso: python -m etl.bootstrap && uvicorn app.main:app --host 0.0.0.0 --port $PORT
 1. Activa PostGIS (los proveedores gratuitos no siempre la traen activa).
 2. Aplica las migraciones de Alembic.
-3. Carga las semillas de los 14 módulos solo si la base está vacía: un
-   reinicio no cambia los id, así que calificaciones y fotos siguen valiendo.
+3. Carga las semillas de cada módulo que esté vacío: un reinicio no cambia
+   los id (calificaciones y fotos siguen valiendo) y un arranque cortado a
+   mitad de la carga se completa en el siguiente.
 4. Recarga la Historia Local y crea o actualiza la cuenta de administración.
 Sin red: todo sale de seed/ (los datos reales ya vienen del ETL de desarrollo).
 """
@@ -14,6 +15,7 @@ from pathlib import Path
 from alembic import command
 from alembic.config import Config
 from sqlalchemy import Engine, text
+from sqlalchemy.orm import Session
 
 from app.core.config import get_settings
 from app.core.database import get_engine
@@ -24,11 +26,21 @@ from etl import admin, load_historia, load_seed
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def is_empty(engine: Engine) -> bool:
-    from sqlalchemy.orm import Session
-
+def empty_modules(engine: Engine) -> list[str]:
     with Session(engine) as session:
-        return all(SqlGeoInsightsRepository(session, spec.model).counts()[0] == 0 for spec in MODULES)
+        return [spec.slug for spec in MODULES if SqlGeoInsightsRepository(session, spec.model).counts()[0] == 0]
+
+
+def is_empty(engine: Engine) -> bool:
+    return len(empty_modules(engine)) == len(MODULES)
+
+
+def load_missing(engine: Engine) -> dict[str, object] | str:
+    missing = set(empty_modules(engine))
+    if not missing:
+        return "ya cargadas"
+    with Session(engine) as session:
+        return {spec.slug: load_seed.load_module(session, spec) for spec in MODULES if spec.slug in missing}
 
 
 def main(engine: Engine | None = None) -> dict[str, object]:
@@ -37,7 +49,7 @@ def main(engine: Engine | None = None) -> dict[str, object]:
     with engine.begin() as conn:
         conn.execute(text("CREATE EXTENSION IF NOT EXISTS postgis"))
     command.upgrade(Config(str(ROOT / "alembic.ini")), "head")
-    steps: dict[str, object] = {"semillas": load_seed.run(engine) if is_empty(engine) else "ya cargadas"}
+    steps: dict[str, object] = {"semillas": load_missing(engine)}
     steps["historia"] = load_historia.run(engine)
     steps["admin"] = admin.run(engine)
     for name, result in steps.items():

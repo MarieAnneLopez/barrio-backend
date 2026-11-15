@@ -26,3 +26,7 @@ def test_carga_una_vez_y_conserva_los_id(db_session: Session, monkeypatch) -> No
     assert db_session.scalar(select(func.count()).select_from(CentroEducativo)) == len(ids)
     assert str(second["admin"]["admin"]).startswith("actualizada")  # type: ignore[index]
     assert not bootstrap.is_empty(get_engine())
+    db_session.query(CentroEducativo).delete()
+    db_session.commit()
+    third = bootstrap.main()  # un arranque cortado: solo se completa el módulo vacío
+    assert list(third["semillas"]) == ["centros-educativos"]  # type: ignore[call-overload]
