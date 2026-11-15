@@ -1,7 +1,7 @@
 """Respuestas de historia y localidad (experto documental) y de conversación sin datos."""
 
 from app.providers.intents import Intent
-from app.providers.model_provider import ChatAction, ChatQuery, ModelAnswer
+from app.providers.model_provider import ChatAction, ChatQuery, Expression, ModelAnswer
 from app.providers.phrases import listing, number, say
 from app.providers.tools import BarrioTools
 
@@ -40,7 +40,8 @@ def conversation(intent: Intent, query: ChatQuery, tools: BarrioTools) -> ModelA
         "contacto": (ChatAction("/creadora", CREATOR_PAGE[lang]),),
         "mapa": (ChatAction("/mapa", MAP_PAGE[lang]),),
     }.get(intent.name, ())
-    expression = {"saludo": "wave", "desconocido": "sad"}.get(intent.name, "idle")
+    expressions: dict[str, Expression] = {"saludo": "wave", "desconocido": "sad"}
+    expression: Expression = expressions.get(intent.name, "idle")
     suggestions = tuple(say(lang, k) for k in ("q_colegios", "q_mejor", "q_cerca", "q_historia", "q_stats"))
-    return ModelAnswer(intent.name, say(lang, intent.name), expression,  # type: ignore[arg-type]
+    return ModelAnswer(intent.name, say(lang, intent.name), expression,
                        NAME, acciones=actions, sugerencias=suggestions if intent.name != "contacto" else ())
