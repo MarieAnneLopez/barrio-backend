@@ -1,64 +1,70 @@
-"""Arranque en producción (Render, D62): deja la base lista antes de uvicorn.
-
-Uso: python -m etl.bootstrap && uvicorn app.main:app --host 0.0.0.0 --port $PORT
-1. Activa PostGIS (los proveedores gratuitos no siempre la traen activa).
-2. Aplica las migraciones de Alembic.
-3. Carga las semillas de cada módulo que esté vacío: un reinicio no cambia
-   los id (calificaciones y fotos siguen valiendo) y un arranque cortado a
-   mitad de la carga se completa en el siguiente.
-   RESEED_MODULES=slug1,slug2 fuerza la recarga de esos módulos (uso puntual:
-   quitar la variable después, porque recargar cambia sus id).
-4. Sincroniza nombres y descripciones y aplica seed/eliminados.json (H35).
-5. Recarga la Historia Local y las fotos de Commons (D66), y crea o actualiza
-   la cuenta de administración.
-Sin red: todo sale de seed/ (los datos reales ya vienen del ETL de desarrollo).
-"""
-
+"""Arranque de producción: migra y publica las semillas en una transacción de Postgres."""
 from pathlib import Path
+from typing import Any
 
 from alembic import command
 from alembic.config import Config
-from sqlalchemy import Engine, text
+from sqlalchemy import Engine, select, text
 from sqlalchemy.orm import Session
 
 from app.core.config import get_settings
 from app.core.database import get_engine
 from app.modules.registry import MODULES
-from app.repositories.geo_insights_repository import SqlGeoInsightsRepository
 from etl import admin, load_fotos, load_historia, load_seed, sync_places
+from etl.seed_manifest import LOCK
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 def empty_modules(engine: Engine) -> list[str]:
     with Session(engine) as session:
-        return [spec.slug for spec in MODULES if SqlGeoInsightsRepository(session, spec.model).counts()[0] == 0]
+        return [s.slug for s in MODULES if session.scalar(select(s.model.id).limit(1)) is None]
 
 
 def is_empty(engine: Engine) -> bool:
     return len(empty_modules(engine)) == len(MODULES)
 
 
-def load_missing(engine: Engine, forced: set[str] | None = None) -> dict[str, object] | str:
-    missing = set(empty_modules(engine)) | (forced or set())
-    if not missing:
-        return "ya cargadas"
-    with Session(engine) as session:
-        return {spec.slug: load_seed.load_module(session, spec) for spec in MODULES if spec.slug in missing}
+def has_places(session: Session) -> bool:
+    return any(session.scalar(select(s.model.id).limit(1)) is not None for s in MODULES)
+
+
+def modules(session: Session, seed: Path, forced: set[str], *, adopt: bool) -> dict[str, Any] | str:
+    changes = {}
+    for spec in MODULES:
+        result = load_seed.load_module(session, spec, seed, adopt=adopt, force=spec.slug in forced)
+        if result["changed"]:
+            if result["rejected"]:
+                raise ValueError(f"{spec.slug}: {len(result['rejected'])} registros rechazados")
+            changes[spec.slug] = result
+    return changes or "ya cargadas"
+
+
+def load_missing(engine: Engine, forced: set[str] | None = None) -> dict[str, Any] | str:
+    with Session(engine) as session, session.begin():
+        session.execute(LOCK)
+        return modules(session, get_settings().seed_dir, forced or set(), adopt=has_places(session))
 
 
 def main(engine: Engine | None = None) -> dict[str, object]:
-    admin.check(get_settings())  # una clave inválida detiene el arranque antes de tocar la base
-    engine = engine or get_engine()
-    with engine.begin() as conn:
+    settings = get_settings()
+    admin.check(settings)
+    seed = settings.seed_dir
+    forced = {s.strip() for s in settings.reseed_modules.split(",") if s.strip()}
+    with (engine or get_engine()).begin() as conn:
+        conn.execute(LOCK)
         conn.execute(text("CREATE EXTENSION IF NOT EXISTS postgis"))
-    command.upgrade(Config(str(ROOT / "alembic.ini")), "head")
-    forced = {s.strip() for s in get_settings().reseed_modules.split(",") if s.strip()}
-    steps: dict[str, object] = {"semillas": load_missing(engine, forced)}
-    steps["lugares"] = sync_places.run(engine)  # H35: nombres, descripciones y eliminados
-    steps["historia"] = load_historia.run(engine)
-    steps["fotos"] = load_fotos.run(engine)
-    steps["admin"] = admin.run(engine)
+        config = Config(str(ROOT / "alembic.ini"))
+        config.attributes["connection"] = conn
+        command.upgrade(config, "head")
+        with Session(conn) as session, session.begin():
+            adopt = has_places(session)
+            photos = [p for p in (seed / "fotos.json", seed / "fotos_mapillary.json") if p.is_file()]
+            steps = {"semillas": modules(session, seed, forced, adopt=adopt),
+                     "lugares": sync_places.retire(session, seed),
+                     "historia": load_historia.apply(session, seed / "historia.json"),
+                     "fotos": load_fotos.apply(session, photos, adopt=adopt)}
+        steps["admin"] = admin.run(conn, settings)
     for name, result in steps.items():
         print(f"[bootstrap] {name}: {result if name != 'semillas' or isinstance(result, str) else 'cargadas'}")
     return steps

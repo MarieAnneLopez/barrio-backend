@@ -10,10 +10,11 @@ import json
 from pathlib import Path
 from typing import Any
 
-from sqlalchemy import Engine, delete
+from sqlalchemy import Engine, select
 from sqlalchemy.orm import Session
 
-from app.models.historia_hito import HistoriaHito
+from app.models import HistoriaHito, SeedManifest
+from etl.seed_manifest import LOCK, digest, save
 
 SEED = Path(__file__).resolve().parent.parent / "seed" / "historia.json"
 FIELDS = ("anio", "orden", "titulo", "descripcion", "source_ref", "verified")
@@ -30,10 +31,45 @@ def read(path: Path = SEED) -> list[dict[str, Any]]:
     return hitos
 
 
-def run(engine: Engine, path: Path = SEED) -> dict[str, int]:
+def apply(session: Session, path: Path) -> dict[str, int]:
+    version = digest([path])
+    manifest = session.get(SeedManifest, "historia")
+    if manifest and manifest.digest == version:
+        return manifest.records["result"]
+    previous = dict(manifest.records["items"]) if manifest else {}
+    rows = list(session.scalars(select(HistoriaHito).where(HistoriaHito.source_type == "seed").with_for_update()))
+    by_id = {row.id: row for row in rows}
+    by_year = {row.anio: row for row in rows}
     hitos = read(path)
-    with Session(engine) as session:
-        session.execute(delete(HistoriaHito).where(HistoriaHito.source_type == "seed"))
-        session.add_all(HistoriaHito(source_type="seed", **h) for h in hitos)
-        session.commit()
-    return {"loaded": len(hitos), "verified": sum(h["verified"] for h in hitos)}
+    records = dict(previous)
+    for hito in hitos:
+        key = str(hito["anio"])
+        last = previous.get(key)
+        row = by_id.get(last["id"]) if last else by_year.get(hito["anio"])
+        if row is None and last is None:
+            row = HistoriaHito(source_type="seed", **hito)
+            session.add(row)
+            session.flush()
+        if row is not None:
+            if last:
+                for field, value in hito.items():
+                    if getattr(row, field) == last["fields"][field]:
+                        setattr(row, field, value)
+            records[key] = {"id": row.id, "fields": hito}
+    years = {h["anio"] for h in hitos}
+    for row in rows:
+        if row.anio in years:
+            continue
+        last = previous.get(str(row.anio))
+        # Solo salen hitos de una revisión anterior intactos o semillas antiguas sin fuente.
+        if (last and all(getattr(row, k) == v for k, v in last["fields"].items())) or row.source_ref is None:
+            session.delete(row)
+    result = {"loaded": len(hitos), "verified": sum(h["verified"] for h in hitos)}
+    save(session, "historia", version, {"items": records, "result": result})
+    return result
+
+
+def run(engine: Engine, path: Path = SEED) -> dict[str, int]:
+    with Session(engine) as session, session.begin():
+        session.execute(LOCK)
+        return apply(session, path)

@@ -25,7 +25,7 @@ def seed(tmp: Path, features: list[dict[str, object]], gone: list[dict[str, obje
     return tmp
 
 
-async def test_actualiza_por_fuente_borra_eliminados_y_no_mezcla_ejemplos(tmp_path: Path, db_session: Session) -> None:
+async def test_retiro_unico_conserva_relaciones_y_otras_fichas(tmp_path: Path, db_session: Session) -> None:
     async with make_client(crud_app(as_admin=True)) as http:
         for name, ref in [("Viejo", OSM.format(1)), ("Borrar", OSM.format(2)), ("Ejemplo 1", "dato de ejemplo"),
                           ("Ejemplo 2", "dato de ejemplo")]:
@@ -42,7 +42,7 @@ async def test_actualiza_por_fuente_borra_eliminados_y_no_mezcla_ejemplos(tmp_pa
         again = sync_places.run(get_engine(), path)
         names = sorted(i["nombre"] for i in (await http.get(BASE)).json()["items"])
 
-    assert first == {"actualizados": 2, "eliminados": 1} and again == {"actualizados": 0, "eliminados": 0}
-    assert names == ["Ejemplo 1", "Ejemplo 2", "Nuevo"]  # los ejemplos no se pisan entre sí
-    assert db_session.scalar(select(func.count()).select_from(Foto)) == 0
-    assert db_session.scalar(select(func.count()).select_from(Calificacion)) == 0
+    assert first == {"retirados": 1} and again == {"retirados": 0}
+    assert names == ["Ejemplo 1", "Ejemplo 2", "Viejo"]
+    assert db_session.scalar(select(func.count()).select_from(Foto)) == 1
+    assert db_session.scalar(select(func.count()).select_from(Calificacion)) == 1

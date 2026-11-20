@@ -28,7 +28,8 @@ def test_carga_una_vez_y_conserva_los_id(db_session: Session, monkeypatch) -> No
     assert not bootstrap.is_empty(get_engine())
     db_session.query(CentroEducativo).delete()
     db_session.commit()
-    third = bootstrap.main()  # un arranque cortado: solo se completa el módulo vacío
-    assert list(third["semillas"]) == ["centros-educativos"]  # type: ignore[call-overload]
+    third = bootstrap.main()  # vaciar un módulo ya cargado es una baja editorial
+    assert third["semillas"] == "ya cargadas"
+    assert db_session.scalar(select(func.count()).select_from(CentroEducativo)) == 0
     forced = bootstrap.load_missing(get_engine(), {"barberias"})
     assert list(forced) == ["barberias"]  # type: ignore[call-overload]

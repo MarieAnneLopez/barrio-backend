@@ -5,7 +5,7 @@ from typing import Any
 
 from alembic import context
 from geoalchemy2 import alembic_helpers
-from sqlalchemy import Engine
+from sqlalchemy import Connection, Engine
 
 from app.core.config import get_settings
 from app.core.database import build_engine
@@ -47,21 +47,25 @@ def run_migrations_offline() -> None:
         context.run_migrations()
 
 
+def migrate(connection: Connection) -> None:
+    context.configure(connection=connection, target_metadata=target_metadata, include_object=include_object,
+                      compare_type=True, process_revision_directives=alembic_helpers.writer,
+                      render_item=alembic_helpers.render_item)
+    with context.begin_transaction():
+        context.run_migrations()
+
+
 def run_migrations_online() -> None:
+    connection = config.attributes.get("connection")
+    if connection is not None:
+        migrate(connection)
+        return
     engine = _engine()
-    with engine.connect() as connection:
-        context.configure(
-            connection=connection,
-            target_metadata=target_metadata,
-            include_object=include_object,
-            compare_type=True,
-            # GeoAlchemy2: tablas espaciales con sus índices GIST e imports de tipos.
-            process_revision_directives=alembic_helpers.writer,
-            render_item=alembic_helpers.render_item,
-        )
-        with context.begin_transaction():
-            context.run_migrations()
-    engine.dispose()
+    try:
+        with engine.connect() as conn:
+            migrate(conn)
+    finally:
+        engine.dispose()
 
 
 if context.is_offline_mode():

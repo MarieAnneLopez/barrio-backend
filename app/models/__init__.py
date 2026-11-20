@@ -17,6 +17,7 @@ from app.models.historia_hito import HistoriaHito
 from app.models.libreria import Libreria
 from app.models.localidad_kennedy import LocalidadKennedy
 from app.models.robo import Robo
+from app.models.seed_manifest import SeedManifest
 from app.models.sitio_comida import SitioComida
 from app.models.usuario import Usuario
 from app.models.veterinaria import Veterinaria
@@ -26,5 +27,5 @@ __all__ = [
     "AtencionInmediata", "Barberia", "Calificacion", "CamaraSeguridad", "CentroEducativo",
     "DatoCatastral", "EscenarioDeportivo", "EstacionTransporte", "EstadoCalle",
     "Foto", "HistoriaHito", "Libreria", "LocalidadKennedy", "Robo", "SitioComida",
-    "Usuario", "Veterinaria", "ZonaVerde",
+    "SeedManifest", "Usuario", "Veterinaria", "ZonaVerde",
 ]
