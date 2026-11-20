@@ -40,7 +40,10 @@ class GeminiTextGenerator:
             raise GenerationError(type(exc).__name__) from exc
         if response.status_code != 200:
             raise GenerationError(f"http {response.status_code}")
-        return _text(response.json())
+        try:
+            return _text(response.json())
+        except (ValueError, AttributeError, TypeError, KeyError, IndexError) as exc:
+            raise GenerationError("invalid response") from exc
 
 
 def _text(data: dict[str, Any]) -> str:

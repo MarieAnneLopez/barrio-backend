@@ -6,6 +6,7 @@ ChatQuery y devuelven una ModelAnswer con el mismo significado.
 """
 
 from dataclasses import dataclass, field, replace
+from datetime import date
 from typing import Literal, Protocol
 
 Language = Literal["es", "en"]
@@ -21,6 +22,7 @@ class ChatQuery:
     ruta: str | None = None
     lon: float | None = None
     lat: float | None = None
+    contexto_lugar: str | None = None
 
 
 @dataclass(frozen=True)
@@ -42,6 +44,13 @@ class Fact:
 
 
 @dataclass(frozen=True)
+class Source:
+    titulo: str
+    url: str
+    consultado_en: date
+
+
+@dataclass(frozen=True)
 class ModelAnswer:
     intent: str
     texto: str
@@ -51,6 +60,8 @@ class ModelAnswer:
     acciones: tuple[ChatAction, ...] = ()
     sugerencias: tuple[str, ...] = ()
     datos: tuple[Fact, ...] = field(default_factory=tuple)
+    fuentes: tuple[Source, ...] = ()
+    lugar: str | None = None
 
     def by(self, modelo: str, experto: str | None = None) -> "ModelAnswer":
         """La misma respuesta firmada por otro modelo (respaldo o enrutador)."""

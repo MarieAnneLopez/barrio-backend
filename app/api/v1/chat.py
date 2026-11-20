@@ -13,10 +13,12 @@ from fastapi import APIRouter, Depends, Request
 from app.api.deps import SessionDep, get_barrio_repository
 from app.core.client_ip import client_key
 from app.core.config import get_settings
+from app.core.exceptions import DatabaseUnavailableError
 from app.core.rate_limit import AttemptLimiter
 from app.providers.factory import build_provider, provider_name
 from app.repositories.barrio_tools import SqlBarrioTools
 from app.repositories.interfaces import BarrioRepository
+from app.repositories.named_chat_places import SqlNamedPlaces
 from app.schemas.chat import ChatEstadoOut, ChatIn, ChatOut
 from app.services.chat_agent import ChatAgent
 
@@ -34,14 +36,17 @@ def get_chat_session_limiter() -> AttemptLimiter:
 
 
 def center_of(barrio: BarrioRepository) -> tuple[float, float]:
-    west, south, east, north = barrio.polygon_feature()["bbox"]
+    try:
+        west, south, east, north = (float(number) for number in barrio.polygon_feature()["bbox"])
+    except (KeyError, TypeError, ValueError) as exc:
+        raise DatabaseUnavailableError() from exc
     return (west + east) / 2, (south + north) / 2
 
 
 def get_chat_agent(session: SessionDep,
                    barrio: Annotated[BarrioRepository, Depends(get_barrio_repository)]) -> ChatAgent:
-    tools = SqlBarrioTools(session, center_of(barrio))
-    return ChatAgent(build_provider(get_settings(), tools))
+    tools = SqlBarrioTools(session, lambda: center_of(barrio))
+    return ChatAgent(build_provider(get_settings(), tools), SqlNamedPlaces(session).find)
 
 
 @router.post("/chat", response_model=ChatOut)

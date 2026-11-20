@@ -1,5 +1,6 @@
 """Contrato de POST /api/v1/chat (H22, D59)."""
 
+from datetime import date
 from typing import Annotated, Literal, Self
 
 from pydantic import BaseModel, ConfigDict, Field, StringConstraints, model_validator
@@ -14,6 +15,7 @@ class ChatIn(BaseModel):
     ruta: Annotated[str | None, StringConstraints(max_length=200, pattern=r"^/[\w\-/]*$")] = None
     lon: float | None = Field(None, ge=-180, le=180)
     lat: float | None = Field(None, ge=-90, le=90)
+    contexto_lugar: Annotated[str | None, StringConstraints(strip_whitespace=True, min_length=1, max_length=120)] = None
 
     @model_validator(mode="after")
     def _both_coordinates(self) -> Self:
@@ -34,6 +36,12 @@ class DatoOut(BaseModel):
     detalle: str | None
 
 
+class FuenteOut(BaseModel):
+    titulo: str
+    url: str
+    consultado_en: date
+
+
 class ChatOut(BaseModel):
     intent: str
     texto: str
@@ -43,6 +51,8 @@ class ChatOut(BaseModel):
     acciones: list[AccionOut]
     sugerencias: list[str]
     datos: list[DatoOut]
+    fuentes: list[FuenteOut] = Field(default_factory=list)
+    lugar: str | None = None
 
 
 class ChatEstadoOut(BaseModel):

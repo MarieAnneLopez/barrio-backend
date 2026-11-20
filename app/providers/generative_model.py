@@ -8,7 +8,10 @@ cual (respaldo determinista).
 """
 
 from collections.abc import Callable
+from dataclasses import replace
 from typing import Protocol
+
+from sqlalchemy.exc import SQLAlchemyError
 
 from app.providers.model_provider import ChatQuery, Language, ModelAnswer, ModelProvider
 from app.providers.prompts import SYSTEM
@@ -51,12 +54,11 @@ class GenerativeModel:
         base = self._base.answer(query)
         if self._generator is None:
             return base.by("generativo:respaldo")
-        context = self._context(query.idioma) if self._context else ""
         try:
+            context = self._context(query.idioma) if self._context else ""
             text = self._generator.generate(SYSTEM[query.idioma], grounding(query, base, context)).strip()
-        except GenerationError:
+        except (GenerationError, SQLAlchemyError):
             return base.by("generativo:respaldo")
         if not text:
             return base.by("generativo:respaldo")
-        return ModelAnswer(base.intent, text[:MAX_REPLY_CHARS], base.expresion, self.name, base.experto,
-                           base.acciones, base.sugerencias, base.datos)
+        return replace(base, texto=text[:MAX_REPLY_CHARS], modelo=self.name)

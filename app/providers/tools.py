@@ -14,6 +14,7 @@ class ModuleSummary:
     total: int
     verified: int
     ejemplos: tuple[str, ...]
+    ficticios: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)

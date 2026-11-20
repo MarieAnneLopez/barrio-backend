@@ -4,6 +4,7 @@ Reusa los repositorios de los módulos (conteos, cercanía con ST_DWithin,
 ranking de calificaciones) en lugar de duplicar sus consultas.
 """
 
+from collections.abc import Callable
 from typing import Any
 
 from sqlalchemy import func, select
@@ -16,7 +17,7 @@ from app.models.mixins import published
 from app.modules.registry import MODULES
 from app.modules.spec import ModuleSpec
 from app.providers.tools import Locality, Milestone, ModuleSummary, NearPlace, RankedPlace
-from app.repositories.geo_insights_repository import SqlGeoInsightsRepository
+from app.repositories.geo_insights_repository import EXAMPLE_REF, SqlGeoInsightsRepository
 from app.repositories.rating_repository import SqlRatingRepository
 
 SPECS = {spec.slug: spec for spec in MODULES}
@@ -26,13 +27,14 @@ RADIUS_M = 1500
 
 
 class SqlBarrioTools:
-    def __init__(self, session: Session, center: tuple[float, float]) -> None:
+    def __init__(self, session: Session, center: tuple[float, float] | Callable[[], tuple[float, float]]) -> None:
         self._session = session
         self._center = center
 
     def _label(self, spec: ModuleSpec, objeto_id: int) -> str | None:
         column: Any = getattr(spec.model, spec.label_field)
-        stmt = select(column).where(spec.model.id == objeto_id, published(spec.model))  # type: ignore[attr-defined]
+        model: Any = spec.model
+        stmt = select(column).where(model.id == objeto_id, published(model), model.source_ref.is_distinct_from(EXAMPLE_REF))
         value = self._session.scalar(stmt)
         return None if value is None else str(value)
 
@@ -40,18 +42,18 @@ class SqlBarrioTools:
         spec = SPECS[slug]
         total, verified, _ = SqlGeoInsightsRepository(self._session, spec.model).counts()
         model: Any = spec.model
-        names = self._session.scalars(select(getattr(model, spec.label_field)).where(published(model))
-                                      .order_by(model.verified.desc(), model.id).limit(12))
-        unique = dict.fromkeys(str(n) for n in names if n is not None)  # sin repetidos (p. ej. modalidades)
-        return ModuleSummary(slug, total, verified, tuple(unique)[:3])
+        rows = self._session.execute(select(getattr(model, spec.label_field), model.source_ref).where(published(model))
+                                     .order_by(model.verified.desc(), model.id).limit(12)).all()
+        unique = dict.fromkeys(str(n) for n, _ in rows if n is not None)
+        return ModuleSummary(slug, total, verified, tuple(unique)[:3], tuple(n for n, ref in rows if ref == EXAMPLE_REF))
 
     def place_names(self, slug: str) -> list[tuple[str, str]]:
         """(nombre, estado) con estado = verificado | por_verificar | ejemplo (semilla inventada)."""
         spec = SPECS[slug]
         model: Any = spec.model
-        rows = self._session.execute(select(getattr(model, spec.label_field), model.verified, model.source_type)
+        rows = self._session.execute(select(getattr(model, spec.label_field), model.verified, model.source_ref)
                                      .where(published(model)).order_by(model.id))
-        return [(str(n), "ejemplo" if s == "seed" else "verificado" if v else "por_verificar")
+        return [(str(n), "ejemplo" if s == EXAMPLE_REF else "verificado" if v else "por_verificar")
                 for n, v, s in rows if n is not None]
 
     def totals(self) -> dict[str, int]:
@@ -94,4 +96,4 @@ class SqlBarrioTools:
         return Locality(row.nombre_localidad, row.poblacion, area)
 
     def center(self) -> tuple[float, float]:
-        return self._center
+        return self._center() if callable(self._center) else self._center

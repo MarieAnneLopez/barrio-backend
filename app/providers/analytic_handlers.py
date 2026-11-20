@@ -17,13 +17,15 @@ def category(intent: Intent, query: ChatQuery, tools: BarrioTools) -> ModelAnswe
     slug, lang = intent.slug or "", query.idioma
     info = tools.summary(slug)
     name = category_name(slug, lang)
+    mark = "dato de ejemplo" if lang == "es" else "sample data"
+    examples = [f"{n} ({mark})" if n in info.ficticios else n for n in info.ejemplos]
     text = (say(lang, "categoria", name=name, total=number(info.total, lang), verified=number(info.verified, lang),
-                examples=listing(list(info.ejemplos), lang))
+                examples=listing(examples, lang))
             if info.total else say(lang, "categoria_vacia", name=name))
     alert = slug == "robos"
     if alert:
         text += say(lang, "robos_aviso")
-    facts = tuple(Fact(n, slug) for n in info.ejemplos)
+    facts = tuple(Fact(n, slug, detalle=mark if n in info.ficticios else None) for n in info.ejemplos)
     return ModelAnswer(intent.name, text, "alert" if alert else "wave", NAME, acciones=(to_module(slug, query),),
                        datos=facts)
 

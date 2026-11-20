@@ -12,6 +12,7 @@ from app.providers.model_provider import ChatQuery
 
 # «Marie» sola no basta: el asistente se llama Mini Marie y aparece en los saludos.
 CONTACT = ("whatsapp", "contact", "creadora", "creator", "telefono", "phone", "quien creo", "who made")
+CREATOR = ("creadora", "creator", "quien creo", "who made")
 STATS = ("cuant", "estadistic", "how many", "stats", "total", "numero de", "number of")
 BEST = ("mejor", "top", "best", "recomiend", "recommend", "calificad", "rated", "favorit")
 NEAR = ("cerca", "near", "proxim", "closest", "nearest")
@@ -39,7 +40,7 @@ class Intent:
 def classify(query: ChatQuery) -> Intent:
     text = normalize(query.texto)
     slug = category_in(text)
-    if has(text, CONTACT):
+    if has(text, CONTACT) and (slug is None or has(text, CREATOR)):
         return Intent("contacto")
     if has(text, STATS):
         return Intent("estadisticas", slug)
