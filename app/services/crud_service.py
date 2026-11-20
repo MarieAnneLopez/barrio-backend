@@ -50,8 +50,8 @@ class CrudService(Generic[T]):
         items = [self._to_out(r) for r in page.items]
         return PageOut(items=items, total=page.total, page=page.page, size=page.size, pages=page.pages)
 
-    def get(self, item_id: int) -> BaseModel:
-        record = self._repository.get(item_id)
+    def get(self, item_id: int, include_unpublished: bool = False) -> BaseModel:
+        record = self._repository.get(item_id, include_unpublished=True) if include_unpublished else self._repository.get(item_id)
         if record is None:
             raise NotFoundError(self._slug, item_id)
         return self._to_out(record)

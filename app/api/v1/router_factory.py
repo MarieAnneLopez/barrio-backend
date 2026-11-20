@@ -5,6 +5,7 @@ que se monta antes) preceden a /{item_id} (D10). Las escrituras dependen de requ
 """
 
 from functools import partial
+from dataclasses import replace
 from typing import Annotated, Any
 
 from fastapi import APIRouter, Depends, Query, Request, Response, status
@@ -60,6 +61,14 @@ class CrudRouterFactory:
         @router.get("", response_model=PageOut[Out])  # type: ignore[valid-type]
         def list_items(service: Service, query: Params) -> Any:
             return service.list(query)
+
+        @router.get("/admin", response_model=PageOut[Out], dependencies=admin)  # type: ignore[valid-type]
+        def admin_list(service: Service, query: Params) -> Any:
+            return service.list(replace(query, include_unpublished=True))
+
+        @router.get("/admin/{item_id}", response_model=Out, dependencies=admin)
+        def admin_detail(item_id: int, service: Service) -> Any:
+            return service.get(item_id, include_unpublished=True)
 
         @router.get("/geojson", response_model=FeatureCollectionOut)
         def geojson(service: Service, query: Params) -> Any:

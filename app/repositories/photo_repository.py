@@ -1,9 +1,8 @@
 """Fotos de cada lugar (archivo local + autor + licencia) sobre PostgreSQL."""
 
-from collections.abc import Sequence
 from typing import Any
 
-from sqlalchemy import delete, func, select
+from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
 from app.models import Foto
@@ -36,10 +35,3 @@ class SqlPhotoRepository:
         self._session.execute(delete(Foto).where(Foto.categoria_slug == slug,
                                                  Foto.objeto_id == objeto_id))
         commit_or_conflict(self._session, "fotos")
-
-    def page(self, offset: int, limit: int) -> tuple[Sequence[Foto], int]:
-        """Todas las fotos (Galería General, D66), agrupadas por módulo y lugar."""
-        stmt = (select(Foto).order_by(Foto.categoria_slug, Foto.objeto_id, Foto.orden, Foto.id)
-                .offset(offset).limit(limit))
-        total = self._session.scalar(select(func.count()).select_from(Foto)) or 0
-        return list(self._session.scalars(stmt)), total

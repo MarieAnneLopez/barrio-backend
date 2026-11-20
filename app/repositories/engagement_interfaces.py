@@ -33,8 +33,8 @@ class PhotoRepository(Protocol):
 
 
 class GalleryRepository(Protocol):
-    def page(self, offset: int, limit: int) -> tuple[Sequence[Any], int]:
-        """(fotos de la página, total) de todos los módulos."""
+    def page(self, offset: int, limit: int) -> tuple[Sequence[tuple[Any, str]], int]:
+        """(pares foto y nombre del lugar, total) de los lugares publicados."""
         ...
 
 

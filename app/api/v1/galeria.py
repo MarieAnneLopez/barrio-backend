@@ -5,8 +5,7 @@ from typing import Annotated, Any
 from fastapi import APIRouter, Depends, Query
 
 from app.api.deps import SessionDep
-from app.api.v1.place_labels import place_labeler
-from app.repositories.photo_repository import SqlPhotoRepository
+from app.repositories.gallery_repository import SqlGalleryRepository
 from app.schemas.crud import PageOut
 from app.schemas.engagement import GaleriaItem
 from app.services.gallery_service import GlobalGalleryService
@@ -15,7 +14,7 @@ router = APIRouter(tags=["galeria"])
 
 
 def get_gallery_service(session: SessionDep) -> GlobalGalleryService:
-    return GlobalGalleryService(SqlPhotoRepository(session), place_labeler(session))
+    return GlobalGalleryService(SqlGalleryRepository(session))
 
 
 @router.get("/fotos", response_model=PageOut[GaleriaItem])
